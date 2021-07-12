@@ -1,0 +1,28 @@
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.PaymentServicesAdmin\bin\Debug\netcoreapp2.2\SI.Meditourism.PaymentServicesAdmin.deps.json
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.PaymentServicesAdmin\bin\Debug\netcoreapp2.2\SI.Meditourism.PaymentServicesAdmin.runtimeconfig.json
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.PaymentServicesAdmin\bin\Debug\netcoreapp2.2\SI.Meditourism.PaymentServicesAdmin.runtimeconfig.dev.json
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.PaymentServicesAdmin\bin\Debug\netcoreapp2.2\SI.Meditourism.PaymentServicesAdmin.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.PaymentServicesAdmin\bin\Debug\netcoreapp2.2\SI.Meditourism.PaymentServicesAdmin.pdb
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.PaymentServicesAdmin\bin\Debug\netcoreapp2.2\SI.Meditourism.Connection.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.PaymentServicesAdmin\bin\Debug\netcoreapp2.2\SI.Meditourism.Connection.pdb
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.PaymentServicesAdmin\obj\Debug\netcoreapp2.2\SI.Meditourism.PaymentServicesAdmin.csproj.CoreCompileInputs.cache
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.PaymentServicesAdmin\obj\Debug\netcoreapp2.2\SI.Meditourism.PaymentServicesAdmin.AssemblyInfoInputs.cache
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.PaymentServicesAdmin\obj\Debug\netcoreapp2.2\SI.Meditourism.PaymentServicesAdmin.AssemblyInfo.cs
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.PaymentServicesAdmin\obj\Debug\netcoreapp2.2\SI.Meditourism.PaymentServicesAdmin.csproj.CopyComplete
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.PaymentServicesAdmin\obj\Debug\netcoreapp2.2\SI.Meditourism.PaymentServicesAdmin.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.PaymentServicesAdmin\obj\Debug\netcoreapp2.2\SI.Meditourism.PaymentServicesAdmin.pdb
+E:\.Net Project\SI.Meditourism\SI.Meditourism.PaymentServicesAdmin\bin\Debug\netcoreapp2.2\SI.Meditourism.PaymentServicesAdmin.deps.json
+E:\.Net Project\SI.Meditourism\SI.Meditourism.PaymentServicesAdmin\bin\Debug\netcoreapp2.2\SI.Meditourism.PaymentServicesAdmin.runtimeconfig.json
+E:\.Net Project\SI.Meditourism\SI.Meditourism.PaymentServicesAdmin\bin\Debug\netcoreapp2.2\SI.Meditourism.PaymentServicesAdmin.runtimeconfig.dev.json
+E:\.Net Project\SI.Meditourism\SI.Meditourism.PaymentServicesAdmin\bin\Debug\netcoreapp2.2\SI.Meditourism.PaymentServicesAdmin.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.PaymentServicesAdmin\bin\Debug\netcoreapp2.2\SI.Meditourism.PaymentServicesAdmin.pdb
+E:\.Net Project\SI.Meditourism\SI.Meditourism.PaymentServicesAdmin\bin\Debug\netcoreapp2.2\SI.Meditourism.Connection.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.PaymentServicesAdmin\bin\Debug\netcoreapp2.2\SI.Meditourism.Connection.pdb
+E:\.Net Project\SI.Meditourism\SI.Meditourism.PaymentServicesAdmin\obj\Debug\netcoreapp2.2\SI.Meditourism.PaymentServicesAdmin.csprojAssemblyReference.cache
+E:\.Net Project\SI.Meditourism\SI.Meditourism.PaymentServicesAdmin\obj\Debug\netcoreapp2.2\SI.Meditourism.PaymentServicesAdmin.AssemblyInfoInputs.cache
+E:\.Net Project\SI.Meditourism\SI.Meditourism.PaymentServicesAdmin\obj\Debug\netcoreapp2.2\SI.Meditourism.PaymentServicesAdmin.AssemblyInfo.cs
+E:\.Net Project\SI.Meditourism\SI.Meditourism.PaymentServicesAdmin\obj\Debug\netcoreapp2.2\SI.Meditourism.PaymentServicesAdmin.csproj.CoreCompileInputs.cache
+E:\.Net Project\SI.Meditourism\SI.Meditourism.PaymentServicesAdmin\obj\Debug\netcoreapp2.2\SI.Meditourism.PaymentServicesAdmin.csproj.CopyComplete
+E:\.Net Project\SI.Meditourism\SI.Meditourism.PaymentServicesAdmin\obj\Debug\netcoreapp2.2\SI.Meditourism.PaymentServicesAdmin.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.PaymentServicesAdmin\obj\Debug\netcoreapp2.2\SI.Meditourism.PaymentServicesAdmin.pdb
+E:\.Net Project\SI.Meditourism\SI.Meditourism.PaymentServicesAdmin\obj\Debug\netcoreapp2.2\SI.Meditourism.PaymentServicesAdmin.genruntimeconfig.cache

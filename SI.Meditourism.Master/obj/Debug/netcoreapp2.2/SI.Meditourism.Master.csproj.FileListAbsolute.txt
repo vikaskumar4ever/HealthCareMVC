@@ -1,0 +1,33 @@
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Master\bin\Debug\netcoreapp2.2\SI.Meditourism.Master.deps.json
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Master\bin\Debug\netcoreapp2.2\SI.Meditourism.Master.runtimeconfig.json
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Master\bin\Debug\netcoreapp2.2\SI.Meditourism.Master.runtimeconfig.dev.json
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Master\bin\Debug\netcoreapp2.2\SI.Meditourism.Master.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Master\bin\Debug\netcoreapp2.2\SI.Meditourism.Master.pdb
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Master\bin\Debug\netcoreapp2.2\SI.Meditourism.Connection.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Master\bin\Debug\netcoreapp2.2\SI.Meditourism.Services.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Master\bin\Debug\netcoreapp2.2\SI.Meditourism.Connection.pdb
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Master\bin\Debug\netcoreapp2.2\SI.Meditourism.Services.pdb
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Master\obj\Debug\netcoreapp2.2\SI.Meditourism.Master.csprojAssemblyReference.cache
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Master\obj\Debug\netcoreapp2.2\SI.Meditourism.Master.csproj.CoreCompileInputs.cache
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Master\obj\Debug\netcoreapp2.2\SI.Meditourism.Master.AssemblyInfoInputs.cache
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Master\obj\Debug\netcoreapp2.2\SI.Meditourism.Master.AssemblyInfo.cs
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Master\obj\Debug\netcoreapp2.2\SI.Meditourism.Master.csproj.CopyComplete
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Master\obj\Debug\netcoreapp2.2\SI.Meditourism.Master.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Master\obj\Debug\netcoreapp2.2\SI.Meditourism.Master.pdb
+E:\.Net Project\SI.Meditourism\SI.Meditourism.Master\bin\Debug\netcoreapp2.2\SI.Meditourism.Master.deps.json
+E:\.Net Project\SI.Meditourism\SI.Meditourism.Master\bin\Debug\netcoreapp2.2\SI.Meditourism.Master.runtimeconfig.json
+E:\.Net Project\SI.Meditourism\SI.Meditourism.Master\bin\Debug\netcoreapp2.2\SI.Meditourism.Master.runtimeconfig.dev.json
+E:\.Net Project\SI.Meditourism\SI.Meditourism.Master\bin\Debug\netcoreapp2.2\SI.Meditourism.Master.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.Master\bin\Debug\netcoreapp2.2\SI.Meditourism.Master.pdb
+E:\.Net Project\SI.Meditourism\SI.Meditourism.Master\bin\Debug\netcoreapp2.2\SI.Meditourism.Connection.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.Master\bin\Debug\netcoreapp2.2\SI.Meditourism.Services.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.Master\bin\Debug\netcoreapp2.2\SI.Meditourism.Connection.pdb
+E:\.Net Project\SI.Meditourism\SI.Meditourism.Master\bin\Debug\netcoreapp2.2\SI.Meditourism.Services.pdb
+E:\.Net Project\SI.Meditourism\SI.Meditourism.Master\obj\Debug\netcoreapp2.2\SI.Meditourism.Master.csprojAssemblyReference.cache
+E:\.Net Project\SI.Meditourism\SI.Meditourism.Master\obj\Debug\netcoreapp2.2\SI.Meditourism.Master.AssemblyInfoInputs.cache
+E:\.Net Project\SI.Meditourism\SI.Meditourism.Master\obj\Debug\netcoreapp2.2\SI.Meditourism.Master.AssemblyInfo.cs
+E:\.Net Project\SI.Meditourism\SI.Meditourism.Master\obj\Debug\netcoreapp2.2\SI.Meditourism.Master.csproj.CoreCompileInputs.cache
+E:\.Net Project\SI.Meditourism\SI.Meditourism.Master\obj\Debug\netcoreapp2.2\SI.Meditourism.Master.csproj.CopyComplete
+E:\.Net Project\SI.Meditourism\SI.Meditourism.Master\obj\Debug\netcoreapp2.2\SI.Meditourism.Master.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.Master\obj\Debug\netcoreapp2.2\SI.Meditourism.Master.pdb
+E:\.Net Project\SI.Meditourism\SI.Meditourism.Master\obj\Debug\netcoreapp2.2\SI.Meditourism.Master.genruntimeconfig.cache

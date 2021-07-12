@@ -1,0 +1,365 @@
+﻿@using SI.Meditourism.WebForntEnd_Mvcnew.Models.Services;
+@model IEnumerable<Serviceslist>
+@{
+
+    Layout = "~/Views/Shared/_FrontEndLayout.cshtml";
+}
+<link href="~/Assets/FrontEndScript/css/scoll.css" />
+<link href="~/Assets/FrontEndScript/css/templatemo-style.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+    @@media(min-width: 758px) and (max-width:2700px){
+        .label1 {
+            margin-left: 35px;
+        }
+        #section-about {
+            background-color: #c2d9f1;
+        }
+    }
+    
+    </style>
+<table class="table">
+
+    <tbody>
+        @*
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ServiceId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ParentId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ServiceName)
+                </td>
+
+            </tr>*@
+
+    </tbody>
+</table>
+
+<!-- What We Do-->
+<section id="section-about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 mcondent">
+                <label style="font-size: 20px;margin-top: 20px;margin-bottom: 15px;" class="control-label label1">We Provide Best Treatment To Our Patients</label>
+            </div>
+            <div id="id01" class="modal">
+                <div class="modal-content animate">
+                    <div class="imgcontainer">
+                        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                        @* <img src="img_avatar2.png" alt="Avatar" class="avatar"> -*@
+                        @*<p style="position:center;">
+                                <h3 style="color:red">Spine</h3>
+                            </p>*@
+                    </div>
+
+                    <section class="pt-70" style="height: 550px; overflow-x: scroll;">
+                        <!-- CONTAIN START -->
+                        <div class="container">
+                            <div class="row">
+                                <!----Product Description----->
+                                <div class="col-lg-6">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="row">
+                                                <div class="col-12" style="margin-left:6px;">
+                                                    <div class="product-detail-main">
+                                                        <div class="product-item-details" id="treatmentdetails">
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!----Enquery Form---->
+                                <div class="col-xl-6 enquryform">
+                                    @using (Html.BeginForm("GetQuotation", "Home", FormMethod.Post))
+                                    {
+                                        <div class="row">
+                                            <div class="col-12 mb-20">
+                                                <div class="heading-part heading-bg">
+                                                    <h2 class="heading" style="text-transform:none">Get Quotation </h2>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="input-box">
+                                                    <label for="f-name">Your Name<span style="color:red">*</span></label>
+                                                    <input type="text" id="Name" placeholder="Enter Username" name="Name" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="input-box">
+                                                    <label for="login-email">MobileNo</label>
+                                                    <input id="txtPhoneno1" type="text" placeholder="Enter MobileNo" pattern="[0-9 -()+]+$" maxlength="14" name="MobileNo">
+                                                </div>
+                                            </div>
+                                            <label for="uname"><b>EmailId</b> <span style="color:red">*</span></label>
+                                            <input type="email" id="Email" placeholder="Enter EmailId" name="EmailId" required>
+                                            <div class="col-12">
+                                                <div class="input-box">
+                                                    <label for="login-pass">Country <span style="color:red">*</span></label>
+                                                    <input id="txtCountry" type="text" placeholder="Enter Country" name="Country" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="select2-results__options" style="width:100%">
+                                                    <label for="login-pass">Select Service <span style="color:red">*</span></label>
+                                                    <select id="selectservices1" style="width:100%" name="ServiceId"></select>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="input-box">
+                                                    <label for="re-enter-pass">Message</label>
+                                                    <textarea type="text" id="txtMessage" placeholder="Enter What type Of Disease" name="Message" style="width:100%;"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <button type="submit" class="button02">Get Quotation</button>
+                                            </div>
+                                        </div>
+
+
+                                    }
+                                </div>
+                                <!----Enquery Form Close---->
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+
+            <div class="col-md-10 col-sm-12 mcondent">
+                <div class="col-md-4 col-sm-12">
+                    <h3 style="margin-left: 22px; text-transform: capitalize; font-size: 28px; font-weight: 600; color: #103863;">Our Specialities: </h3>
+                    <hr style="margin-left: 22px; margin-right: -10px; margin-top: 4px; border: 1px solid #bf2424;" />
+                    @foreach (var item in Model)
+                    {
+                        <ul class="services-ul" style=" font-size: 13px; line-height: -15px; font-weight: 600; margin-top: -30px;">
+                            <li style="cursor:pointer" onclick="GetTreatmeantdetails(@item.Id)">@item.ServiceName</li>
+                        </ul>
+                    }
+                </div>
+
+                <!--<div class="col-md-6 col-sm-12">
+                    <div class="row">
+                        <div class="column">
+                            <img src="~/assets/images/img1.jpg" style="border: 1px solid white;" />
+                            <img src="~/assets/images/img2.jpg" style="border: 1px solid white; margin-left: -5px; margin-top: 49px;" />
+                            <img src="~/assets/images/img3.jpg" style="border: 1px solid white; margin-left: -5px; margin-top: -8px;" />
+                        </div>
+                        <div class="column">
+                            <img src="~/assets/images/img4.jpg" style="width: 24.5%; height: 130px; margin-top: -128px !important; border: 1px solid white;" />
+                            <img src="~/assets/images/img5.jpg" style="width: 25%; height: 160px;" />
+                            <img src="~/assets/images/img6.jpg" style="width: 25%; height: 120px;" />
+                        </div>
+                        <div class="column">
+                            <img src="~/assets/images/img7.jpg" style="width: 25%; height: 130px;" />
+                            <img src="~/assets/images/img8.jpg" style="width: 25%; height: 160px;" />
+                        </div>
+                    </div>
+                </div>-->
+
+
+                <div class="col-md-8 col-sm-12 mhide" style="margin-top: 40px !important;">
+                    <div class="main-posts">
+                        <div class="column">
+                            <div class="blog-masonry masonry-true">
+                                <div class="post-masonry col-md-4 col-sm-6 aa">
+                                    <div class="post-thumb">
+                                        <img src="~/assets/images/img1.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="post-masonry col-md-4 col-sm-6" style="padding: 0px;">
+                                    <div class="post-thumb">
+                                        <img src="~/assets/images/img2.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="post-masonry col-md-4 col-sm-6 bb">
+                                    <div class="post-thumb">
+                                        <img src="~/assets/images/img3.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="post-masonry col-md-4 col-sm-6 cc">
+                                    <div class="post-thumb">
+                                        <img src="~/assets/images/img4.jpg" alt="" style="margin-bottom: 0px !important;">
+                                    </div>
+                                </div>
+                                <div class="post-masonry col-md-4 col-sm-6 dd">
+                                    <div class="post-thumb">
+                                        <img src="~/assets/images/img6.jpg" alt="" style="margin-bottom: 1px !important;">
+                                    </div>
+                                </div>
+                                <div class="post-masonry col-md-4 col-sm-6 ee">
+                                    <div class="post-thumb">
+                                        <img src="~/assets/images/img5.jpg" alt="" style="margin-bottom: -14px !important;">
+                                    </div>
+                                </div>
+                                <div class="post-masonry col-sm-6 ff">
+                                    <div class="post-thumb">
+                                        <img src="~/assets/images/img7.jpg" alt="" style="margin-bottom: 0px !important;">
+                                    </div>
+                                </div>
+                                <div class="post-masonry col-sm-6 gg">
+                                    <div class="post-thumb">
+                                        <img src="~/assets/images/img8.jpg" alt="" style="margin-bottom: -1px !important;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+@{
+    if (Session["ServiceName"] != null)
+    {
+
+
+        <div id="id025" class="modal" style="display:block">
+            @using (Html.BeginForm("ClearQuotSession", "Home", FormMethod.Get, new { @class = "modal-content animate login" }))
+            {
+                <div class="imgcontainer">
+                    <a onclick="document.getElementById('id025').style.display='none'" href="/Home/ClearQuotSession" class="close" title="Close Modal">&times;</a>
+                    <p style="position:center;margin-top:7px"><h5>Treatment Approximate Quote</h5><hr /></p>
+                </div>
+                <div class="col-6 ab">
+                    <label><b>ServiceName :</b></label> @Session["ServiceName"].ToString() <br />
+                    <label><b>TreatmentCharge :</b></label> @Session["TreatmentCharge"].ToString()<br />
+                    <label><b>VisaCharge :</b></label> @Session["VisaCharge"].ToString()<br />
+                    <label><b>Accommodation :</b></label> @Session["Accommodation"].ToString()<br />
+                    <label><b>Price :</b></label> @Session["ServicePrice"].ToString()<br />
+                </div>
+            }
+        </div>
+    }
+}
+@*<script src="/Assets/FrontEndScript/js/jquery-2.2.4.min.js"></script>*@
+<!------Treatment Image Gallery------->
+@*<script src="/Assets/FrontEndScript/js/main.js"></script>
+<script src="/Assets/FrontEndScript/js/plugins.js"></script>*@
+
+<script type="text/javascript">
+    function GetTreatmeantdetails(Id) {
+        this.loadData(Id);
+    }
+    //Load Data function
+    function loadData(Id) {
+
+        let dropdown = $('#selectservices1');
+        dropdown.empty();
+
+        $.ajax({
+            //url: "/Home/List/" + Id,
+            url: "http://cp.mysamaritanz.com/adminapi/api/GetTreatMentDetails/" + Id,
+            //url: "http://meditourismadmin.morepower.com/adminapi/api/GetTreatMentDetails/" + Id,
+
+            type: "GET",
+
+            contentType: "application/json;charset=utf-8",
+
+            dataType: "json",
+            success: function (result) {
+                var i = 0;
+                var html = '';
+                reresult = JSON.parse(result);
+                $.each(reresult, function (key, item) {
+                    if (key == "GetService") {
+                        html += '<h1 class="product-item-name" style="text-transform:none;">' + item.Name + '</h1>';
+                        html += '<hr style="margin-bottom:2px; margin-top:-2px; border-top:1px solid black;"/>';
+                        html += '<p style="text-transform:none"p>' + item.Description + '</p>';
+                        dropdown.append($('<option></option>').attr('value', item.ServiceId).text(item.Name));
+                    } else {
+                        if (item.length != 0) {
+                            for (var i = 0; i < item.length; i++) {
+                                if (i == 0) {
+                                    dropdown.empty();
+                                }
+                                if (i > 0) {
+                                    html += '<h5 class="product-item-name" style="text-transform:none; font-size: 15px; font-weight:bold">' + item[i].ServiceName + '</h5>';
+                                    html += '<p style="text-transform:none"p>' + item[i].Description + '</p>';
+                                }
+
+                                dropdown.append($('<option></option>').attr('value', item[i].ServiceId).text(item[i].ServiceName));
+                               
+                            }
+                        }
+                    }
+                });
+
+                $('#treatmentdetails').html(html);
+                document.getElementById('id01').style.display = 'block';
+            },
+
+            error: function (errormessage) {
+                alert(result);
+                alert(errormessage.responseText);
+
+            }
+
+        });
+
+    }
+
+    function submitMessage() {
+        var collection = {
+            Name: $("#Name").val(),
+            MobileNo: $("#txtPhoneno1").val(),
+            EmailId: $("#Email").val(),
+            ServiceId: $("#selectservices1").val(),
+            Country: $("#txtCountry").val(),
+            Message: $("#txtMessage").val(),
+            HostIp: null,
+            CreatedBy: null,
+            CreationDate: null,
+            UpdatedBy: null,
+            UpdatedDate: null,
+            IsActive: true,
+            IsDeleted: false,
+            Id: 0
+        };
+        $.ajax({
+            url: "http://cp.mysamaritanz.com/adminapi/api/GetQuotation",
+            type: "POST",
+            data: collection,
+            contentType: "application/json;charset=utf-8",
+            dataType: "json",
+            success: function (result) {
+                alert(result);
+            },
+            error: function (errormessage) {
+                alert(errormessage.responseText);
+            }
+        });
+    }
+</script>
+<script>
+    // Get the modal
+    var modal = document.getElementById('id02');
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+    $('#txtPhoneno1').on('input', function (e) {
+        this.setCustomValidity('')
+        if ($(this).val() > 99999999999999) {
+            this.setCustomValidity('ex:- +9188982323');
+        }
+        this.reportValidity();
+    })
+</script>

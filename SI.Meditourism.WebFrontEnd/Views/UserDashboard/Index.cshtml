@@ -1,0 +1,77 @@
+﻿
+@{
+    ViewData["Title"] = "Meditourism -UserPanel";
+    Layout = "~/Views/Shared/_UserDashboardLayoutPage.cshtml";
+}
+
+<h2>Index</h2>
+
+<aside class="right-side">
+    <section class="content-header">
+        <h1>
+            Dashboard
+
+        </h1>
+        <ol class="breadcrumb">
+            <li class="active">
+                <a href="@Url.Action("Index", null, new { area = string.Empty, controller= "UserDashboard" })"><i class="fa fa-dashboard"></i>&nbsp;&nbsp;Dashboard</a>
+            </li>
+        </ol>
+    </section>
+    <div class="row">
+        <section class="content">
+
+            <a href="@Url.Action("Index", null, new { area = string.Empty, controller= "Home" })">
+                <div class="col-lg-3 col-xs-6">
+                    <div class="small-box bg-purple">
+                        <div class="inner">
+                            <h4>
+                                Return To<br />
+                                Main Website
+                            </h4>
+                        </div>
+                        <div class="icon">
+                            <i class="glyphicon glyphicon-arrow-left" style="font-size:65px"></i>
+                        </div><br />
+                    </div>
+                </div>
+            </a><!-- ./col -->
+
+            <a asp-action="ChangePassword">
+                <div class="col-lg-3 col-xs-6">
+                    <div class="small-box bg-aqua">
+                        <div class="inner">
+                            <h4>
+                               Change<br />
+                                Password
+                            </h4>
+                        </div>
+                        <div class="icon">
+                            <i class="glyphicon glyphicon-arrow-left" style="font-size:65px"></i>
+                        </div><br />
+                    </div>
+                </div>
+            </a>
+
+            <a onclick="addclasstoggle();" href="@Url.Action("Messaging", null, new { area = string.Empty, controller= "MessagingPanel" })">
+                <div class="col-lg-3 col-xs-6">
+                    <!-- small box -->
+                    <div class="small-box bg-maroon">
+                        <div class="inner">
+                            <h4>
+                                Send <br />
+                                Message
+                            </h4>
+                        </div>
+                        <div class="icon">
+                            <i class="ion ion-chatboxes"></i>
+                        </div><br />
+                    </div>
+                </div>
+            </a>
+
+        </section>
+    </div>
+</aside>
+
+

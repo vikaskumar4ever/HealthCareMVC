@@ -1,0 +1,862 @@
+﻿
+<!Doctype HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="cache-control" content="no-cache, must-revalidate, post-check=0, pre-check=0">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="To provide the best treatment facilities available in our country to the world citizens with zero compromise on the quality and cost-effectiveness. We assure the spirit of compassion, trust, integrity in every step you are under our care! Wxperience the true Samaritan touch.">
+    <meta name="keywords" content="Meditourism">
+    <meta name="author" content="SI">
+    <title>MySamaritanz - MediTourism</title>
+    <!--css-->
+    @*  <link href="/FrontEndScript/css/bootstrap.min.css" rel="stylesheet" type="text/css" />*@
+    <link href="/Assets/FrontEndScript/css/custom.css" rel="stylesheet" type="text/css" />
+    @*<link href="/Assets/FrontEndScript/css/custom.css" rel="stylesheet" type="text/css" />*@
+    <link href="/Assets/FrontEndScript/css/set1.css" rel="stylesheet" type="text/css">
+    <link href="/Assets/FrontEndScript/css/all-css.css" rel="stylesheet" type="text/css" />
+    <!---Popup--->
+    <link href="/Assets/FrontEndScript/css/popup.css" rel="stylesheet" type="text/css" />
+    <link href="/Assets/FrontEndScript/css/search.css" rel="stylesheet" />
+    @*<link href="~/Assets/FrontEndScript/fonts/glyphicons-halflings-regular.ttf" />*@
+    <style type="text/css">
+        @@media(min-width:100px) and (max-width: 750px) {
+            .MViewlang {
+                display: block;
+            }
+
+            .ulmView {
+                margin-top: 0px !important;
+            }
+        }
+
+        @@media(min-width:751px) and (max-width: 2750px) {
+            .MViewlang {
+                display: none;
+            }
+
+            .ulmView1 {
+                margin-top: -20px;
+            }
+            .ulmView2{
+                margin-right: -80px
+            }
+        }
+
+        .feedback {
+            background-color: #31B0D5;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 4px;
+            border-color: #46b8da;
+        }
+
+        #mybutton {
+            z-index: 5;
+            position: fixed;
+            bottom: 50px;
+            right: 10px;
+        }
+
+        .icon {
+            background: cornflowerblue !important;
+            padding-top: 4px !important;
+            padding-bottom: 4px !important;
+            border-radius: 2px !important;
+        }
+    </style>
+    <script src="/Assets/FrontEndScript/js/jquery-2.2.4.min.js"></script>
+    <script src="/Assets/FrontEndScript/js/jquery-ui.min.js"></script>
+    <link href="/Assets/FrontEndScript/js/jquery-ui.min.css" rel="stylesheet" />
+    <link href="/Assets/FrontEndScript/js/jquery-ui.structure.min.css" rel="stylesheet" />
+    <link href="/Assets/FrontEndScript/js/jquery-ui.theme.min.css" rel="stylesheet" />
+
+
+    <script type="text/javascript">
+        $(function () {
+            $('#txtSearchServices').autocomplete({
+                /**/
+                //source: 'http://localhost:21632/api/AutoCompleteTreatmentlist',
+                source: 'http://cp.mysamaritanz.com/adminapi/api/AutoCompleteTreatmentlist',
+                //source: 'http://meditourismadmin.morepower.com/adminapi/api/AutoCompleteTreatmentlist',
+                minLength: 1,
+                delay: 0,
+                autoFocus: true
+                /**/
+            })
+        });
+    </script>
+    <style type="text/css">
+        .ui-autocomplete {
+            z-index: 11000 !important;
+        }
+    </style>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var url = window.location.pathname;
+            var substr = url.split('/');
+            var urlaspx = substr[substr.length - 1];
+            if (urlaspx != "") {
+                $('.nav').find('.active').removeClass('active');
+                $('.nav li a').each(function () {
+                    if (this.href.indexOf(urlaspx) >= 0) {
+                        $(this).parent().addClass('active');
+                    }
+                });
+            }
+        });
+
+    </script>
+
+</head>
+
+<body id="page-top" class="index m0">
+    <!--header-->
+    @*<div id="mybutton">
+            <a onclick="document.getElementById('id05').style.display = 'block'; document.getElementById('id04').style.display = 'none';" style="cursor:pointer">
+                <img src="/Assets/images/Contactus.png" style="width:40px" />
+            </a>
+        </div>*@
+
+    <div class="fixMdQtRightBtnquick" style="cursor: pointer">
+        <a href="/Home/Services">
+            <img src="~/Assets/images/quickservices.png" style="width: 90px" />
+        </a>
+    </div>
+    <div class="fixMdQtRightBtn" onclick="Servicelist(); document.getElementById('id04').style.display = 'block'; document.getElementById('id05').style.display = 'none';" style="cursor:pointer">
+        <img src="~/Assets/images/getquote.png" style="width: 40px" />
+    </div>
+    @*<div class="fixMdQtRightBtn" >
+            <i class="fa fa-envelope-o">Request a Quote</i>
+        </div>*@
+    @*Search*@
+    <div class="col-sm-12 " id="id055" style="display:none">
+        <div class="input-group mobileInputGroupHospital">
+            @using (Html.BeginForm())
+            {
+                <div class="search-box ui-widget">
+                    @Html.TextBox("searhTerm", null, new { id = "txtSearchServices", @class = "form-control", placeholder = "Search.." })
+                    @*<input type="text" class="form-control" placeholder="Search.." id="searchHospitalsTxtM">*@
+                    <span class="input-group-btn" style="vertical-align: top;">
+                        <button id="searchHospitalsM" class="btn btn-default btn-searchHosp" onclick="GetSearchTreatmeantdetails() " type="button" style="margin-top: 0px; margin-right:0px "><i class="fa fa-search"></i> Search</button>
+                        <button id="" onclick=" document.getElementById('id055').style.display = 'none';" class="btn btn-default btn-searchHosp btn-searchHosp-close" type="button" style="margin-top: 0px; margin-right: 0px; border-radius:0px"><i class="fa fa-close"></i></button>
+                    </span>
+                </div>
+            }
+        </div>
+    </div>
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            @*<div class="container" style="text-align: right;">
+                    Select Language
+                    <input name="name1" id="name1" class="search-text1" placeholder="" type="text" style="width: 10%; background: transparent;">
+                </div>*@
+            <div class="container">
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="LN"><img src="~/Assets/images/contact.png" style="height: 25px;margin-right: 8px;margin-top: 7px;margin-bottom: 11px;" />+91 96500-01746</li>
+                        @if (Session["CustomerId"] == null)
+                        {
+                            <li class="LN"> <a style="text-transform: none; margin-top:-4px; background:none;" onclick="document.getElementById('id03').style.display = 'block'; document.getElementById('id02').style.display = 'none';"><img src="~/Assets/images/sign-in.png" style="height: 40px; margin-top: -20px; margin-right: 8px; padding-top: 15px;" />Log In | </a></li>
+                            <li style="margin-left: -37px; margin-top:-7px; text-transform: none; margin-right: -25px; margin-bottom: 14px;"> <a style="text-transform: none; background:none;" onclick="document.getElementById('id02').style.display = 'block'; document.getElementById('id03').style.display = 'none';">Sign UP </a></li>
+                        }
+                        <li><div><a onclick="document.getElementById('id05').style.display = 'block'; document.getElementById('id04').style.display = 'none';" style="cursor:pointer; background:none;"><img src="~/Assets/images/get-in-touch.png" style="cursor: pointer; height: 30px;" /></a></div></li>
+                        <li>
+                            <div id="google_translate_element" style="width: 95px;background:none;"></div>
+                            <script type="text/javascript">
+                                function googleTranslateElementInit() {
+                                    new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false }, 'google_translate_element');
+                                }
+                            </script>
+                            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                            <style type="text/css">
+                                .LN {
+                                    margin-top: -4px !important;
+                                }
+
+                                .goog-te-gadget-simple {
+                                    background-color: #fff;
+                                    border-left: 1px solid #d5d5d5;
+                                    border-top: 1px solid #9b9b9b;
+                                    border-bottom: 1px solid #e8e8e8;
+                                    border-right: 1px solid #d5d5d5;
+                                    font-size: 3pt;
+                                    display: inline-block;
+                                    padding-top: 0px;
+                                    padding-bottom: 0px;
+                                    cursor: pointer;
+                                    zoom: 1;
+                                    *display: inline;
+                                }
+
+                                .goog-te-gadget-icon {
+                                    margin-left: 2px;
+                                    margin-right: 2px;
+                                    width: 19px;
+                                    height: 19px;
+                                }
+
+                                span {
+                                    font-size: 8px;
+                                    vertical-align: middle;
+                                }
+
+                                .goog-te-menu-value img {
+                                    margin-left: 0px;
+                                    margin-right: 2px;
+                                }
+
+                                .goog-te-menu-value img {
+                                    margin-left: 0px;
+                                    margin-right: 2px;
+                                }
+
+                                .goog-te-gadget-simple .goog-te-menu-value span {
+                                    font-size: 10px;
+                                    text-decoration: none;
+                                }
+                            </style>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                    <span onclick="document.getElementById('id055').style.display = 'block';" class="glyphicon glyphicon-search _MdsearchtR"></span>
+                    <a class="navbar-brand " href="/home" title=""><img src="/Assets/FrontEndScript/img/logo.png" alt="MediTourism" title="MediTourism" /></a>
+                </div>
+
+
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right ulmView" id="mainmenu">
+                        <li class="active">
+                            <a href="/home" style="background:none">Home</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="/home" class="dropdown-toggle" data-toggle="dropdown" style="align-items: center; background:none; color: #002956 !important">ABOUT US</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#mission">Mission</a></li>
+                                <li><a href="#vision">Vision</a></li>
+                                <li><a href="#philosophy">Our Philosophy</a></li>
+                                <li><a href="#">Why MySamaritanz</a></li>
+                            </ul>
+                        </li>
+                        <li> <a href="/Home/Process" style="background:none">Process </a></li>
+                        <li> <a href="/Home/Hospitals" style="background:none">Hospitals </a></li>
+                        <li> <a href="/Home/Services" style="background:none">Treatment </a></li>
+                        @*<li> <a href="#" style="background:none">Partner Hospitals </a></li>*@
+                        <!-- <li> <a href="#" style="background:none">FAQ's </a></li> -->
+                        <!-- <li> <a href="#" style="background:none">Instant Quatation </a></li> -->
+                        <li><a href="/ContactUs/ContactUs" style="background:none">CONTACTUs</a> </li>
+                        @{
+                            if (Session["CustomerId"] != null)
+                            {
+                                <li> <a href="/UserDashboard/Index" style="background:none"><span class="glyphicon glyphicon-user" style="font-size: 14px"></span>Hi! @Session["Username"].ToString() </a></li>
+                            }
+                            else
+                            {
+                                <!--<li> <a onclick="document.getElementById('id02').style.display = 'block'; document.getElementById('id03').style.display = 'none';" style="background:none"><span class="glyphicon glyphicon-user"></span>SignUP </a></li>
+                                <li> <a onclick="document.getElementById('id03').style.display = 'block'; document.getElementById('id02').style.display = 'none';" style="background:none"><span class="fa fa-arrow-circle-o-right"></span>SignIn </a></li>-->
+
+                            }
+                        }
+                        <li  >
+                            <div class="MViewlang" id="google_translate_element1" style="width: 95px;background:none;">
+                            </div>
+
+                             <script type="text/javascript">
+                                 if (window.innerWidth < 700) {
+                                     function googleTranslateElementInit() {
+                                         new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false }, 'google_translate_element1');
+                                     }
+                                 }
+                                </script>
+                            @* <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>*@
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--navbar-->
+    </header>
+
+    <!----Registration---->
+    <div id="id02" class="modal">
+        @using (Html.BeginForm("Signup", "Home", FormMethod.Post, new { @class = "modal-content animate reg" }))
+        {@Html.AntiForgeryToken()
+        <div class="imgcontainer">
+            <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <p style="position:center;"><h3>Registration</h3><hr /></p>
+        </div>
+        <div class="col-6 aab">
+            <label for="name"><b>Name</b><span style="color:red">*</span></label>
+            <input type="text" placeholder="Enter Username" name="name" required>
+
+            <label for="phoneNo"><b>MobileNo</b><span style="color:red">*</span></label>
+            <input id="txtPhoneno" type="text" placeholder="Enter MobileNo" pattern="[0-9 -()+]+$" maxlength="14" name="phoneNo" required>
+            <label id="phoneno"></label>
+            <label for="email"><b>EmailId</b><span style="color:red">*</span></label>
+            <input type="email" placeholder="Enter EmailId" name="email" required>
+
+            <label for="country"><b>Country</b><span style="color:red">*</span></label>
+            <input type="text" placeholder="Enter Country" name="country" required>
+
+
+            @if (ViewBag.IsEmailIdExists != null)
+            {
+                <label style="color:red">@ViewBag.IsEmailIdExists</label>
+            }
+            <button type="submit" class="button02">Register</button>
+        </div>
+        <div class="col-6 ab">
+            <div style="float:right; margin-right:17%" class="_mYSymnWLg">
+                <span style="color:#242424; font-size:13px; font-weight:500">Go Back To</span>
+                <a onclick="document.getElementById('id03').style.display = 'block';document.getElementById('id02').style.display = 'none';"> <span style="color:#04a2a2; font-weight:600; font-size: 14px">Login</span> </a>
+            </div>
+        </div>
+    }
+    </div>
+
+    <!-----Login----->
+    <div id="id03" class="modal">
+        @using (Html.BeginForm("Login", "Home", FormMethod.Post, new { @class = "modal-content animate login" }))
+        {@Html.AntiForgeryToken()
+
+        <div class="imgcontainer">
+            <span onclick="document.getElementById('id03').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <p style="position:center;"><h3>SignIn</h3><hr /></p>
+        </div>
+        <div class="col-6 ab">
+            <label for="uname"><b>UserId</b><span style="color:red">*</span></label>
+            <input type="text" placeholder="Enter Username" name="email" required>
+
+            <label for="uname"><b>Password</b><span style="color:red">*</span></label>
+            <input type="password" placeholder="Enter Password" maxlength="10" name="password" required>
+
+            <button type="submit" class="button02">SignIn</button>
+        </div>
+        <div class="col-6 ab">
+            <div style="float:right; margin-right:17%" class="_mYSymnWRg">
+                <span style="color:#242424; font-size:12px; font-weight:500">New to MySamaritanz ?</span>
+                <a onclick="document.getElementById('id02').style.display = 'block';document.getElementById('id03').style.display = 'none';"> <span style="color:#04a2a2; font-weight:600; font-size: 14px;">Create Account</span> </a>
+            </div>
+        </div>
+    }
+    </div>
+
+    <!----GetQutation---->
+    <div id="id04" class="modal">
+        @using (Html.BeginForm("GetQuotation", "Home", FormMethod.Post, new { @class = "modal-content animate reg", style = "height: 518px; overflow:overlay" }))
+        {@Html.AntiForgeryToken()
+        <div class="imgcontainer">
+            <span onclick=" document.getElementById('id04').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <p style="position:center;"><h3>Get Quote</h3><hr /></p>
+        </div>
+        <div class="col-6 aab">
+            <label for="Name"><b>Name</b><span style="color:red">*</span></label>
+            <input type="text" placeholder="Enter Username" name="Name" required>
+
+            <label for="phoneNo"><b>MobileNo</b><span style="color:red">*</span></label>
+            <input id="txtqutPhoneno" type="text" placeholder="Enter MobileNo" pattern="[0-9 -()+]+$" maxlength="14" name="phoneNo" required>
+            <label id="phoneno"></label>
+            <label for="EmailId"><b>EmailId</b><span style="color:red">*</span></label>
+            <input type="email" placeholder="Enter EmailId" name="EmailId" required>
+
+            <label for="Country"><b>Country</b><span style="color:red">*</span></label>
+            <input type="text" placeholder="Enter Country" name="Country" required>
+            <div class="col-12">
+                <div class="select2-results__options" style="width:100%">
+                    <label for="login-pass">Select Service <span style="color:red">*</span></label>
+                    <select id="selectservices" style="width:100%" name="ServiceId"></select>
+                </div>
+            </div>
+            <label asp-for="Message" class="control-label">Message</label>
+            <textarea asp-for="Message" name="Message" placeholder="Enter Message" style="color:black" class="form-control txtarea"></textarea>
+
+            <button type="submit" class="button02">Submit</button>
+        </div>
+
+    }
+    </div>
+
+    <div id="id05" class="modal">
+        @using (Html.BeginForm("SubmitContactUs", "ContactUs", FormMethod.Post, new { @class = "modal-content animate reg", style = "height: 530px" }))
+        {@Html.AntiForgeryToken()
+        <div class="imgcontainer">
+            <span onclick="document.getElementById('id05').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <p style="position:center; text-transform: none"><h3>Get In Touch</h3><hr /></p>
+        </div>
+        <div class="col-6 aab">
+            <label for="Name"><b>Name</b><span style="color:red">*</span></label>
+            <input type="text" placeholder="Enter Username" name="Name" required>
+
+            <label for="MobileNo"><b>MobileNo</b><span style="color:red">*</span></label>
+            <input id="txtContactPhoneno" type="text" placeholder="Enter MobileNo" pattern="[0-9 -()+]+$" maxlength="14" name="MobileNo" required>
+
+            <label for="EmailId"><b>EmailId</b><span style="color:red">*</span></label>
+            <input type="email" placeholder="Enter EmailId" name="EmailId" required>
+
+            <label for="Country"><b>Country</b><span style="color:red">*</span></label>
+            <input type="text" placeholder="Enter Country" name="Country" required>
+
+            <label asp-for="Message" class="control-label">Message</label>
+            <textarea asp-for="Message" name="Message" placeholder="Enter Message" style="color:black" class="form-control txtarea"></textarea>
+
+            <button type="submit" class="button02">Submit</button>
+        </div>
+    }
+    </div>
+
+    @RenderBody()
+
+    <!----Enquery Form---->
+    <div id="_MdgdqtId" class="modal">
+        <div class="modal-content animate">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('_MdgdqtId').style.display='none'" class="close" title="Close Modal">&times;</span>
+                @* <img src="img_avatar2.png" alt="Avatar" class="avatar"> -*@
+                @*<p style="position:center;">
+                        <h3 style="color:red">Spine</h3>
+                    </p>*@
+            </div>
+
+            <section class="pt-70" style="height: 550px; overflow-x: scroll;">
+                <!-- CONTAIN START -->
+                <div class="container">
+                    <div class="row">
+                        <!----Product Description----->
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="row">
+                                        <div class="col-12" style="margin-left:6px;">
+                                            <div class="product-detail-main">
+                                                <div class="product-item-details" id="treatmentdetails">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!----Verticle Line---->
+                        <div class="vl"></div>
+                        <!----Enquery Form---->
+                        <div class="col-xl-6 enquryform">
+                            @using (Html.BeginForm("GetQuotation", "Home", FormMethod.Post))
+                            {
+                                <div class="row">
+                                    <div class="col-12 mb-20">
+                                        <div class="heading-part heading-bg">
+                                            <h2 class="heading" style="text-transform:none">Get Quotation </h2>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="input-box">
+                                            <label for="f-name">Your Name<span style="color:red">*</span></label>
+                                            <input type="text" id="Name" placeholder="Enter Username" name="Name" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="input-box">
+                                            <label for="login-email">MobileNo</label>
+                                            <input id="txtPhoneno1" type="text" placeholder="Enter MobileNo" pattern="[0-9 -()+]+$" maxlength="14" name="MobileNo">
+                                        </div>
+                                    </div>
+                                    <label for="uname"><b>EmailId</b> <span style="color:red">*</span></label>
+                                    <input type="email" id="Email" placeholder="Enter EmailId" name="EmailId" required>
+                                    <div class="col-12">
+                                        <div class="input-box">
+                                            <label for="login-pass">Country <span style="color:red">*</span></label>
+                                            <input id="txtCountry" type="text" placeholder="Enter Country" name="Country" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="select2-results__options" style="width:100%">
+                                            <label for="login-pass">Select Service <span style="color:red">*</span></label>
+                                            <select id="selectservices1" style="width:100%" name="ServiceId"></select>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="input-box">
+                                            <label for="re-enter-pass">Message</label>
+                                            <textarea type="text" id="txtMessage" placeholder="Enter What type Of Disease" name="Message" style="width:100%;"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="button02">Get Quotation</button>
+                                    </div>
+                                </div>
+
+
+                            }
+                        </div>
+                        <!----Enquery Form Close---->
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </div>
+    <!----Enquery Form Close---->
+    <!--footer-->
+    <style type="text/css">
+        @@media(min-with: 768px) and (max-width: 2700px) {
+            .mainlink {
+                margin-left: 10px;
+                margin-top: -25px;
+            }
+
+            #mainlinkh3 {
+                margin-left: 30px;
+            }
+
+            .getIntouch {
+                margin-left: -20px;
+            }
+        }
+    </style>
+    <footer>
+        <div class="footer-div">
+            <div class="container" style="margin-top: -45px;">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <h3 style="color: white;" id="mainlinkh3">Main Links<hr style="margin-right: 100px; margin-bottom: -1px; margin-left: 123px; margin-top: -12px;" /></h3>
+                        <ul class="footer-ul mainlink" style="line-height: 13px; font-weight: 500">
+                            <li><a href="/Home/Index">Home</a></li>
+                            <li><a href="/Home/Index">About Us</a></li>
+                            <li><a href="/Home/Services">Treatment</a></li>
+                            <li><a href="/Home/Process">Process</a></li>
+                            <li><a href="/FAQ/Index">FAQ's</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <h3 style="color: white;">Get In Touch<hr style="margin-right: 90px; margin-left: 153px; margin-top: -12px;" /></h3>
+                        <ul class="footer-ul getIntouch" style="margin-top: -25px; line-height: 20px; font-weight: 500">
+                            <li style="color: white;"><b style="font-weight: 600">Address : </b>66 South Street, window 6 Wonderland</li>
+                            <li style="color: white;"><b style="font-weight: 600">Phone No : </b>+440 875369208-Office, + 440 353363114-FAX</li>
+                            <li style="color: white;"><b style="font-weight: 600">Email : </b>freepik@sitename.com</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <h3 style="color: white;">Social Media<hr style="margin-right: 100px; margin-left: 153px; margin-top: -12px;" /></h3>
+                        <div class="social-icons">
+                            @*<ul class="social-icons" style="margin-top: -25px; line-height: 20px; font-weight: 500">*@
+                            <p style="color: white;">Lorem ipsum is very simple project.</p>
+                            <a href="#" class="icon"><i class="fa fa-youtube-play"></i></a>
+                            <a href="#" class="icon"><i class="fa fa-google-plus fa-lg"></i></a>
+                            <a href="#" class="icon"><i class="fa fa-facebook fa-lg"></i></a>
+                            <a href="#" class="icon"><i class="fa fa-dribbble fa-lg"></i></a>
+                            <a href="#" class="icon"><i class="fa fa-twitter fa-lg"></i></a>
+                            <a href="#" class="icon"><i class="fa fa-instagram"></i></a>
+                            @*</ul>*@
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 footer-c" style="margin-left: 40%;"> &copy; Copyright 2018-19 - MySamaritanz</div>
+                    @*<div class="col-md-6  col-sm-6 footer-c text-right">
+                            <div class="social-icons"> <a href="#"><i class="fa fa-facebook fa-lg"></i></a> <a href="#"><i class="fa fa-twitter fa-lg"></i></a> <a href="#"><i class="fa fa-rss fa-lg"></i></a> <a href="#"><i class="fa fa-google-plus fa-lg"></i></a> <a href="#"><i class="fa fa-skype fa-lg"></i></a> <a href="#"><i class="fa fa-dribbble fa-lg"></i></a> </div>
+                        </div>*@
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="footerContainer navbar-fixed-bottom _fttqotcs" onclick="Servicelist(); document.getElementById('id04').style.display = 'block'; document.getElementById('id05').style.display = 'none';" style="cursor:pointer">
+        <a><i class="fa fa-envelope-o ftbottomContactIcons">Request a Quote </i> </a>
+    </div>
+    <!--jquery-->
+    <style type="text/css">
+        .txtarea {
+            height: 70px !important;
+        }
+    </style>
+    <script src="/Assets/FrontEndScript/js/jquery.mixitup.min.js"></script>
+    <script src="/Assets/FrontEndScript/js/scrolltopcontrol.js"></script>
+    <script src="/Assets/FrontEndScript/js/wow.min.js"></script>
+    <script src="/Assets/FrontEndScript/js/all.js"></script>
+    <!--jquery-->
+    <!-- revolution -->
+    <script src="/Assets/FrontEndScript/vendor/revolution/jquery_tools.min.js"></script>
+    <script src="/Assets/FrontEndScript/vendor/revolution/jquery_revolution.min.js"></script>
+    <script src="/Assets/FrontEndScript/vendor/revolution/revolution.extension.slideanims.min.js"></script>
+    <script src="/Assets/FrontEndScript/vendor/revolution/revolution.extension.layeranimation.min.js"></script>
+    <script src="/Assets/FrontEndScript/vendor/revolution/revolution.extension.navigation.min.js"></script>
+    <script src="/Assets/FrontEndScript/vendor/revolution/revolution.extension.kenburn.min.js"></script>
+    <script src="/Assets/FrontEndScript/vendor/revolution/revolution.extension.actions.min.js"></script>
+    <!-- revolution -->
+    <script src="/Assets/FrontEndScript/js/theme.js"></script>
+    <script src="/Assets/FrontEndScript/js/bootstrap.min.js"></script>
+    <script src="/Assets/FrontEndScript/js/classie.js"></script>
+    <script src="/Assets/FrontEndScript/js/cbpAnimatedHeader.js"></script>
+
+    <!-- Registration Popup -->
+    <script>
+
+        // Get the modal
+        var modal = document.getElementById('id02');
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+        $('#txtPhoneno').on('input', function (e) {
+            this.setCustomValidity('')
+            if ($(this).val() > 99999999999999) {
+                this.setCustomValidity('ex:- +9188982323');
+            }
+            this.reportValidity();
+        })
+    </script>
+    <!-- Login Popup -->
+    <script type="text/javascript">
+        var modal = document.getElementById('id03');
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+    </script>
+    <script type="text/javascript">
+        var modal = document.getElementById('id04');
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+    </script>
+    <script type="text/javascript">
+        var modal = document.getElementById('id04');
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+        var modal = document.getElementById('id055');
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+
+    </script>
+    <script type="text/javascript">
+        var modal = document.getElementById('_getContactus');
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+    </script>
+    <script type="text/javascript">
+        $('#txtContactPhoneno').on('input', function (e) {
+            this.setCustomValidity('')
+            if ($(this).val() > 99999999999999) {
+                this.setCustomValidity('ex:- +9188982323');
+            }
+            this.reportValidity();
+        });
+        $('#txtRegPhoneno').on('input', function (e) {
+            this.setCustomValidity('')
+            if ($(this).val() > 99999999999999) {
+                this.setCustomValidity('ex:- +9188982323');
+            }
+            this.reportValidity();
+        })
+
+    </script>
+    <script type="text/javascript">
+
+        //Load Data function
+        function Servicelist() {
+            let dropdown = $('#selectservices');
+            dropdown.empty();
+
+            $.ajax({
+
+                //url: "/Home/List/" + Id,
+                url: "http://cp.mysamaritanz.com/adminapi/api/GetServiceslist",
+                //url: "http://meditourismadmin.morepower.com/adminapi/api/GetServiceslist",
+                // url: "http://localhost:21632/api/GetServiceslist",
+                type: "GET",
+
+                contentType: "application/json;charset=utf-8",
+
+                dataType: "json",
+                success: function (result) {
+                    var i = 0;
+                    var html = '';
+                    reresult = JSON.parse(result);
+                    $.each(reresult, function (key, item) {
+                        if (item.length != 0) {
+                            if (i == 0) {
+                                dropdown.empty();
+                            }
+                            dropdown.append($('<option></option>').attr('value', item.ServiceId).text(item.SFullPath));
+                            i = i + 1;
+
+                        }
+                    });
+                    //$('#treatmentdetails').html(html);
+                    // document.getElementById('id01').style.display = 'block';
+                },
+
+                error: function (errormessage) {
+                    alert(result);
+                    alert(errormessage.responseText);
+
+                }
+
+            });
+
+        }
+    </script>
+    <script type="text/javascript">
+
+        function GetSearchTreatmeantdetails() {
+            console.log($("#txtSearchServices").val())
+            if ($("#txtSearchServices").val() != '' && $("#txtSearchServices").val() != undefined) {
+
+                //Load Data function
+                var ServiceId;
+                $.ajax({
+                    // url: "http://localhost:21632/api/GetTreatmentDetailsByName/" + $(".inputsearch").val(),
+                    url: "http://cp.mysamaritanz.com/adminapi/api/GetTreatmentDetailsByName/" + $("#txtSearchServices").val(),
+                    //url: "http://meditourismadmin.morepower.com/adminapi/api/GetTreatmentDetailsByName/" + $("#txtSearchServices").val(),
+                    type: "GET",
+                    contentType: "application/json;charset=utf-8",
+                    dataType: "json",
+                    success: function (result) {
+                        ServiceId = result.id;
+                        loadData(ServiceId);
+                    }
+                });
+
+                function loadData(Id) {
+                    let dropdown1 = $('#selectservices1');
+                    dropdown1.empty();
+
+                    $.ajax({
+                        //url: "/Home/List/" + Id,
+                        url: "http://cp.mysamaritanz.com/adminapi/api/GetTreatMentDetails/" + Id,
+                        //url: "http://meditourismadmin.morepower.com/adminapi/api/GetTreatMentDetails/" + Id,
+                        //url: "http://localhost:21632/api/GetTreatMentDetails/" + Id,
+                        type: "GET",
+
+                        contentType: "application/json;charset=utf-8",
+
+                        dataType: "json",
+                        success: function (result) {
+                            var i = 0;
+                            var html = '';
+                            reresult = JSON.parse(result);
+                            $.each(reresult, function (key, item) {
+                                if (key == "GetService") {
+                                    html += '<h1 class="product-item-name" style="text-transform:none;">' + item.Name + '</h1>';
+                                    html += '<hr style="margin-bottom:2px; margin-top:-2px; border-top:1px solid black;"/>';
+                                    html += '<p style="text-transform:none"p>' + item.Description + '</p>';
+                                    dropdown1.append($('<option></option>').attr('value', item.ServiceId).text(item.Name));
+                                } else {
+                                    if (item.length != 0) {
+                                        if (i == 0) {
+                                            dropdown1.empty();
+                                        }
+                                        if (i > 0) {
+                                            html += '<h4 class="product-item-name" style="text-transform:none">' + item[i].ServiceName + '</h4>';
+                                            html += '<p style="text-transform:none"p>' + item[i].Description + '</p>';
+                                        }
+
+                                        dropdown1.append($('<option></option>').attr('value', item[i].ServiceId).text(item[i].ServiceName));
+                                        console.log(dropdown1);
+                                        i = i + 1;
+                                    }
+                                }
+                            });
+
+                            $('#treatmentdetails').html(html);
+                            document.getElementById('_MdgdqtId').style.display = 'block';
+                        },
+
+                        error: function (errormessage) {
+                            alert(result);
+                            alert(errormessage.responseText);
+
+                        }
+
+                    });
+
+                }
+                document.getElementById('id055').style.display = 'none';
+            }
+        }
+        function submitMessage() {
+            var collection = {
+                Name: $("#Name").val(),
+                MobileNo: $("#txtPhoneno1").val(),
+                EmailId: $("#Email").val(),
+                ServiceId: $("#selectservices").val(),
+                Country: $("#txtCountry").val(),
+                Message: $("#txtMessage").val(),
+                HostIp: null,
+                CreatedBy: null,
+                CreationDate: null,
+                UpdatedBy: null,
+                UpdatedDate: null,
+                IsActive: true,
+                IsDeleted: false,
+                Id: 0
+            };
+            $.ajax({
+                url: "http://cp.mysamaritanz.com/adminapi/api/GetQuotation",
+                type: "POST",
+                data: collection,
+                contentType: "application/json;charset=utf-8",
+                dataType: "json",
+                success: function (result) {
+                    alert(result);
+                },
+                error: function (errormessage) {
+                    alert(errormessage.responseText);
+                }
+            });
+
+        }
+
+        $(document).ready(function () {
+            document.getElementById('id05').style.display = 'block'; document.getElementById('id04').style.display = 'none';
+        });
+
+    </script>
+    <script type="text/javascript">
+        if ("@Session["CustomerId"]" == "") {
+            var e = document.getElementById('mainmenu');
+            e.classList.remove("ulmView1");
+            e.classList.remove("ulmView2");
+            e.className += " ulmView1"; 
+        } else {
+            var item = document.getElementById('mainmenu');
+            e.classList.remove("ulmView1");
+            e.classList.remove("ulmView2");
+            item.className += " ulmView2"; 
+        }
+    </script>
+</body>
+</html>
+

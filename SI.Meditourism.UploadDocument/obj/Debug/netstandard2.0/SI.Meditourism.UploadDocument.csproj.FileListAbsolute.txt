@@ -1,0 +1,12 @@
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.UploadDocument\bin\Debug\netstandard2.0\SI.Meditourism.UploadDocument.deps.json
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.UploadDocument\bin\Debug\netstandard2.0\SI.Meditourism.UploadDocument.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.UploadDocument\bin\Debug\netstandard2.0\SI.Meditourism.UploadDocument.pdb
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.UploadDocument\bin\Debug\netstandard2.0\SI.Meditourism.Connection_Mvc.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.UploadDocument\bin\Debug\netstandard2.0\SI.Meditourism.Connection_Mvc.pdb
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.UploadDocument\obj\Debug\netstandard2.0\SI.Meditourism.UploadDocument.csprojAssemblyReference.cache
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.UploadDocument\obj\Debug\netstandard2.0\SI.Meditourism.UploadDocument.csproj.CoreCompileInputs.cache
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.UploadDocument\obj\Debug\netstandard2.0\SI.Meditourism.UploadDocument.AssemblyInfoInputs.cache
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.UploadDocument\obj\Debug\netstandard2.0\SI.Meditourism.UploadDocument.AssemblyInfo.cs
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.UploadDocument\obj\Debug\netstandard2.0\SI.Meditourism.UploadDocument.csproj.CopyComplete
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.UploadDocument\obj\Debug\netstandard2.0\SI.Meditourism.UploadDocument.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.UploadDocument\obj\Debug\netstandard2.0\SI.Meditourism.UploadDocument.pdb

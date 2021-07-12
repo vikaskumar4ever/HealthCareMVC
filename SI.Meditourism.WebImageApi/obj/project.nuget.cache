@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "u4U2WoWBOdTe64ReDdvNriA4ptjEfa70uxI5aRzvOSKNHQitRDfQPCj3DmiBS9MRMB81td8HCFa1+05iNTdl1A==",
+  "success": false,
+  "projectFilePath": "D:\\.Net Project\\SI.Meditourism\\SI.Meditourism.WebImageApi\\SI.Meditourism.WebImageApi.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project SI.Meditourism.Common is not compatible with netcoreapp2.0 (.NETCoreApp,Version=v2.0). Project SI.Meditourism.Common supports: netcoreapp2.2 (.NETCoreApp,Version=v2.2)",
+      "libraryId": "SI.Meditourism.Common",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.0"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project SI.Meditourism.Master is not compatible with netcoreapp2.0 (.NETCoreApp,Version=v2.0). Project SI.Meditourism.Master supports: netcoreapp2.2 (.NETCoreApp,Version=v2.2)",
+      "libraryId": "SI.Meditourism.Master",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.0"
+      ]
+    }
+  ]
+}

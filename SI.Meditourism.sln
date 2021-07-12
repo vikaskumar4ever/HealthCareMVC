@@ -1,0 +1,196 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SI.Meditourism.WebAdminApi", "SI.Meditourism.WebAdminApi\SI.Meditourism.WebAdminApi.csproj", "{8BF7EC67-B7FE-42F2-8E14-FC1581E5A112}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SI.Meditourism.Common", "SI.Meditourism.Common\SI.Meditourism.Common.csproj", "{8CD2332C-C145-42FB-9AD7-F571054C5232}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SI.Meditourism.Connection", "SI.Meditourism.Connection\SI.Meditourism.Connection.csproj", "{C08B44D4-0272-4E30-9A01-FED21ADD8F63}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SI.Meditourism.AdminInfo", "SI.Meditourism.AdminInfo\SI.Meditourism.AdminInfo.csproj", "{3C7CE6C8-DB48-4249-9AB2-14BE6DC9DEB7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SI.Meditourism.CustomerInfo", "SI.Meditourism.CustomerInfo\SI.Meditourism.CustomerInfo.csproj", "{96A33AC4-A594-4D8C-9EC0-B367C5D1FD91}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SI.Meditourism.Encryption256AES", "SI.Meditourism.Encryption256AES\SI.Meditourism.Encryption256AES.csproj", "{1012D05E-C9BA-419E-8D5D-DB0DBFEB4F92}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SI.Meditourism.Master", "SI.Meditourism.Master\SI.Meditourism.Master.csproj", "{CF5A102A-B0A0-4121-AABE-F4D1E0DD3CF8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SI.Meditourism.Reports", "SI.Meditourism.Reports\SI.Meditourism.Reports.csproj", "{AC2A3AD2-A59A-45A7-8FC8-BF64EFA7F3A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SI.Meditourism.Services", "SI.Meditourism.Services\SI.Meditourism.Services.csproj", "{CA314037-D838-4D3B-9B75-4075A6F3076F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SI.Meditourism.ChatingService", "SI.Meditourism.ChatingService\SI.Meditourism.ChatingService.csproj", "{3C3ADB78-7815-475C-995C-3BE699410D38}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SI.Meditourism.WebImageApi", "SI.Meditourism.WebImageApi\SI.Meditourism.WebImageApi.csproj", "{E6953F36-0483-4C84-A5A6-4CC751380271}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SI.Meditourism.FAQInfo", "SI.Meditourism.FAQInfo\SI.Meditourism.FAQInfo.csproj", "{63BF3013-2B5F-4D13-9090-3B321C1C2A8F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SI.Meditourism.BaseUrl", "SI.Meditourism.BaseUrl\SI.Meditourism.BaseUrl.csproj", "{8F6EFC78-FCC5-4680-B805-15D581BA4702}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SI.Meditourism.WebForntEnd_Mvcnew", "SI.Meditourism.WebForntEnd_Mvcnew\SI.Meditourism.WebForntEnd_Mvcnew.csproj", "{47FA7F06-FA25-4624-916C-2C488AE03836}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SI.Meditourism.MVCCommon", "SI.Meditourism.MVCCommon\SI.Meditourism.MVCCommon.csproj", "{A16DDD3B-D72C-4BB5-81FD-3F7907EC6539}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SI.Meditourism.PaymentServices", "SI.Meditourism.PaymentServices\SI.Meditourism.PaymentServices.csproj", "{CC4F103D-A2E3-464B-B73B-AD2CF5CC8E79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SI.Meditourism.ConnectionFrnt", "SI.Meditourism.ConnectionFrnt\SI.Meditourism.ConnectionFrnt.csproj", "{AC632A05-BB4F-445E-BC9D-0376CCA23205}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SI.Meditourism.PaymentServicesAdmin", "SI.Meditourism.PaymentServicesAdmin\SI.Meditourism.PaymentServicesAdmin.csproj", "{12C1DC6F-0A5C-45E4-B907-FFC5A455DB61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SI.Meditourism.FrntMailer", "SI.Meditourism.FrntMailer\SI.Meditourism.FrntMailer.csproj", "{6DDBA6B9-F79B-471A-BE49-BD90652A6526}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BF7EC67-B7FE-42F2-8E14-FC1581E5A112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BF7EC67-B7FE-42F2-8E14-FC1581E5A112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BF7EC67-B7FE-42F2-8E14-FC1581E5A112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BF7EC67-B7FE-42F2-8E14-FC1581E5A112}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CD2332C-C145-42FB-9AD7-F571054C5232}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CD2332C-C145-42FB-9AD7-F571054C5232}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CD2332C-C145-42FB-9AD7-F571054C5232}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CD2332C-C145-42FB-9AD7-F571054C5232}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C08B44D4-0272-4E30-9A01-FED21ADD8F63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C08B44D4-0272-4E30-9A01-FED21ADD8F63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C08B44D4-0272-4E30-9A01-FED21ADD8F63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C08B44D4-0272-4E30-9A01-FED21ADD8F63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C7CE6C8-DB48-4249-9AB2-14BE6DC9DEB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C7CE6C8-DB48-4249-9AB2-14BE6DC9DEB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C7CE6C8-DB48-4249-9AB2-14BE6DC9DEB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C7CE6C8-DB48-4249-9AB2-14BE6DC9DEB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96A33AC4-A594-4D8C-9EC0-B367C5D1FD91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96A33AC4-A594-4D8C-9EC0-B367C5D1FD91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96A33AC4-A594-4D8C-9EC0-B367C5D1FD91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96A33AC4-A594-4D8C-9EC0-B367C5D1FD91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1012D05E-C9BA-419E-8D5D-DB0DBFEB4F92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1012D05E-C9BA-419E-8D5D-DB0DBFEB4F92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1012D05E-C9BA-419E-8D5D-DB0DBFEB4F92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1012D05E-C9BA-419E-8D5D-DB0DBFEB4F92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF5A102A-B0A0-4121-AABE-F4D1E0DD3CF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF5A102A-B0A0-4121-AABE-F4D1E0DD3CF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF5A102A-B0A0-4121-AABE-F4D1E0DD3CF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF5A102A-B0A0-4121-AABE-F4D1E0DD3CF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC2A3AD2-A59A-45A7-8FC8-BF64EFA7F3A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC2A3AD2-A59A-45A7-8FC8-BF64EFA7F3A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC2A3AD2-A59A-45A7-8FC8-BF64EFA7F3A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC2A3AD2-A59A-45A7-8FC8-BF64EFA7F3A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA314037-D838-4D3B-9B75-4075A6F3076F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA314037-D838-4D3B-9B75-4075A6F3076F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA314037-D838-4D3B-9B75-4075A6F3076F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA314037-D838-4D3B-9B75-4075A6F3076F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C3ADB78-7815-475C-995C-3BE699410D38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C3ADB78-7815-475C-995C-3BE699410D38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C3ADB78-7815-475C-995C-3BE699410D38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C3ADB78-7815-475C-995C-3BE699410D38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6953F36-0483-4C84-A5A6-4CC751380271}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6953F36-0483-4C84-A5A6-4CC751380271}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6953F36-0483-4C84-A5A6-4CC751380271}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6953F36-0483-4C84-A5A6-4CC751380271}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63BF3013-2B5F-4D13-9090-3B321C1C2A8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63BF3013-2B5F-4D13-9090-3B321C1C2A8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63BF3013-2B5F-4D13-9090-3B321C1C2A8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63BF3013-2B5F-4D13-9090-3B321C1C2A8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F6EFC78-FCC5-4680-B805-15D581BA4702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F6EFC78-FCC5-4680-B805-15D581BA4702}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F6EFC78-FCC5-4680-B805-15D581BA4702}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F6EFC78-FCC5-4680-B805-15D581BA4702}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47FA7F06-FA25-4624-916C-2C488AE03836}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47FA7F06-FA25-4624-916C-2C488AE03836}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47FA7F06-FA25-4624-916C-2C488AE03836}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47FA7F06-FA25-4624-916C-2C488AE03836}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A16DDD3B-D72C-4BB5-81FD-3F7907EC6539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A16DDD3B-D72C-4BB5-81FD-3F7907EC6539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A16DDD3B-D72C-4BB5-81FD-3F7907EC6539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A16DDD3B-D72C-4BB5-81FD-3F7907EC6539}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC4F103D-A2E3-464B-B73B-AD2CF5CC8E79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC4F103D-A2E3-464B-B73B-AD2CF5CC8E79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC4F103D-A2E3-464B-B73B-AD2CF5CC8E79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC4F103D-A2E3-464B-B73B-AD2CF5CC8E79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC632A05-BB4F-445E-BC9D-0376CCA23205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC632A05-BB4F-445E-BC9D-0376CCA23205}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC632A05-BB4F-445E-BC9D-0376CCA23205}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC632A05-BB4F-445E-BC9D-0376CCA23205}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12C1DC6F-0A5C-45E4-B907-FFC5A455DB61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12C1DC6F-0A5C-45E4-B907-FFC5A455DB61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12C1DC6F-0A5C-45E4-B907-FFC5A455DB61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12C1DC6F-0A5C-45E4-B907-FFC5A455DB61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DDBA6B9-F79B-471A-BE49-BD90652A6526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DDBA6B9-F79B-471A-BE49-BD90652A6526}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DDBA6B9-F79B-471A-BE49-BD90652A6526}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DDBA6B9-F79B-471A-BE49-BD90652A6526}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3ECC831-EC24-430D-9E0B-85DC5FF645AC}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 20
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://localhost:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SI.Meditourism.WebAdminApi\\SI.Meditourism.WebAdminApi.csproj
+		SccProjectName1 = SI.Meditourism.WebAdminApi
+		SccLocalPath1 = SI.Meditourism.WebAdminApi
+		SccProjectUniqueName2 = SI.Meditourism.Common\\SI.Meditourism.Common.csproj
+		SccProjectName2 = SI.Meditourism.Common
+		SccLocalPath2 = SI.Meditourism.Common
+		SccProjectUniqueName3 = SI.Meditourism.Connection\\SI.Meditourism.Connection.csproj
+		SccProjectName3 = SI.Meditourism.Connection
+		SccLocalPath3 = SI.Meditourism.Connection
+		SccProjectUniqueName4 = SI.Meditourism.AdminInfo\\SI.Meditourism.AdminInfo.csproj
+		SccProjectName4 = SI.Meditourism.AdminInfo
+		SccLocalPath4 = SI.Meditourism.AdminInfo
+		SccProjectUniqueName5 = SI.Meditourism.CustomerInfo\\SI.Meditourism.CustomerInfo.csproj
+		SccProjectName5 = SI.Meditourism.CustomerInfo
+		SccLocalPath5 = SI.Meditourism.CustomerInfo
+		SccProjectUniqueName6 = SI.Meditourism.Encryption256AES\\SI.Meditourism.Encryption256AES.csproj
+		SccProjectName6 = SI.Meditourism.Encryption256AES
+		SccLocalPath6 = SI.Meditourism.Encryption256AES
+		SccProjectUniqueName7 = SI.Meditourism.Master\\SI.Meditourism.Master.csproj
+		SccProjectName7 = SI.Meditourism.Master
+		SccLocalPath7 = SI.Meditourism.Master
+		SccProjectUniqueName8 = SI.Meditourism.Reports\\SI.Meditourism.Reports.csproj
+		SccProjectName8 = SI.Meditourism.Reports
+		SccLocalPath8 = SI.Meditourism.Reports
+		SccProjectUniqueName9 = SI.Meditourism.Services\\SI.Meditourism.Services.csproj
+		SccProjectName9 = SI.Meditourism.Services
+		SccLocalPath9 = SI.Meditourism.Services
+		SccProjectUniqueName10 = SI.Meditourism.ChatingService\\SI.Meditourism.ChatingService.csproj
+		SccProjectName10 = SI.Meditourism.ChatingService
+		SccLocalPath10 = SI.Meditourism.ChatingService
+		SccProjectUniqueName11 = SI.Meditourism.WebImageApi\\SI.Meditourism.WebImageApi.csproj
+		SccProjectName11 = SI.Meditourism.WebImageApi
+		SccLocalPath11 = SI.Meditourism.WebImageApi
+		SccProjectUniqueName12 = SI.Meditourism.FAQInfo\\SI.Meditourism.FAQInfo.csproj
+		SccProjectName12 = SI.Meditourism.FAQInfo
+		SccLocalPath12 = SI.Meditourism.FAQInfo
+		SccProjectUniqueName13 = SI.Meditourism.BaseUrl\\SI.Meditourism.BaseUrl.csproj
+		SccProjectName13 = SI.Meditourism.BaseUrl
+		SccLocalPath13 = SI.Meditourism.BaseUrl
+		SccProjectUniqueName14 = SI.Meditourism.WebForntEnd_Mvcnew\\SI.Meditourism.WebForntEnd_Mvcnew.csproj
+		SccProjectName14 = SI.Meditourism.WebForntEnd_Mvcnew
+		SccLocalPath14 = SI.Meditourism.WebForntEnd_Mvcnew
+		SccProjectUniqueName15 = SI.Meditourism.MVCCommon\\SI.Meditourism.MVCCommon.csproj
+		SccProjectName15 = SI.Meditourism.MVCCommon
+		SccLocalPath15 = SI.Meditourism.MVCCommon
+		SccProjectUniqueName16 = SI.Meditourism.PaymentServices\\SI.Meditourism.PaymentServices.csproj
+		SccProjectName16 = SI.Meditourism.PaymentServices
+		SccLocalPath16 = SI.Meditourism.PaymentServices
+		SccProjectUniqueName17 = SI.Meditourism.ConnectionFrnt\\SI.Meditourism.ConnectionFrnt.csproj
+		SccProjectName17 = SI.Meditourism.ConnectionFrnt
+		SccLocalPath17 = SI.Meditourism.ConnectionFrnt
+		SccProjectUniqueName18 = SI.Meditourism.PaymentServicesAdmin\\SI.Meditourism.PaymentServicesAdmin.csproj
+		SccProjectName18 = SI.Meditourism.PaymentServicesAdmin
+		SccLocalPath18 = SI.Meditourism.PaymentServicesAdmin
+		SccProjectUniqueName19 = SI.Meditourism.FrntMailer\\SI.Meditourism.FrntMailer.csproj
+		SccProjectName19 = SI.Meditourism.FrntMailer
+		SccLocalPath19 = SI.Meditourism.FrntMailer
+	EndGlobalSection
+EndGlobal

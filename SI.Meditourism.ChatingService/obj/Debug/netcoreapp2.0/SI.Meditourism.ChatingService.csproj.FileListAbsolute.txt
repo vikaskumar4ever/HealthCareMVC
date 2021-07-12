@@ -1,0 +1,14 @@
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.ChatingService\bin\Debug\netcoreapp2.0\SI.Meditourism.ChatingService.deps.json
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.ChatingService\bin\Debug\netcoreapp2.0\SI.Meditourism.ChatingService.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.ChatingService\bin\Debug\netcoreapp2.0\SI.Meditourism.ChatingService.pdb
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.ChatingService\bin\Debug\netcoreapp2.0\SI.Meditourism.Common.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.ChatingService\bin\Debug\netcoreapp2.0\SI.Meditourism.Connection.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.ChatingService\bin\Debug\netcoreapp2.0\SI.Meditourism.Common.pdb
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.ChatingService\bin\Debug\netcoreapp2.0\SI.Meditourism.Connection.pdb
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.ChatingService\obj\Debug\netcoreapp2.0\SI.Meditourism.ChatingService.csprojAssemblyReference.cache
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.ChatingService\obj\Debug\netcoreapp2.0\SI.Meditourism.ChatingService.csproj.CoreCompileInputs.cache
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.ChatingService\obj\Debug\netcoreapp2.0\SI.Meditourism.ChatingService.AssemblyInfoInputs.cache
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.ChatingService\obj\Debug\netcoreapp2.0\SI.Meditourism.ChatingService.AssemblyInfo.cs
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.ChatingService\obj\Debug\netcoreapp2.0\SI.Meditourism.ChatingService.csproj.CopyComplete
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.ChatingService\obj\Debug\netcoreapp2.0\SI.Meditourism.ChatingService.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.ChatingService\obj\Debug\netcoreapp2.0\SI.Meditourism.ChatingService.pdb

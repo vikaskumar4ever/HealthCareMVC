@@ -1,0 +1,43 @@
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.BaseUrl\bin\Debug\netstandard2.0\SI.Meditourism.BaseUrl.deps.json
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.BaseUrl\bin\Debug\netstandard2.0\SI.Meditourism.BaseUrl.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.BaseUrl\bin\Debug\netstandard2.0\SI.Meditourism.BaseUrl.pdb
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.BaseUrl\obj\Debug\netstandard2.0\SI.Meditourism.BaseUrl.csproj.CoreCompileInputs.cache
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.BaseUrl\obj\Debug\netstandard2.0\SI.Meditourism.BaseUrl.AssemblyInfoInputs.cache
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.BaseUrl\obj\Debug\netstandard2.0\SI.Meditourism.BaseUrl.AssemblyInfo.cs
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.BaseUrl\obj\Debug\netstandard2.0\SI.Meditourism.BaseUrl.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.BaseUrl\obj\Debug\netstandard2.0\SI.Meditourism.BaseUrl.pdb
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.BaseUrl\bin\Debug\netstandard2.0\SI.Meditourism.BaseUrl.deps.json
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.BaseUrl\bin\Debug\netstandard2.0\SI.Meditourism.BaseUrl.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.BaseUrl\bin\Debug\netstandard2.0\SI.Meditourism.BaseUrl.pdb
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.BaseUrl\obj\Debug\netstandard2.0\SI.Meditourism.BaseUrl.csprojAssemblyReference.cache
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.BaseUrl\obj\Debug\netstandard2.0\SI.Meditourism.BaseUrl.AssemblyInfoInputs.cache
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.BaseUrl\obj\Debug\netstandard2.0\SI.Meditourism.BaseUrl.AssemblyInfo.cs
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.BaseUrl\obj\Debug\netstandard2.0\SI.Meditourism.BaseUrl.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.BaseUrl\obj\Debug\netstandard2.0\SI.Meditourism.BaseUrl.pdb
+F:\.Net Project\SI.Meditourism\SI.Meditourism.BaseUrl\bin\Debug\netstandard2.0\SI.Meditourism.BaseUrl.deps.json
+F:\.Net Project\SI.Meditourism\SI.Meditourism.BaseUrl\bin\Debug\netstandard2.0\SI.Meditourism.BaseUrl.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.BaseUrl\bin\Debug\netstandard2.0\SI.Meditourism.BaseUrl.pdb
+F:\.Net Project\SI.Meditourism\SI.Meditourism.BaseUrl\obj\Debug\netstandard2.0\SI.Meditourism.BaseUrl.csprojAssemblyReference.cache
+F:\.Net Project\SI.Meditourism\SI.Meditourism.BaseUrl\obj\Debug\netstandard2.0\SI.Meditourism.BaseUrl.csproj.CoreCompileInputs.cache
+F:\.Net Project\SI.Meditourism\SI.Meditourism.BaseUrl\obj\Debug\netstandard2.0\SI.Meditourism.BaseUrl.AssemblyInfoInputs.cache
+F:\.Net Project\SI.Meditourism\SI.Meditourism.BaseUrl\obj\Debug\netstandard2.0\SI.Meditourism.BaseUrl.AssemblyInfo.cs
+F:\.Net Project\SI.Meditourism\SI.Meditourism.BaseUrl\obj\Debug\netstandard2.0\SI.Meditourism.BaseUrl.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.BaseUrl\obj\Debug\netstandard2.0\SI.Meditourism.BaseUrl.pdb
+E:\.Net Project\SI.Meditourism\SI.Meditourism.BaseUrl\bin\Debug\netstandard2.0\SI.Meditourism.BaseUrl.deps.json
+E:\.Net Project\SI.Meditourism\SI.Meditourism.BaseUrl\bin\Debug\netstandard2.0\SI.Meditourism.BaseUrl.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.BaseUrl\bin\Debug\netstandard2.0\SI.Meditourism.BaseUrl.pdb
+E:\.Net Project\SI.Meditourism\SI.Meditourism.BaseUrl\obj\Debug\netstandard2.0\SI.Meditourism.BaseUrl.csprojAssemblyReference.cache
+E:\.Net Project\SI.Meditourism\SI.Meditourism.BaseUrl\obj\Debug\netstandard2.0\SI.Meditourism.BaseUrl.AssemblyInfoInputs.cache
+E:\.Net Project\SI.Meditourism\SI.Meditourism.BaseUrl\obj\Debug\netstandard2.0\SI.Meditourism.BaseUrl.AssemblyInfo.cs
+E:\.Net Project\SI.Meditourism\SI.Meditourism.BaseUrl\obj\Debug\netstandard2.0\SI.Meditourism.BaseUrl.csproj.CoreCompileInputs.cache
+E:\.Net Project\SI.Meditourism\SI.Meditourism.BaseUrl\obj\Debug\netstandard2.0\SI.Meditourism.BaseUrl.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.BaseUrl\obj\Debug\netstandard2.0\SI.Meditourism.BaseUrl.pdb
+D:\.Net Project\SI.Meditourism\SI.Meditourism.BaseUrl\bin\Debug\netstandard2.0\SI.Meditourism.BaseUrl.deps.json
+D:\.Net Project\SI.Meditourism\SI.Meditourism.BaseUrl\bin\Debug\netstandard2.0\SI.Meditourism.BaseUrl.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.BaseUrl\bin\Debug\netstandard2.0\SI.Meditourism.BaseUrl.pdb
+D:\.Net Project\SI.Meditourism\SI.Meditourism.BaseUrl\obj\Debug\netstandard2.0\SI.Meditourism.BaseUrl.csproj.AssemblyReference.cache
+D:\.Net Project\SI.Meditourism\SI.Meditourism.BaseUrl\obj\Debug\netstandard2.0\SI.Meditourism.BaseUrl.AssemblyInfoInputs.cache
+D:\.Net Project\SI.Meditourism\SI.Meditourism.BaseUrl\obj\Debug\netstandard2.0\SI.Meditourism.BaseUrl.AssemblyInfo.cs
+D:\.Net Project\SI.Meditourism\SI.Meditourism.BaseUrl\obj\Debug\netstandard2.0\SI.Meditourism.BaseUrl.csproj.CoreCompileInputs.cache
+D:\.Net Project\SI.Meditourism\SI.Meditourism.BaseUrl\obj\Debug\netstandard2.0\SI.Meditourism.BaseUrl.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.BaseUrl\obj\Debug\netstandard2.0\SI.Meditourism.BaseUrl.pdb

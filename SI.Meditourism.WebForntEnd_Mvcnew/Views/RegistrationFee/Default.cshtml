@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "Default";
+    Layout = "~/Views/Shared/_FrontEndLayout.cshtml";
+}
+
+
+
+<link href="~/Assets/FrontEndScript/css/search.css" type="text/css" />
+<section class="container_1 section">
+    <div class="left-half divcontainer" style="height: 100%">
+        @if (Session["PaymentMessage"] != null)
+        {
+            <article>
+                <h1>@Session["PaymentMessage"].ToString()</h1>
+            </article>
+        }
+
+    </div>
+
+</section>

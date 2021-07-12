@@ -1,0 +1,17 @@
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Common\bin\Debug\netcoreapp2.2\SI.Meditourism.Common.deps.json
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Common\bin\Debug\netcoreapp2.2\SI.Meditourism.Common.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Common\bin\Debug\netcoreapp2.2\SI.Meditourism.Common.pdb
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Common\obj\Debug\netcoreapp2.2\SI.Meditourism.Common.csproj.CoreCompileInputs.cache
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Common\obj\Debug\netcoreapp2.2\SI.Meditourism.Common.AssemblyInfoInputs.cache
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Common\obj\Debug\netcoreapp2.2\SI.Meditourism.Common.AssemblyInfo.cs
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Common\obj\Debug\netcoreapp2.2\SI.Meditourism.Common.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Common\obj\Debug\netcoreapp2.2\SI.Meditourism.Common.pdb
+E:\.Net Project\SI.Meditourism\SI.Meditourism.Common\bin\Debug\netcoreapp2.2\SI.Meditourism.Common.deps.json
+E:\.Net Project\SI.Meditourism\SI.Meditourism.Common\bin\Debug\netcoreapp2.2\SI.Meditourism.Common.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.Common\bin\Debug\netcoreapp2.2\SI.Meditourism.Common.pdb
+E:\.Net Project\SI.Meditourism\SI.Meditourism.Common\obj\Debug\netcoreapp2.2\SI.Meditourism.Common.csprojAssemblyReference.cache
+E:\.Net Project\SI.Meditourism\SI.Meditourism.Common\obj\Debug\netcoreapp2.2\SI.Meditourism.Common.AssemblyInfoInputs.cache
+E:\.Net Project\SI.Meditourism\SI.Meditourism.Common\obj\Debug\netcoreapp2.2\SI.Meditourism.Common.AssemblyInfo.cs
+E:\.Net Project\SI.Meditourism\SI.Meditourism.Common\obj\Debug\netcoreapp2.2\SI.Meditourism.Common.csproj.CoreCompileInputs.cache
+E:\.Net Project\SI.Meditourism\SI.Meditourism.Common\obj\Debug\netcoreapp2.2\SI.Meditourism.Common.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.Common\obj\Debug\netcoreapp2.2\SI.Meditourism.Common.pdb

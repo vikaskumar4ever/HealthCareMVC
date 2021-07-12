@@ -1,0 +1,175 @@
+﻿
+@{
+    ViewData["Title"] = "Meditourism -UserPanel";
+    Layout = "~/Views/Shared/_UserDashboardLayoutPage.cshtml";
+}
+
+<style type="text/css">
+    @@media(min-width:100px) and  (max-width: 768px){
+        .buttonPaymt {
+            border-radius: 9px;
+            background-color: #089eaf;
+            color: white;
+            padding: 11px 10px;
+            margin: 15px 1px;
+            border: none;
+            cursor: pointer;
+        }
+    }
+    @@media(min-width:768px) and (max-width: 2768px) {
+        .buttonPaymt {
+            border-radius: 9px;
+            background-color: #089eaf;
+            color: white;
+            padding: 11px 10px;
+            margin: 15px 1px;
+            border: none;
+            cursor: pointer;
+            width: 26%;
+        }
+    }
+    
+</style>
+
+<aside class="right-side">
+    <section class="content-header">
+        <h1>
+            Dashboard
+
+        </h1>
+        <ol class="breadcrumb">
+            <li class="active">
+                <a href="@Url.Action("Index", null, new { area = string.Empty, controller= "UserDashboard" })"><i class="fa fa-dashboard"></i>&nbsp;&nbsp;Dashboard</a>
+            </li>
+        </ol>
+    </section>
+
+    <section class="content">
+        <div class="row">
+            <a href="@Url.Action("Index", null, new { area = string.Empty, controller= "Home" })">
+                <div class="col-lg-3 col-xs-6">
+                    <div class="small-box bg-purple">
+                        <div class="inner">
+                            <h4>
+                                Return To<br />
+                                Main Website
+                            </h4>
+                        </div>
+                        <div class="icon">
+                            <i class="glyphicon glyphicon-arrow-left" style="font-size:65px"></i>
+                        </div><br />
+                    </div>
+                </div>
+            </a><!-- ./col -->
+
+            <a href="@Url.Action("ChangePassword", null, new { area = string.Empty, controller= "UserDashboard" })">
+                <div class="col-lg-3 col-xs-6">
+                    <div class="small-box bg-aqua">
+                        <div class="inner">
+                            <h4>
+                                Change<br />
+                                Password
+                            </h4>
+                        </div>
+                        <div class="icon">
+                            <i class="glyphicon glyphicon-arrow-left" style="font-size:65px"></i>
+                        </div><br />
+                    </div>
+                </div>
+            </a>
+
+            <a onclick="addclasstoggle();" href="@Url.Action("Messaging", null, new { area = string.Empty, controller= "MessagingPanel" })">
+                <div class="col-lg-3 col-xs-6">
+                    <!-- small box -->
+                    <div class="small-box bg-maroon">
+                        <div class="inner">
+                            <h4>
+                                Send <br />
+                                Message
+                            </h4>
+                        </div>
+                        <div class="icon">
+                            <i class="ion ion-chatboxes"></i>
+                        </div><br />
+                    </div>
+                </div>
+            </a>
+            <a onclick="addclasstoggle();" href="@Url.Action("Index", null, new { area = string.Empty, controller= "PaymentHistory" })">
+                <div class="col-lg-3 col-xs-6">
+                    <!-- small box -->
+                    <div class="small-box bg-maroon">
+                        <div class="inner">
+                            <h4>
+                                Payment <br />
+                                History
+                            </h4>
+                        </div>
+                        <div class="icon">
+                            <i class="ion ion-chatboxes"></i>
+                        </div><br />
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        @if (ViewBag.PaymentRequest == true)
+        {
+            <div class="box-body">
+                <div class="alert alert-info alert-dismissible" style="background-color: #243b8e !important; border: #ff3e6c">
+                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                    <h4><i class="icon fa fa-info"></i> Payment Request!</h4>
+                    <p id="paymtnotification" style="font-size: 15px; font-weight: 600;  font-family: sans-serif">
+
+                    </p>
+                    @using (Html.BeginForm("PaymentWithPaypal", "UserDashboard", FormMethod.Get))
+                    {
+                        <button type="submit" class="buttonPaymt">Proceed To Pay</button>
+                    }
+                </div>
+            </div>
+        }
+    </section>
+</aside>
+<script src="~/Assets/FrontEndScript/js/jquery-2.2.4.min.js"></script>
+
+<script async type="text/javascript">
+
+    this.GetallDocument();
+   // setInterval(this.GetallMessage, 600000);
+    function GetallDocument() {
+        $.ajax({
+
+            url: "http://cp.mysamaritanz.com/adminapi/api/GetTreatmentDetailsByCusomer/@Session["CustomerId"].ToString()",
+           // url: "http://localhost:21632/api/GetTreatmentDetailsByCusomer/@Session["CustomerId"].ToString()",
+            type: "GET",
+            contentType: "application/json;charset=utf-8",
+            crossDomain: true,
+            dataType: "json",
+            success: function (result) {
+                var html = '';
+                reresult = JSON.parse(result);
+                $.each(reresult, function (key, item) {
+                    if (key == "Name") {
+                        html += '<span> TreatmentService :</span> ' + item + '<br/>';
+                    }
+                    if (key == "Price") {
+                        html += '<span> TreatmentAmount : </span> $' + item + ' <br/>';
+                    }
+                    if (key == "Tax") {
+                        html += '<span> Tax : </span>$' + item + '<br/>';
+                    }
+                    if (key == "Amount") {
+                        html += '<span> FinalAmount : </span>$' + item + '<br/>';
+                    }
+                });
+                $('#paymtnotification').html(html);
+            },
+
+            error: function (errormessage) {
+            }
+
+        });
+
+    }
+
+</script>

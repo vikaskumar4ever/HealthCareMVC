@@ -1,0 +1,9 @@
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Connection_Mvc\bin\Debug\netstandard2.0\SI.Meditourism.Connection_Mvc.deps.json
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Connection_Mvc\bin\Debug\netstandard2.0\SI.Meditourism.Connection_Mvc.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Connection_Mvc\bin\Debug\netstandard2.0\SI.Meditourism.Connection_Mvc.pdb
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Connection_Mvc\obj\Debug\netstandard2.0\SI.Meditourism.Connection_Mvc.csprojAssemblyReference.cache
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Connection_Mvc\obj\Debug\netstandard2.0\SI.Meditourism.Connection_Mvc.csproj.CoreCompileInputs.cache
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Connection_Mvc\obj\Debug\netstandard2.0\SI.Meditourism.Connection_Mvc.AssemblyInfoInputs.cache
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Connection_Mvc\obj\Debug\netstandard2.0\SI.Meditourism.Connection_Mvc.AssemblyInfo.cs
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Connection_Mvc\obj\Debug\netstandard2.0\SI.Meditourism.Connection_Mvc.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Connection_Mvc\obj\Debug\netstandard2.0\SI.Meditourism.Connection_Mvc.pdb

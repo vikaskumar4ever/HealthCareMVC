@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "SuccessView";
+    Layout = "~/Views/Shared/_UserDashboardLayoutPage.cshtml";
+}
+
+<aside class="right-side">
+    <section class="container">
+        <div class="left-half divcontainer">
+            <article>
+                @if (Session["PAYId"] != null)
+                {
+                    <h4>Payment Sucessfully Completed. Id : @Session["PAYId"].ToString()</h4>
+                }
+            </article>
+        </div>
+
+    </section>
+
+</aside>
+

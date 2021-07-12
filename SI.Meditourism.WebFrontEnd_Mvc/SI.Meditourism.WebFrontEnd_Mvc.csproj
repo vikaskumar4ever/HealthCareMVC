@@ -1,0 +1,1460 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.2.6.1\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.2.6.1\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{26955F19-27BB-4B8A-8079-87F0E75D5ED1}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SI.Meditourism.WebFrontEnd_Mvc</RootNamespace>
+    <AssemblyName>SI.Meditourism.WebFrontEnd_Mvc</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http, Version=4.1.1.3, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.Http.4.3.4\lib\net46\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.7\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Algorithms.4.3.0\lib\net461\System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Encoding.4.3.0\lib\net46\System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Primitives.4.3.0\lib\net46\System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.X509Certificates.4.3.0\lib\net461\System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Web.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.4\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.4\lib\net45\System.Web.Webpages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Deployment">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.4\lib\net45\System.Web.Webpages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.4\lib\net45\System.Web.Webpages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Helpers">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.4\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.4\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\AdminAssets\assets\bootstrap\css\bootstrap.css.map">
+      <DependentUpon>bootstrap.css</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\bootstrap\css\bootstrap.min.css.map">
+      <DependentUpon>bootstrap.min.css</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="App_Data\AdminAssets\assets\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="App_Data\AdminAssets\assets\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="App_Data\AdminAssets\assets\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\build-config.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\ckeditor.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\config.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\contents.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\icons.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\icons_hidpi.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\scayt\CHANGELOG.md" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\scayt\LICENSE.md" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\scayt\README.md" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\wsc\LICENSE.md" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\wsc\README.md" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\index.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\old\ajax.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\old\api.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\old\appendto.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\old\datafiltering.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\old\divreplace.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\old\htmlwriter\assets\outputforflash\outputforflash.fla" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\toolbarconfigurator\font\config.json" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\toolbarconfigurator\font\fontello.eot" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\toolbarconfigurator\font\fontello.ttf" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\toolbarconfigurator\font\fontello.woff" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\toolbarconfigurator\index.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\toolbarconfigurator\lib\codemirror\LICENSE" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\skins\moono\readme.md" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\CHANGES.md" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\LICENSE.md" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\README.md" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\dataTables.bootstrap.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\dataTables.bootstrap.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\dataTables.bootstrap.min.js">
+      <DependentUpon>dataTables.bootstrap.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\ColReorder\Readme.md" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\ColVis\Readme.md" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\FixedColumns\Readme.md" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Responsive\css\dataTables.responsive.css">
+      <DependentUpon>dataTables.responsive.scss</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Responsive\css\dataTables.responsive.scss" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Responsive\Readme.md" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\TableTools\images\collection.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\TableTools\images\collection_hover.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\TableTools\images\copy.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\TableTools\images\copy_hover.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\TableTools\images\csv.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\TableTools\images\csv_hover.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\TableTools\images\pdf.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\TableTools\images\pdf_hover.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\TableTools\images\print.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\TableTools\images\print_hover.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\TableTools\images\psd\collection.psd" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\TableTools\images\psd\copy document.psd" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\TableTools\images\psd\file_types.psd" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\TableTools\images\psd\printer.psd" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\TableTools\Readme.md" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\input-mask\jquery.inputmask.date.extensions.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\input-mask\jquery.inputmask.extensions.js">
+      <DependentUpon>jquery.inputmask.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\input-mask\jquery.inputmask.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\input-mask\jquery.inputmask.numeric.extensions.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\input-mask\jquery.inputmask.phone.extensions.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\input-mask\jquery.inputmask.regex.extensions.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\input-mask\phone-codes\phone-be.json" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\input-mask\phone-codes\phone-codes.json" />
+    <Content Include="App_Data\AdminAssets\assets\.gitkeep" />
+    <Content Include="App_Data\FrontEndScript\coming-soon\css\style.css" />
+    <Content Include="App_Data\FrontEndScript\coming-soon\js\coundown-timer.js" />
+    <Content Include="App_Data\FrontEndScript\coming-soon\js\scripts.js" />
+    <Content Include="App_Data\FrontEndScript\css\all-css.css" />
+    <Content Include="App_Data\FrontEndScript\css\banner.css" />
+    <Content Include="App_Data\FrontEndScript\css\bootstrap.min.css" />
+    <Content Include="App_Data\FrontEndScript\css\component.css" />
+    <Content Include="App_Data\AdminAssets\assets\bootstrap\css\bootstrap.css" />
+    <Content Include="App_Data\AdminAssets\assets\bootstrap\css\bootstrap.min.css">
+      <DependentUpon>bootstrap.css</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="App_Data\AdminAssets\assets\bootstrap\js\bootstrap.js" />
+    <Content Include="App_Data\AdminAssets\assets\bootstrap\js\bootstrap.min.js">
+      <DependentUpon>bootstrap.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\bootstrap\js\npm.js" />
+    <Content Include="App_Data\AdminAssets\assets\css\main.css" />
+    <Content Include="App_Data\AdminAssets\assets\css\material-datetimepicker.css" />
+    <Content Include="App_Data\AdminAssets\assets\css\site.css" />
+    <Content Include="App_Data\AdminAssets\assets\dist\css\AdminLTE.css" />
+    <Content Include="App_Data\AdminAssets\assets\dist\css\AdminLTE.min.css">
+      <DependentUpon>AdminLTE.css</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\dist\css\skins\skin-black-light.css" />
+    <Content Include="App_Data\AdminAssets\assets\dist\css\skins\skin-black-light.min.css">
+      <DependentUpon>skin-black-light.css</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\dist\css\skins\skin-black.css" />
+    <Content Include="App_Data\AdminAssets\assets\dist\css\skins\skin-black.min.css">
+      <DependentUpon>skin-black.css</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\dist\css\skins\skin-blue-light.css" />
+    <Content Include="App_Data\AdminAssets\assets\dist\css\skins\skin-blue-light.min.css">
+      <DependentUpon>skin-blue-light.css</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\dist\css\skins\skin-blue.css" />
+    <Content Include="App_Data\AdminAssets\assets\dist\css\skins\skin-blue.min.css">
+      <DependentUpon>skin-blue.css</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\dist\css\skins\skin-green-light.css" />
+    <Content Include="App_Data\AdminAssets\assets\dist\css\skins\skin-green-light.min.css">
+      <DependentUpon>skin-green-light.css</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\dist\css\skins\skin-green.css" />
+    <Content Include="App_Data\AdminAssets\assets\dist\css\skins\skin-green.min.css">
+      <DependentUpon>skin-green.css</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\dist\css\skins\skin-purple-light.css" />
+    <Content Include="App_Data\AdminAssets\assets\dist\css\skins\skin-purple-light.min.css">
+      <DependentUpon>skin-purple-light.css</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\dist\css\skins\skin-purple.css" />
+    <Content Include="App_Data\AdminAssets\assets\dist\css\skins\skin-purple.min.css">
+      <DependentUpon>skin-purple.css</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\dist\css\skins\skin-red-light.css" />
+    <Content Include="App_Data\AdminAssets\assets\dist\css\skins\skin-red-light.min.css">
+      <DependentUpon>skin-red-light.css</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\dist\css\skins\skin-red.css" />
+    <Content Include="App_Data\AdminAssets\assets\dist\css\skins\skin-red.min.css">
+      <DependentUpon>skin-red.css</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\dist\css\skins\skin-yellow-light.css" />
+    <Content Include="App_Data\AdminAssets\assets\dist\css\skins\skin-yellow-light.min.css">
+      <DependentUpon>skin-yellow-light.css</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\dist\css\skins\skin-yellow.css" />
+    <Content Include="App_Data\AdminAssets\assets\dist\css\skins\skin-yellow.min.css">
+      <DependentUpon>skin-yellow.css</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\dist\css\skins\_all-skins.css" />
+    <Content Include="App_Data\AdminAssets\assets\dist\css\skins\_all-skins.min.css">
+      <DependentUpon>_all-skins.css</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\dist\img\avatar.png" />
+    <Content Include="App_Data\AdminAssets\assets\dist\img\avatar04.png" />
+    <Content Include="App_Data\AdminAssets\assets\dist\img\avatar2.png" />
+    <Content Include="App_Data\AdminAssets\assets\dist\img\avatar3.png" />
+    <Content Include="App_Data\AdminAssets\assets\dist\img\avatar5.png" />
+    <Content Include="App_Data\AdminAssets\assets\dist\img\boxed-bg.jpg" />
+    <Content Include="App_Data\AdminAssets\assets\dist\img\boxed-bg.png" />
+    <Content Include="App_Data\AdminAssets\assets\dist\img\credit\american-express.png" />
+    <Content Include="App_Data\AdminAssets\assets\dist\img\credit\cirrus.png" />
+    <Content Include="App_Data\AdminAssets\assets\dist\img\credit\mastercard.png" />
+    <Content Include="App_Data\AdminAssets\assets\dist\img\credit\mestro.png" />
+    <Content Include="App_Data\AdminAssets\assets\dist\img\credit\paypal.png" />
+    <Content Include="App_Data\AdminAssets\assets\dist\img\credit\paypal2.png" />
+    <Content Include="App_Data\AdminAssets\assets\dist\img\credit\visa.png" />
+    <Content Include="App_Data\AdminAssets\assets\dist\img\default-50x50.gif" />
+    <Content Include="App_Data\AdminAssets\assets\dist\img\icons.png" />
+    <Content Include="App_Data\AdminAssets\assets\dist\img\photo1.png" />
+    <Content Include="App_Data\AdminAssets\assets\dist\img\photo2.png" />
+    <Content Include="App_Data\AdminAssets\assets\dist\img\photo3.jpg" />
+    <Content Include="App_Data\AdminAssets\assets\dist\img\photo4.jpg" />
+    <Content Include="App_Data\AdminAssets\assets\dist\img\user1-128x128.jpg" />
+    <Content Include="App_Data\AdminAssets\assets\dist\img\user2-160x160.jpg" />
+    <Content Include="App_Data\AdminAssets\assets\dist\img\user3-128x128.jpg" />
+    <Content Include="App_Data\AdminAssets\assets\dist\img\user4-128x128.jpg" />
+    <Content Include="App_Data\AdminAssets\assets\dist\img\user5-128x128.jpg" />
+    <Content Include="App_Data\AdminAssets\assets\dist\img\user6-128x128.jpg" />
+    <Content Include="App_Data\AdminAssets\assets\dist\img\user7-128x128.jpg" />
+    <Content Include="App_Data\AdminAssets\assets\dist\img\user8-128x128.jpg" />
+    <Content Include="App_Data\AdminAssets\assets\dist\img\user9-128x128.png" />
+    <Content Include="App_Data\AdminAssets\assets\dist\js\app.js" />
+    <Content Include="App_Data\AdminAssets\assets\dist\js\app.min.js">
+      <DependentUpon>app.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\dist\js\demo.js" />
+    <Content Include="App_Data\AdminAssets\assets\dist\js\effect.js" />
+    <Content Include="App_Data\AdminAssets\assets\dist\js\pages\dashboard.js" />
+    <Content Include="App_Data\AdminAssets\assets\dist\js\pages\dashboard2.js" />
+    <Content Include="App_Data\AdminAssets\assets\dist\js\si-lang.js" />
+    <Content Include="App_Data\AdminAssets\assets\js\site.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\bootstrap-slider\bootstrap-slider.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\bootstrap-slider\slider.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\bootstrap-wysihtml5\bootstrap3-wysihtml5.all.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\bootstrap-wysihtml5\bootstrap3-wysihtml5.all.min.js">
+      <DependentUpon>bootstrap3-wysihtml5.all.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\bootstrap-wysihtml5\bootstrap3-wysihtml5.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\bootstrap-wysihtml5\bootstrap3-wysihtml5.min.css">
+      <DependentUpon>bootstrap3-wysihtml5.css</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\chartjs\Chart.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\chartjs\Chart.min.js">
+      <DependentUpon>Chart.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\adapters\jquery.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\af.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\ar.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\bg.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\bn.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\bs.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\ca.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\cs.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\cy.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\da.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\de-ch.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\de.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\el.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\en-au.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\en-ca.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\en-gb.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\en.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\eo.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\es.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\et.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\eu.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\fa.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\fi.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\fo.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\fr-ca.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\fr.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\gl.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\gu.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\he.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\hi.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\hr.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\hu.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\id.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\is.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\it.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\ja.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\ka.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\km.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\ko.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\ku.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\lt.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\lv.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\mk.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\mn.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\ms.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\nb.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\nl.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\no.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\pl.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\pt-br.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\pt.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\ro.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\ru.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\si.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\sk.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\sl.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\sq.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\sr-latn.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\sr.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\sv.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\th.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\tr.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\tt.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\ug.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\uk.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\vi.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\zh-cn.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\lang\zh.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\a11yhelp.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\af.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\ar.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\bg.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\ca.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\cs.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\cy.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\da.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\de-ch.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\de.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\el.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\en-gb.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\en.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\eo.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\es.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\et.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\eu.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\fa.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\fi.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\fo.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\fr-ca.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\fr.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\gl.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\gu.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\he.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\hi.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\hr.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\hu.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\id.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\it.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\ja.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\km.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\ko.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\ku.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\lt.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\lv.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\mk.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\mn.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\nb.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\nl.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\no.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\pl.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\pt-br.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\pt.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\ro.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\ru.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\si.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\sk.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\sl.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\sq.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\sr-latn.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\sr.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\sv.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\th.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\tr.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\tt.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\ug.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\uk.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\vi.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\zh-cn.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\zh.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\_translationstatus.txt" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\about\dialogs\about.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\about\dialogs\hidpi\logo_ckeditor.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\about\dialogs\logo_ckeditor.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\clipboard\dialogs\paste.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\dialog\dialogDefinition.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\image\dialogs\image.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\image\images\noimage.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\link\dialogs\anchor.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\link\dialogs\link.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\link\images\anchor.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\link\images\hidpi\anchor.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\magicline\images\hidpi\icon-rtl.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\magicline\images\hidpi\icon.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\magicline\images\icon-rtl.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\magicline\images\icon.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\pastefromword\filter\default.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\scayt\dialogs\options.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\scayt\dialogs\toolbar.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\af.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\ar.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\bg.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\ca.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\cs.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\cy.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\da.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\de-ch.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\de.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\el.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\en-gb.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\en.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\eo.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\es.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\et.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\eu.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\fa.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\fi.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\fr-ca.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\fr.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\gl.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\he.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\hr.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\hu.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\id.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\it.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\ja.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\km.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\ko.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\ku.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\lt.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\lv.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\nb.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\nl.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\no.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\pl.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\pt-br.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\pt.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\ru.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\si.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\sk.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\sl.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\sq.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\sv.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\th.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\tr.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\tt.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\ug.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\uk.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\vi.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\zh-cn.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\zh.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\lang\_translationstatus.txt" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\specialchar\dialogs\specialchar.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\tabletools\dialogs\tableCell.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\table\dialogs\table.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\wsc\dialogs\ciframe.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\wsc\dialogs\tmpFrameset.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\wsc\dialogs\wsc.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\wsc\dialogs\wsc.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\plugins\wsc\dialogs\wsc_ie.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\css\samples.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\img\github-top.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\img\header-bg.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\img\header-separator.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\img\logo.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\img\navigation-tip.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\js\sample.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\js\sf.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\old\assets\inlineall\logo.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\old\assets\outputxhtml\outputxhtml.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\old\assets\posteddata.php" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\old\assets\sample.jpg" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\old\assets\uilanguages\languages.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\old\dialog\assets\my_dialog.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\old\dialog\dialog.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\old\enterkey\enterkey.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\old\htmlwriter\assets\outputforflash\outputforflash.swf" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\old\htmlwriter\assets\outputforflash\swfobject.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\old\htmlwriter\outputforflash.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\old\htmlwriter\outputhtml.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\old\index.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\old\inlineall.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\old\inlinebycode.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\old\inlinetextarea.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\old\jquery.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\old\magicline\magicline.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\old\readonly.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\old\replacebyclass.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\old\replacebycode.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\old\sample.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\old\sample.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\old\sample_posteddata.php" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\old\tabindex.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\old\toolbar\toolbar.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\old\uicolor.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\old\uilanguages.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\old\wysiwygarea\fullpage.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\old\xhtmlstyle.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\toolbarconfigurator\css\fontello.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\toolbarconfigurator\font\fontello.svg" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\toolbarconfigurator\font\LICENSE.txt" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\toolbarconfigurator\js\abstracttoolbarmodifier.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\toolbarconfigurator\js\fulltoolbareditor.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\toolbarconfigurator\js\toolbarmodifier.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\toolbarconfigurator\js\toolbartextmodifier.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\toolbarconfigurator\lib\codemirror\codemirror.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\toolbarconfigurator\lib\codemirror\codemirror.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\toolbarconfigurator\lib\codemirror\javascript.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\toolbarconfigurator\lib\codemirror\neo.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\toolbarconfigurator\lib\codemirror\show-hint.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\samples\toolbarconfigurator\lib\codemirror\show-hint.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\skins\moono\dialog.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\skins\moono\dialog_ie.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\skins\moono\dialog_ie7.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\skins\moono\dialog_ie8.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\skins\moono\dialog_iequirks.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\skins\moono\editor.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\skins\moono\editor_gecko.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\skins\moono\editor_ie.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\skins\moono\editor_ie7.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\skins\moono\editor_ie8.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\skins\moono\editor_iequirks.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\skins\moono\icons.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\skins\moono\icons_hidpi.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\skins\moono\images\arrow.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\skins\moono\images\close.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\skins\moono\images\hidpi\close.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\skins\moono\images\hidpi\lock-open.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\skins\moono\images\hidpi\lock.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\skins\moono\images\hidpi\refresh.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\skins\moono\images\lock-open.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\skins\moono\images\lock.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\skins\moono\images\refresh.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\skins\moono\images\spinner.gif" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ckeditor\styles.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\colorpicker\bootstrap-colorpicker.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\colorpicker\bootstrap-colorpicker.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\colorpicker\bootstrap-colorpicker.min.css">
+      <DependentUpon>bootstrap-colorpicker.css</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\colorpicker\bootstrap-colorpicker.min.js">
+      <DependentUpon>bootstrap-colorpicker.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\colorpicker\img\alpha-horizontal.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\colorpicker\img\alpha.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\colorpicker\img\hue-horizontal.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\colorpicker\img\hue.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\colorpicker\img\saturation.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\AutoFill\css\dataTables.autoFill.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\AutoFill\css\dataTables.autoFill.min.css">
+      <DependentUpon>dataTables.autoFill.css</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\AutoFill\examples\columns.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\AutoFill\examples\complete-callback.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\AutoFill\examples\fill-both.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\AutoFill\examples\fill-horizontal.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\AutoFill\examples\index.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\AutoFill\examples\scrolling.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\AutoFill\examples\simple.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\AutoFill\examples\step-callback.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\AutoFill\images\filler.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\AutoFill\js\dataTables.autoFill.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\AutoFill\js\dataTables.autoFill.min.js">
+      <DependentUpon>dataTables.autoFill.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\AutoFill\Readme.txt" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\ColReorder\css\dataTables.colReorder.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\ColReorder\css\dataTables.colReorder.min.css">
+      <DependentUpon>dataTables.colReorder.css</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\ColReorder\examples\alt_insert.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\ColReorder\examples\colvis.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\ColReorder\examples\col_filter.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\ColReorder\examples\fixedcolumns.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\ColReorder\examples\fixedheader.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\ColReorder\examples\index.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\ColReorder\examples\jqueryui.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\ColReorder\examples\new_init.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\ColReorder\examples\predefined.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\ColReorder\examples\realtime.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\ColReorder\examples\reset.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\ColReorder\examples\scrolling.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\ColReorder\examples\server_side.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\ColReorder\examples\simple.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\ColReorder\examples\state_save.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\ColReorder\images\insert.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\ColReorder\js\dataTables.colReorder.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\ColReorder\js\dataTables.colReorder.min.js">
+      <DependentUpon>dataTables.colReorder.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\ColReorder\License.txt" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\ColVis\css\dataTables.colVis.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\ColVis\css\dataTables.colvis.jqueryui.css">
+      <DependentUpon>dataTables.colVis.css</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\ColVis\css\dataTables.colVis.min.css">
+      <DependentUpon>dataTables.colVis.css</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\ColVis\examples\button_order.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\ColVis\examples\exclude_columns.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\ColVis\examples\group_columns.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\ColVis\examples\index.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\ColVis\examples\jqueryui.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\ColVis\examples\mouseover.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\ColVis\examples\new_init.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\ColVis\examples\restore.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\ColVis\examples\simple.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\ColVis\examples\text.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\ColVis\examples\title_callback.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\ColVis\examples\two_tables.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\ColVis\examples\two_tables_identical.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\ColVis\js\dataTables.colVis.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\ColVis\js\dataTables.colVis.min.js">
+      <DependentUpon>dataTables.colVis.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\ColVis\License.txt" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\FixedColumns\css\dataTables.fixedColumns.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\FixedColumns\css\dataTables.fixedColumns.min.css">
+      <DependentUpon>dataTables.fixedColumns.css</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\FixedColumns\examples\bootstrap.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\FixedColumns\examples\colvis.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\FixedColumns\examples\col_filter.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\FixedColumns\examples\css_size.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\FixedColumns\examples\index.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\FixedColumns\examples\index_column.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\FixedColumns\examples\left_right_columns.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\FixedColumns\examples\right_column.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\FixedColumns\examples\rowspan.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\FixedColumns\examples\server-side-processing.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\FixedColumns\examples\simple.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\FixedColumns\examples\size_fixed.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\FixedColumns\examples\size_fluid.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\FixedColumns\examples\two_columns.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\FixedColumns\js\dataTables.fixedColumns.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\FixedColumns\js\dataTables.fixedColumns.min.js">
+      <DependentUpon>dataTables.fixedColumns.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\FixedColumns\License.txt" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\FixedHeader\css\dataTables.fixedHeader.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\FixedHeader\css\dataTables.fixedHeader.min.css">
+      <DependentUpon>dataTables.fixedHeader.css</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\FixedHeader\examples\header_footer.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\FixedHeader\examples\index.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\FixedHeader\examples\simple.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\FixedHeader\examples\top_left_right.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\FixedHeader\examples\two_tables.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\FixedHeader\examples\zIndexes.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\FixedHeader\js\dataTables.fixedHeader.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\FixedHeader\js\dataTables.fixedHeader.min.js">
+      <DependentUpon>dataTables.fixedHeader.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\FixedHeader\Readme.txt" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\KeyTable\css\dataTables.keyTable.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\KeyTable\css\dataTables.keyTable.min.css">
+      <DependentUpon>dataTables.keyTable.css</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\KeyTable\examples\events.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\KeyTable\examples\html.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\KeyTable\examples\index.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\KeyTable\examples\scrolling.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\KeyTable\examples\simple.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\KeyTable\js\dataTables.keyTable.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\KeyTable\js\dataTables.keyTable.min.js">
+      <DependentUpon>dataTables.keyTable.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\KeyTable\Readme.txt" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Responsive\examples\child-rows\column-control.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Responsive\examples\child-rows\custom-renderer.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Responsive\examples\child-rows\disable-child-rows.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Responsive\examples\child-rows\index.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Responsive\examples\child-rows\right-column.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Responsive\examples\child-rows\whole-row-control.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Responsive\examples\display-control\auto.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Responsive\examples\display-control\classes.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Responsive\examples\display-control\complexHeader.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Responsive\examples\display-control\fixedHeader.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Responsive\examples\display-control\index.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Responsive\examples\display-control\init-classes.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Responsive\examples\index.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Responsive\examples\initialisation\ajax.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Responsive\examples\initialisation\className.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Responsive\examples\initialisation\default.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Responsive\examples\initialisation\index.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Responsive\examples\initialisation\new.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Responsive\examples\initialisation\option.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Responsive\examples\styling\bootstrap.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Responsive\examples\styling\compact.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Responsive\examples\styling\foundation.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Responsive\examples\styling\index.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Responsive\examples\styling\scrolling.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Responsive\js\dataTables.responsive.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Responsive\js\dataTables.responsive.min.js">
+      <DependentUpon>dataTables.responsive.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Responsive\License.txt" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Scroller\css\dataTables.scroller.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Scroller\css\dataTables.scroller.min.css">
+      <DependentUpon>dataTables.scroller.css</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Scroller\examples\api_scrolling.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Scroller\examples\data\2500.txt" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Scroller\examples\data\ssp.php" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Scroller\examples\index.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Scroller\examples\large_js_source.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Scroller\examples\server-side_processing.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Scroller\examples\simple.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Scroller\examples\state_saving.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Scroller\images\loading-background.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Scroller\js\dataTables.scroller.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Scroller\js\dataTables.scroller.min.js">
+      <DependentUpon>dataTables.scroller.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\Scroller\Readme.txt" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\TableTools\css\dataTables.tableTools.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\TableTools\css\dataTables.tableTools.min.css">
+      <DependentUpon>dataTables.tableTools.css</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\TableTools\examples\ajax.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\TableTools\examples\alter_buttons.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\TableTools\examples\bootstrap.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\TableTools\examples\button_text.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\TableTools\examples\collection.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\TableTools\examples\defaults.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\TableTools\examples\index.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\TableTools\examples\jqueryui.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\TableTools\examples\multiple_tables.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\TableTools\examples\multi_instance.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\TableTools\examples\new_init.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\TableTools\examples\pdf_message.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\TableTools\examples\plug-in.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\TableTools\examples\select_column.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\TableTools\examples\select_multi.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\TableTools\examples\select_os.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\TableTools\examples\select_single.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\TableTools\examples\simple.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\TableTools\examples\swf_path.html" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\TableTools\images\xls.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\TableTools\images\xls_hover.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\TableTools\js\dataTables.tableTools.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\TableTools\js\dataTables.tableTools.min.js">
+      <DependentUpon>dataTables.tableTools.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\TableTools\swf\copy_csv_xls.swf" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\extensions\TableTools\swf\copy_csv_xls_pdf.swf" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\images\sort_asc.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\images\sort_asc_disabled.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\images\sort_both.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\images\sort_desc.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\images\sort_desc_disabled.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\jquery.dataTables.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\jquery.dataTables.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\jquery.dataTables.min.css">
+      <DependentUpon>jquery.dataTables.css</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\jquery.dataTables.min.js">
+      <DependentUpon>jquery.dataTables.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\datatables\jquery.dataTables_themeroller.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\bootstrap-datepicker.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\datepicker3.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.ar.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.az.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.bg.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.ca.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.cs.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.cy.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.da.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.de.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.el.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.es.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.et.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.fa.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.fi.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.fr.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.gl.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.he.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.hr.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.hu.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.id.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.is.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.it.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.ja.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.ka.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.kk.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.kr.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.lt.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.lv.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.mk.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.ms.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.nb.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.nl-BE.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.nl.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.no.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.pl.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.pt-BR.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.pt.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.ro.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.rs-latin.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.rs.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.ru.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.sk.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.sl.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.sq.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.sv.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.sw.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.th.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.tr.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.ua.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.vi.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.zh-CN.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\datepicker\locales\bootstrap-datepicker.zh-TW.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\daterangepicker\daterangepicker.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\daterangepicker\daterangepicker.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\daterangepicker\moment.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\daterangepicker\moment.min.js">
+      <DependentUpon>moment.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\fastclick\fastclick.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\fastclick\fastclick.min.js">
+      <DependentUpon>fastclick.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\flot\excanvas.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\flot\excanvas.min.js">
+      <DependentUpon>excanvas.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\flot\jquery.colorhelpers.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\flot\jquery.colorhelpers.min.js">
+      <DependentUpon>jquery.colorhelpers.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\flot\jquery.flot.canvas.js">
+      <DependentUpon>jquery.flot.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\flot\jquery.flot.canvas.min.js">
+      <DependentUpon>jquery.flot.canvas.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\flot\jquery.flot.categories.js">
+      <DependentUpon>jquery.flot.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\flot\jquery.flot.categories.min.js">
+      <DependentUpon>jquery.flot.categories.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\flot\jquery.flot.crosshair.js">
+      <DependentUpon>jquery.flot.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\flot\jquery.flot.crosshair.min.js">
+      <DependentUpon>jquery.flot.crosshair.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\flot\jquery.flot.errorbars.js">
+      <DependentUpon>jquery.flot.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\flot\jquery.flot.errorbars.min.js">
+      <DependentUpon>jquery.flot.errorbars.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\flot\jquery.flot.fillbetween.js">
+      <DependentUpon>jquery.flot.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\flot\jquery.flot.fillbetween.min.js">
+      <DependentUpon>jquery.flot.fillbetween.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\flot\jquery.flot.image.js">
+      <DependentUpon>jquery.flot.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\flot\jquery.flot.image.min.js">
+      <DependentUpon>jquery.flot.image.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\flot\jquery.flot.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\flot\jquery.flot.min.js">
+      <DependentUpon>jquery.flot.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\flot\jquery.flot.navigate.js">
+      <DependentUpon>jquery.flot.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\flot\jquery.flot.navigate.min.js">
+      <DependentUpon>jquery.flot.navigate.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\flot\jquery.flot.pie.js">
+      <DependentUpon>jquery.flot.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\flot\jquery.flot.pie.min.js">
+      <DependentUpon>jquery.flot.pie.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\flot\jquery.flot.resize.js">
+      <DependentUpon>jquery.flot.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\flot\jquery.flot.resize.min.js">
+      <DependentUpon>jquery.flot.resize.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\flot\jquery.flot.selection.js">
+      <DependentUpon>jquery.flot.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\flot\jquery.flot.selection.min.js">
+      <DependentUpon>jquery.flot.selection.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\flot\jquery.flot.stack.js">
+      <DependentUpon>jquery.flot.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\flot\jquery.flot.stack.min.js">
+      <DependentUpon>jquery.flot.stack.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\flot\jquery.flot.symbol.js">
+      <DependentUpon>jquery.flot.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\flot\jquery.flot.symbol.min.js">
+      <DependentUpon>jquery.flot.symbol.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\flot\jquery.flot.threshold.js">
+      <DependentUpon>jquery.flot.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\flot\jquery.flot.threshold.min.js">
+      <DependentUpon>jquery.flot.threshold.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\flot\jquery.flot.time.js">
+      <DependentUpon>jquery.flot.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\flot\jquery.flot.time.min.js">
+      <DependentUpon>jquery.flot.time.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\fullcalendar\fullcalendar.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\fullcalendar\fullcalendar.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\fullcalendar\fullcalendar.min.css">
+      <DependentUpon>fullcalendar.css</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\fullcalendar\fullcalendar.min.js">
+      <DependentUpon>fullcalendar.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\fullcalendar\fullcalendar.print.css">
+      <DependentUpon>fullcalendar.css</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\all.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\flat\aero%402x.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\flat\aero.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\flat\aero.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\flat\blue%402x.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\flat\blue.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\flat\blue.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\flat\flat%402x.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\flat\flat.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\flat\flat.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\flat\green%402x.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\flat\green.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\flat\green.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\flat\grey%402x.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\flat\grey.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\flat\grey.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\flat\orange%402x.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\flat\orange.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\flat\orange.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\flat\pink%402x.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\flat\pink.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\flat\pink.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\flat\purple%402x.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\flat\purple.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\flat\purple.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\flat\red%402x.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\flat\red.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\flat\red.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\flat\yellow%402x.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\flat\yellow.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\flat\yellow.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\flat\_all.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\futurico\futurico%402x.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\futurico\futurico.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\futurico\futurico.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\icheck.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\icheck.min.js">
+      <DependentUpon>icheck.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\line\aero.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\line\blue.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\line\green.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\line\grey.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\line\line%402x.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\line\line.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\line\line.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\line\orange.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\line\pink.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\line\purple.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\line\red.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\line\yellow.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\line\_all.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\minimal\aero%402x.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\minimal\aero.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\minimal\aero.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\minimal\blue%402x.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\minimal\blue.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\minimal\blue.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\minimal\green%402x.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\minimal\green.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\minimal\green.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\minimal\grey%402x.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\minimal\grey.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\minimal\grey.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\minimal\minimal%402x.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\minimal\minimal.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\minimal\minimal.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\minimal\orange%402x.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\minimal\orange.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\minimal\orange.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\minimal\pink%402x.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\minimal\pink.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\minimal\pink.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\minimal\purple%402x.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\minimal\purple.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\minimal\purple.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\minimal\red%402x.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\minimal\red.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\minimal\red.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\minimal\yellow%402x.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\minimal\yellow.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\minimal\yellow.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\minimal\_all.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\polaris\polaris%402x.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\polaris\polaris.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\polaris\polaris.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\square\aero%402x.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\square\aero.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\square\aero.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\square\blue%402x.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\square\blue.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\square\blue.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\square\green%402x.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\square\green.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\square\green.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\square\grey%402x.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\square\grey.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\square\grey.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\square\orange%402x.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\square\orange.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\square\orange.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\square\pink%402x.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\square\pink.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\square\pink.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\square\purple%402x.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\square\purple.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\square\purple.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\square\red%402x.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\square\red.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\square\red.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\square\square%402x.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\square\square.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\square\square.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\square\yellow%402x.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\square\yellow.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\square\yellow.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\iCheck\square\_all.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\input-mask\phone-codes\readme.txt" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ionslider\img\sprite-skin-flat.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ionslider\img\sprite-skin-nice.png" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ionslider\ion.rangeSlider.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ionslider\ion.rangeSlider.min.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\ionslider\ion.rangeSlider.skinFlat.css">
+      <DependentUpon>ion.rangeSlider.css</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\ionslider\ion.rangeSlider.skinNice.css">
+      <DependentUpon>ion.rangeSlider.css</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\jQueryUI\jquery-ui.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\jQueryUI\jquery-ui.min.js">
+      <DependentUpon>jquery-ui.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\jQuery\jquery-2.2.3.min.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\jvectormap\jquery-jvectormap-1.2.2.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\jvectormap\jquery-jvectormap-1.2.2.min.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\jvectormap\jquery-jvectormap-usa-en.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\jvectormap\jquery-jvectormap-world-mill-en.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\knob\jquery.knob.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\morris\morris.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\morris\morris.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\morris\morris.min.js">
+      <DependentUpon>morris.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\pace\pace.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\pace\pace.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\pace\pace.min.css">
+      <DependentUpon>pace.css</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\pace\pace.min.js">
+      <DependentUpon>pace.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\ar.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\az.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\bg.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\ca.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\cs.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\da.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\de.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\el.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\en.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\es.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\et.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\eu.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\fa.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\fi.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\fr.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\gl.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\he.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\hi.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\hr.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\hu.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\id.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\is.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\it.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\ja.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\km.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\ko.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\lt.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\lv.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\mk.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\ms.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\nb.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\nl.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\pl.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\pt-BR.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\pt.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\ro.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\ru.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\sk.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\sr-Cyrl.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\sr.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\sv.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\th.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\tr.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\uk.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\vi.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\zh-CN.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\i18n\zh-TW.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\select2.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\select2.full.js">
+      <DependentUpon>select2.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\select2.full.min.js">
+      <DependentUpon>select2.full.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\select2.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\select2.min.css">
+      <DependentUpon>select2.css</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\select2\select2.min.js">
+      <DependentUpon>select2.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\slimScroll\jquery.slimscroll.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\slimScroll\jquery.slimscroll.min.js">
+      <DependentUpon>jquery.slimscroll.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\sparkline\jquery.sparkline.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\sparkline\jquery.sparkline.min.js">
+      <DependentUpon>jquery.sparkline.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\timepicker\bootstrap-timepicker.css" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\timepicker\bootstrap-timepicker.js" />
+    <Content Include="App_Data\AdminAssets\assets\plugins\timepicker\bootstrap-timepicker.min.css">
+      <DependentUpon>bootstrap-timepicker.css</DependentUpon>
+    </Content>
+    <Content Include="App_Data\AdminAssets\assets\plugins\timepicker\bootstrap-timepicker.min.js">
+      <DependentUpon>bootstrap-timepicker.js</DependentUpon>
+    </Content>
+    <Content Include="App_Data\ChatStyle\font\font-awesome.css" />
+    <Content Include="App_Data\ChatStyle\style.css" />
+    <Content Include="App_Data\FAQStyle\faq.css" />
+    <Content Include="App_Data\FAQStyle\faqmain.js" />
+    <Content Include="App_Data\FAQStyle\jquery.mobile.custom.min.js" />
+    <Content Include="App_Data\FAQStyle\main.js" />
+    <Content Include="App_Data\FAQStyle\modernizr.js" />
+    <Content Include="App_Data\FAQStyle\reset.css" />
+    <Content Include="App_Data\FrontEndScript\css\custom.css" />
+    <Content Include="App_Data\FrontEndScript\css\full-slider.css" />
+    <Content Include="App_Data\FrontEndScript\css\hover.css" />
+    <Content Include="App_Data\FrontEndScript\css\imagehover.css" />
+    <Content Include="App_Data\FrontEndScript\css\layout.css" />
+    <Content Include="App_Data\FrontEndScript\css\layout-2.css" />
+    <Content Include="App_Data\FrontEndScript\css\popup.css" />
+    <Content Include="App_Data\FrontEndScript\css\responsive.css" />
+    <Content Include="App_Data\FrontEndScript\css\set1.css" />
+    <Content Include="App_Data\FrontEndScript\css\set2.css" />
+    <Content Include="App_Data\FrontEndScript\css\set3.css" />
+    <Content Include="App_Data\FrontEndScript\css\set4.css" />
+    <Content Include="App_Data\FrontEndScript\css\style.css" />
+    <Content Include="App_Data\FrontEndScript\css\style_common.css" />
+    <Content Include="App_Data\FrontEndScript\css\style1.css" />
+    <Content Include="App_Data\FrontEndScript\css\style3.css" />
+    <Content Include="App_Data\FrontEndScript\font-awesome\css\font-awesome.min.css" />
+    <Content Include="App_Data\FrontEndScript\font-awesome\fonts\fontawesome-webfont78ce.svg" />
+    <Content Include="App_Data\FrontEndScript\fonts\feathericons\feathericons3869.html" />
+    <Content Include="App_Data\FrontEndScript\fonts\feathericons\feathericons3869-2.html" />
+    <Content Include="App_Data\FrontEndScript\fonts\feathericons\feathericons3869-3.html" />
+    <Content Include="App_Data\FrontEndScript\fonts\feathericons\feathericons3869-4.html" />
+    <Content Include="App_Data\FrontEndScript\fonts\feathericons\feathericonsd41d.html" />
+    <Content Include="App_Data\FrontEndScript\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="App_Data\FrontEndScript\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="App_Data\FrontEndScript\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="App_Data\FrontEndScript\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="App_Data\FrontEndScript\fonts\glyphicons-halflings-regulard41d.eot" />
+    <Content Include="App_Data\FrontEndScript\fonts\revicons\revicons90c6.svg" />
+    <Content Include="App_Data\FrontEndScript\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="App_Data\FrontEndScript\images\home\1.html" />
+    <Content Include="App_Data\FrontEndScript\images\home\10.html" />
+    <Content Include="App_Data\FrontEndScript\images\home\16.html" />
+    <Content Include="App_Data\FrontEndScript\images\home\20.html" />
+    <Content Include="App_Data\FrontEndScript\images\home\footer2.html" />
+    <Content Include="App_Data\FrontEndScript\images\inner-page\2.html" />
+    <Content Include="App_Data\FrontEndScript\images\news\triangle.html" />
+    <Content Include="App_Data\FrontEndScript\images\1.html" />
+    <Content Include="App_Data\FrontEndScript\images\1.jpg" />
+    <Content Include="App_Data\FrontEndScript\images\10.jpg" />
+    <Content Include="App_Data\FrontEndScript\images\11.jpg" />
+    <Content Include="App_Data\FrontEndScript\images\12.jpg" />
+    <Content Include="App_Data\FrontEndScript\images\13.jpg" />
+    <Content Include="App_Data\FrontEndScript\images\14.jpg" />
+    <Content Include="App_Data\FrontEndScript\images\2.jpg" />
+    <Content Include="App_Data\FrontEndScript\images\3.jpg" />
+    <Content Include="App_Data\FrontEndScript\images\4.jpg" />
+    <Content Include="App_Data\FrontEndScript\images\5.jpg" />
+    <Content Include="App_Data\FrontEndScript\images\6.jpg" />
+    <Content Include="App_Data\FrontEndScript\images\7.jpg" />
+    <Content Include="App_Data\FrontEndScript\images\8.jpg" />
+    <Content Include="App_Data\FrontEndScript\images\9.jpg" />
+    <Content Include="App_Data\FrontEndScript\img\arrow-bt.html" />
+    <Content Include="App_Data\FrontEndScript\img\banner1.jpg" />
+    <Content Include="App_Data\FrontEndScript\img\banner1_1.jpg" />
+    <Content Include="App_Data\FrontEndScript\img\banner1_2.jpg" />
+    <Content Include="App_Data\FrontEndScript\img\banner2.jpg" />
+    <Content Include="App_Data\FrontEndScript\img\banner2_1.jpg" />
+    <Content Include="App_Data\FrontEndScript\img\banner3.jpg" />
+    <Content Include="App_Data\FrontEndScript\img\banner3_1.jpg" />
+    <Content Include="App_Data\FrontEndScript\img\banner3_2.jpg" />
+    <Content Include="App_Data\FrontEndScript\img\banner4.jpg" />
+    <Content Include="App_Data\FrontEndScript\img\bg.jpg" />
+    <Content Include="App_Data\FrontEndScript\img\bg-1.jpg" />
+    <Content Include="App_Data\FrontEndScript\img\bg-3.jpg" />
+    <Content Include="App_Data\FrontEndScript\img\circles.svg" />
+    <Content Include="App_Data\FrontEndScript\img\header-bg2.html" />
+    <Content Include="App_Data\FrontEndScript\img\header-bg3.html" />
+    <Content Include="App_Data\FrontEndScript\img\icon.png" />
+    <Content Include="App_Data\FrontEndScript\img\logo.png" />
+    <Content Include="App_Data\FrontEndScript\img\process - Copy.jpg" />
+    <Content Include="App_Data\FrontEndScript\img\process.jpg" />
+    <Content Include="App_Data\FrontEndScript\img\process.png" />
+    <Content Include="App_Data\FrontEndScript\img\rel-pj-1.jpg" />
+    <Content Include="App_Data\FrontEndScript\img\rel-pj-2.jpg" />
+    <Content Include="App_Data\FrontEndScript\img\subheader-1.jpg" />
+    <Content Include="App_Data\FrontEndScript\img\subheader-6.jpg" />
+    <Content Include="App_Data\FrontEndScript\img\subheader-7.jpg" />
+    <Content Include="App_Data\FrontEndScript\img\triangle.html" />
+    <Content Include="App_Data\FrontEndScript\img\triangle2.html" />
+    <Content Include="App_Data\FrontEndScript\js\all.js" />
+    <Content Include="App_Data\FrontEndScript\js\all3.js" />
+    <Content Include="App_Data\FrontEndScript\js\AnimOnScroll.js" />
+    <Content Include="App_Data\FrontEndScript\js\bootstrap.min.js" />
+    <Content Include="App_Data\FrontEndScript\js\cbpAnimatedHeader.js" />
+    <Content Include="App_Data\FrontEndScript\js\classie.js" />
+    <Content Include="App_Data\FrontEndScript\js\imagesloaded.js" />
+    <Content Include="App_Data\FrontEndScript\js\jquery.easing.min.js" />
+    <Content Include="App_Data\FrontEndScript\js\jquery.js" />
+    <Content Include="App_Data\FrontEndScript\js\jquery.mixitup.min.js" />
+    <Content Include="App_Data\FrontEndScript\js\jquery-2.2.4.min.js" />
+    <Content Include="App_Data\FrontEndScript\js\masonry.pkgd.min.js" />
+    <Content Include="App_Data\FrontEndScript\js\modernizr.custom.js" />
+    <Content Include="App_Data\FrontEndScript\js\scroll.js" />
+    <Content Include="App_Data\FrontEndScript\js\scrolltopcontrol.js" />
+    <Content Include="App_Data\FrontEndScript\js\theme.js" />
+    <Content Include="App_Data\FrontEndScript\js\up.png" />
+    <Content Include="App_Data\FrontEndScript\js\wow.min.js" />
+    <Content Include="App_Data\FrontEndScript\vendor\assets\coloredbg.html" />
+    <Content Include="App_Data\FrontEndScript\vendor\assets\gridtile.html" />
+    <Content Include="App_Data\FrontEndScript\vendor\assets\gridtile_3x3.html" />
+    <Content Include="App_Data\FrontEndScript\vendor\assets\gridtile_3x3_white.html" />
+    <Content Include="App_Data\FrontEndScript\vendor\assets\gridtile_white.html" />
+    <Content Include="App_Data\FrontEndScript\vendor\assets\loader.html" />
+    <Content Include="App_Data\FrontEndScript\vendor\revolution\closedhand.html" />
+    <Content Include="App_Data\FrontEndScript\vendor\revolution\jquery_revolution.min.js" />
+    <Content Include="App_Data\FrontEndScript\vendor\revolution\jquery_tools.min.js" />
+    <Content Include="App_Data\FrontEndScript\vendor\revolution\navigation.css" />
+    <Content Include="App_Data\FrontEndScript\vendor\revolution\openhand.html" />
+    <Content Include="App_Data\FrontEndScript\vendor\revolution\revolution.extension.actions.min.js" />
+    <Content Include="App_Data\FrontEndScript\vendor\revolution\revolution.extension.kenburn.min.js" />
+    <Content Include="App_Data\FrontEndScript\vendor\revolution\revolution.extension.layeranimation.min.js" />
+    <Content Include="App_Data\FrontEndScript\vendor\revolution\revolution.extension.navigation.min.js" />
+    <Content Include="App_Data\FrontEndScript\vendor\revolution\revolution.extension.slideanims.min.js" />
+    <Content Include="App_Data\FrontEndScript\vendor\revolution\settings.css" />
+    <Content Include="App_Data\FrontEndScript\vendor\hover.css" />
+    <Content Include="App_Data\images\downloadldoc.png" />
+    <Content Include="App_Data\images\user9-128x128.png" />
+    <Content Include="App_Data\ReportFile\11dbead0-eecb-4205-b34e-55560e6806bcca-logo-94FF27E1C3-seeklogo.com.png" />
+    <Content Include="Global.asax" />
+    <Content Include="Web.config" />
+    <Content Include="App_Data\FrontEndScript\font-awesome\fonts\fontawesome-webfont78ce.eot" />
+    <Content Include="App_Data\FrontEndScript\font-awesome\fonts\fontawesome-webfont78ce.ttf" />
+    <Content Include="App_Data\FrontEndScript\font-awesome\fonts\fontawesome-webfont78ce.woff" />
+    <Content Include="App_Data\FrontEndScript\font-awesome\fonts\fontawesome-webfontd41d.eot" />
+    <Content Include="App_Data\FrontEndScript\fonts\revicons\revicons90c6.eot" />
+    <Content Include="App_Data\FrontEndScript\fonts\revicons\revicons90c6.ttf" />
+    <Content Include="App_Data\FrontEndScript\fonts\revicons\revicons90c6.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\ContactUsController.cs" />
+    <Compile Include="Controllers\FAQController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\MessagingPanelController.cs" />
+    <Compile Include="Controllers\RegistrationController.cs" />
+    <Compile Include="Controllers\UserDashboardController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Common\DateTimeFormatToIST.cs" />
+    <Compile Include="Models\Common\DefaultResult.cs" />
+    <Compile Include="Models\Services\GetServicedetail.cs" />
+    <Compile Include="Models\Services\Service.cs" />
+    <Compile Include="Models\Services\Serviceslist.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\web.config" />
+    <Content Include="App_Data\ReportFile\11b8c032-1203-42bc-93f3-675578f767bdOrderdetails80225316087_Order_Delivered.pdf" />
+    <Content Include="App_Data\ReportFile\60658d77-8ffa-462b-bb6a-aec805fa91f9Orderdetails85975616062_delivered.pdf" />
+    <Content Include="App_Data\ReportFile\8f7d6baa-650c-4a76-a314-84e66fadb1a2Orderdetails35980616062 delivered.pdf" />
+    <Content Include="App_Data\ReportFile\e102ee7e-25b7-477e-9ef6-3ff8a8d48cc5Orderdetails80225316087_Order_Delivered.pdf" />
+    <None Include="packages.config" />
+    <Content Include="Views\MessagingPanel\Messaging.cshtml" />
+    <Content Include="Views\MessagingPanel\View.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\FAQ.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Process.cshtml" />
+    <Content Include="Views\Home\Services.cshtml" />
+    <Content Include="Views\Shared\_FrontEndLayout.cshtml" />
+    <Content Include="Views\Shared\_UserDashboardLayoutPage.cshtml" />
+    <Content Include="Views\UserDashboard\ChangePassword.cshtml" />
+    <Content Include="Views\UserDashboard\Index.cshtml" />
+    <Content Include="Views\UserDashboard\MessagingPanel.cshtml" />
+    <Content Include="Views\ContactUs\ContactUs.cshtml" />
+    <Content Include="Views\FAQ\Index.cshtml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\SI.Meditourism.BaseUrl\SI.Meditourism.BaseUrl.csproj">
+      <Project>{8f6efc78-fcc5-4680-b805-15d581ba4702}</Project>
+      <Name>SI.Meditourism.BaseUrl</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>20488</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:20488/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.2.6.1\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.2.6.1\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

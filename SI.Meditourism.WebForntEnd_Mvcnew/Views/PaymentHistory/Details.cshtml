@@ -1,0 +1,226 @@
+﻿@model SI.Meditourism.PaymentServices.Model.TreatmentPagelst
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_UserDashboardLayoutPage.cshtml";
+}
+<aside class="right-side">
+    <section class="content-header">
+        <h1>
+            Payment History
+
+        </h1>
+        <ol class="breadcrumb">
+            <li class="active">
+                <a href="@Url.Action("Index", null, new { area = string.Empty, controller= "UserDashboard" })"><i class="fa fa-dashboard"></i>&nbsp;&nbsp;Dashboard</a>
+            </li>
+        </ol>
+    </section>
+    <div class="row">
+        <section class="content" style="margin-left:22px">
+
+            <div class="row">
+                <div class="col-md-12">
+
+                    <h4>Payment Details</h4>
+
+                    <div>
+                        <hr />
+                        <dl class="dl-horizontal">
+                            <dt>
+                                @Html.DisplayNameFor(model => model.PaymentId)
+                            </dt>
+
+                            <dd>
+                                @Html.DisplayFor(model => model.PaymentId)
+                            </dd>
+
+                            <dt>
+                                @Html.DisplayNameFor(model => model.PAYId)
+                            </dt>
+
+                            <dd>
+                                @Html.DisplayFor(model => model.PAYId)
+                            </dd>
+
+                            <dt>
+                                @Html.DisplayNameFor(model => model.CustomerName)
+                            </dt>
+
+                            <dd>
+                                @Html.DisplayFor(model => model.CustomerName)
+                            </dd>
+
+                            <dt>
+                                @Html.DisplayNameFor(model => model.ServiceName)
+                            </dt>
+
+                            <dd>
+                                @Html.DisplayFor(model => model.ServiceName)
+                            </dd>
+
+                            <dt>
+                                @Html.DisplayNameFor(model => model.State)
+                            </dt>
+
+                            <dd>
+                                @Html.DisplayFor(model => model.State)
+                            </dd>
+
+                            <dt>
+                                @Html.DisplayNameFor(model => model.Intent)
+                            </dt>
+
+                            <dd>
+                                @Html.DisplayFor(model => model.Intent)
+                            </dd>
+
+                            <dt>
+                                @Html.DisplayNameFor(model => model.Paymentmethod)
+                            </dt>
+
+                            <dd>
+                                @Html.DisplayFor(model => model.Paymentmethod)
+                            </dd>
+
+                            <dt>
+                                @Html.DisplayNameFor(model => model.Payer_email)
+                            </dt>
+
+                            <dd>
+                                @Html.DisplayFor(model => model.Payer_email)
+                            </dd>
+
+                            <dt>
+                                @Html.DisplayNameFor(model => model.Payer_firstname)
+                            </dt>
+
+                            <dd>
+                                @Html.DisplayFor(model => model.Payer_firstname)
+                            </dd>
+
+                            <dt>
+                                @Html.DisplayNameFor(model => model.Payer_payerId)
+                            </dt>
+
+                            <dd>
+                                @Html.DisplayFor(model => model.Payer_payerId)
+                            </dd>
+
+                            <dt>
+                                @Html.DisplayNameFor(model => model.Description)
+                            </dt>
+
+                            <dd>
+                                @Html.DisplayFor(model => model.Description)
+                            </dd>
+
+                            <dt>
+                                @Html.DisplayNameFor(model => model.Currency)
+                            </dt>
+
+                            <dd>
+                                @Html.DisplayFor(model => model.Currency)
+                            </dd>
+
+                            <dt>
+                                @Html.DisplayNameFor(model => model.Price)
+                            </dt>
+
+                            <dd>
+                                @Html.DisplayFor(model => model.Price)
+                            </dd>
+
+                            @*<dt>
+                                @Html.DisplayNameFor(model => model.TreatmentCharge)
+                            </dt>
+
+                            <dd>
+                                @Html.DisplayFor(model => model.TreatmentCharge)
+                            </dd>
+
+                            <dt>
+                                @Html.DisplayNameFor(model => model.VisaCharge)
+                            </dt>
+
+                            <dd>
+                                @Html.DisplayFor(model => model.VisaCharge)
+                            </dd>
+
+                            <dt>
+                                @Html.DisplayNameFor(model => model.Accommodation)
+                            </dt>
+
+                            <dd>
+                                @Html.DisplayFor(model => model.Accommodation)
+                            </dd>*@
+
+                            <dt>
+                                @Html.DisplayNameFor(model => model.Tax)
+                            </dt>
+
+                            <dd>
+                                @Html.DisplayFor(model => model.Tax)
+                            </dd>
+
+                            <dt>
+                                @Html.DisplayNameFor(model => model.Amount)
+                            </dt>
+
+                            <dd>
+                                @Html.DisplayFor(model => model.Amount)
+                            </dd>
+
+                            <dt>
+                                @Html.DisplayNameFor(model => model.failedErrorName)
+                            </dt>
+
+                            <dd>
+                                @Html.DisplayFor(model => model.failedErrorName)
+                            </dd>
+
+                            <dt>
+                                @Html.DisplayNameFor(model => model.failedMessage)
+                            </dt>
+
+                            <dd>
+                                @Html.DisplayFor(model => model.failedMessage)
+                            </dd>
+
+                            <dt>
+                                @Html.DisplayNameFor(model => model.failedIssue)
+                            </dt>
+
+                            <dd>
+                                @Html.DisplayFor(model => model.failedIssue)
+                            </dd>
+
+                            <dt>
+                                @Html.DisplayNameFor(model => model.CreationDate)
+                            </dt>
+
+                            <dd>
+                                @Html.DisplayFor(model => model.CreationDate)
+                            </dd>
+
+                            <dt>
+                                @Html.DisplayNameFor(model => model.UpdatedDate)
+                            </dt>
+
+                            <dd>
+                                @Html.DisplayFor(model => model.UpdatedDate)
+                            </dd>
+
+                        </dl>
+                    </div>
+                    <p>
+                      
+                        @Html.ActionLink("Back to List", "Index")
+                    </p>
+
+                </div>
+            </div>
+
+        </section>
+    </div>
+</aside>

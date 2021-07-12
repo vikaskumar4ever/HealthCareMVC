@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_FrontEndLayout.cshtml";
+}
+<link href="~/Assets/FrontEndScript/css/search.css" type="text/css" />
+<style type="text/css">
+   
+</style>
+<section class="container_1 section">
+    <div class="left-half divcontainer">
+        <article>
+            <h1>Welcome To, My Samaritanz MediTourism</h1>
+            <p>You need to pay $39 as a registration fees, To activate your Services/Port, Where We support you. We Provide you a LoginId And Password on you Emaild Id, Where you can upload
+            your treatment document and other doc, you can also Directly Chat with our support team.</p>
+        </article>
+    </div>
+    <div class="right-half divcontainer">
+        <article>
+            <h1>Pay RegistrationFee To Connect With Us</h1>
+           @* <a href="@Html.Action("PaymentWithPaypal","RegistrationFee")"> </a>*@
+            @using (Html.BeginForm("PaymentWithPaypal", "RegistrationFee", FormMethod.Get))
+            {
+                <button type="submit" class="button02">Proceed To Pay</button>
+            }
+        </article>
+    </div>
+</section>
+
+
+

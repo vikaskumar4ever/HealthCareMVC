@@ -1,0 +1,111 @@
+﻿
+@{
+    ViewData["Title"] = "Home";
+    Layout = "~/Views/Shared/_FrontEndLayout.cshtml";
+
+}
+<!--main-->
+<main>
+    <!--REVOLUTION SLIDER-->
+    <div id="banner">
+        <div class="rev_slider_wrapper">
+            <div class="" style="position: relative; z-index: 999; top: 108px; ">
+                <div class="col-md-8">
+                    <ul id="filters1" class="clearfix">
+                        <li><span class="filter " data-filter=".app, .card, .icon, .logo, .web">ALL</span></li>
+                        <li><span class="filter" data-filter=".app">SPINE</span></li>
+                        @*<li><span class="filter" data-filter=".card">FERTILITY </span></li>*@
+                        @*<li><span class="filter" data-filter=".icon">TRANSPLANT</span></li>
+                        <li><span class="filter" data-filter=".logo">DENTISTRY</span></li>*@
+                        <li><span class="filter" data-filter=".web">HEART</span></li>
+                        <li><span class="filter" data-filter=".web">CANCER</span></li>
+                    </ul>
+                </div>
+                <div class="col-md-4" style="text-align: right;">
+                    <input name="name" id="name" class="form-control search-text" placeholder="Search" type="text" style="width: 50%;"/>
+                </div>
+            </div>
+            <div id="main-banner-slider" class="rev_slider" data-version="5.0.7">
+
+                <ul>
+                    <!-- SLIDE1  -->
+                    <li data-index="rs-280" data-transition="slideoverleft" data-slotamount="default" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000" data-rotate="0" data-saveperformance="off" data-title="Title Goes Here" data-description="">
+                        <!-- MAIN IMAGE -->
+                        <img src="/FrontEndScript/img/banner1_1.jpg" alt="interior-design" title="interior-design" class="rev-slidebg" data-bgparallax="3" data-bgposition="center center"/> <!-- data-duration="20000" data-ease="Linear.easeNone" data-kenburns="on" data-no-retina="" data-offsetend="0 0" data-offsetstart="0 0" data-rotateend="0" data-rotatestart="0" data-scaleend="120" data-scalestart="140" -->
+                    </li>
+                    <!-- SLIDE2  -->
+                    <li data-index="rs-18" data-transition="slideoverleft" data-slotamount="default" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000" data-thumb="~/FrontEndScript/img/interior-design-3.jpg" data-rotate="0" data-saveperformance="off" data-title="Title Goes Here" data-description="">
+                        <!-- MAIN IMAGE -->
+                        <img src="/FrontEndScript/img/banner2.jpg" alt="interior-design" title="interior-design" data-bgposition="center center" data-kenburns="on" class="rev-slidebg" data-no-retina/> <!--data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10"-->
+                    </li>
+                    <!-- SLIDE3  -->
+                    <li data-index="rs-20" data-transition="slideoverleft" data-slotamount="7" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000" data-thumb="~/FrontEndScript/img/interior-design-2.jpg" data-rotate="0" data-saveperformance="off" data-title="Title Goes Here" data-description="">
+                        <!-- MAIN IMAGE -->
+                        <img src="/FrontEndScript/img/banner3.jpg" alt="interior-design" title="interior-design" data-bgposition="center center" data-kenburns="on" class="rev-slidebg" data-no-retina /> <!--data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 -500" data-offsetend="0 500" data-bgparallax="10" -->
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- END REVOLUTION SLIDER -->
+    </div>
+    <!--REVOLUTION SLIDER-->
+    <!-- What We Do-->
+    <section id="section-about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2><span class="id-color">About Us </span></h2>
+                    <p>
+                        We assure the spirit of compassion, trust, integrity in every step you are under our care! Wxperience the true Samaritan touch.
+                    </p>
+                </div>
+                <div class="col-md-12 col-sm-12">
+                    <h3>Mission</h3>
+                    <p>
+                        To provide the best treatment facilities available in our country to the world citizens with zero compromise on the quality and cost-effectiveness.
+                    </p>
+                    <h3>Vision</h3>
+                    <p>
+                        To bicome the brand name of credibility and quality in the field of medical tourism facilitor service with the mind of Christ.
+                    </p>
+                    <h3>Our Philosophy</h3>
+                    <p>
+                        "Not to be ministered onto but to minister."
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</main>
+@{
+    if (@ViewBag.Message != null)
+    {
+        <div id="id04" class="modal" style="display: block">
+            <form asp-action="Login" asp-controller="Home" method="post" class="modal-content animate login">
+                <div class="imgcontainer">
+                    <span onclick="document.getElementById('id04').style.display='none'" class="close" title="Close Modal">&times;</span>
+                    <p style="position:center;"><h3>SignIn</h3><hr /></p>
+                </div>
+                <div class="col-6 ab">
+                    <label for="uname"><b>UserId</b></label>
+                    <input type="text" placeholder="Enter Username" name="email" required />
+
+                    <label for="uname"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" maxlength="8" name="password" required />
+                    <label style="color:red">@ViewBag.Message</label>
+                    <button type="submit">SignIn</button>
+                </div>
+            </form>
+        </div>
+    }
+}
+<script>
+    var modal = document.getElementById('id04');
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>

@@ -1,0 +1,292 @@
+﻿@media only screen and (max-width: 991px) and (min-width: 280px) {
+    .btn {
+        font-size: 15px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .mobileInputGroupHospital .btn-searchHosp-close {
+        display: inline-block;
+    }
+}
+
+@media(min-width:100px) and (max-width: 768px) {
+    .mobileInputGroupHospital {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: #fff;
+        height: 100%;
+        z-index: 11000;
+    }
+
+    .input-group {
+        display: table;
+        border-collapse: separate;
+    }
+
+
+        .input-group .form-control {
+            display: table-cell;
+        }
+
+        .input-group .form-control {
+            position: relative;
+            z-index: 2;
+            float: left;
+            width: 58%;
+            margin-bottom: 0;
+        }
+
+    .form-control {
+        border-radius: 0 !important;
+        box-shadow: none;
+        border-color: #d2d6de;
+    }
+
+    .form-control {
+        display: block;
+        width: 100%;
+        height: 34px;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+        -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+        transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    }
+
+    .input-group-btn > .btn {
+        position: relative;
+    }
+
+    .btn-searchHosp {
+        font-size: 14px;
+        color: #369;
+        height: 34px;
+        background-color: #fff;
+        padding-top: 7px;
+        border: 1px solid #999;
+        text-transform: capitalize;
+    }
+
+    .btn-default {
+        padding: 6px 12px;
+    }
+
+    .btn-searchHosp {
+        font-size: 14px;
+        color: #369;
+        height: 34px;
+        background-color: #fff;
+        padding-top: 7px;
+        border: 1px solid #999;
+        text-transform: capitalize;
+    }
+}
+
+@media(min-width:100px) and (max-width: 768px) {
+    ._MdsearchtR {
+        font-weight: lighter;
+        font-size: 21px;
+        color: #1f8d9e;
+        margin-top: 14px;
+        float: right;
+        margin-right: 12px;
+    }
+
+    ._fttqotcs {
+        display: block;
+    }
+
+    .fixMdQtRightBtn {
+        display: none;
+    }
+    .fixMdQtRightBtnquick{
+        display: none;
+    }
+
+    .footerContainer {
+        background-color: #bc0505 !important;
+        padding: 10px;
+        text-align: center;
+        background-image: linear-gradient(#ce1313,#e81818) !important;
+    }
+
+    .navbar-fixed-bottom {
+        bottom: 0;
+        margin-bottom: 0;
+        border-width: 1px 0 0;
+    }
+
+    .navbar-fixed-top, .navbar-fixed-bottom {
+        position: fixed;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    .bottomContactIcons {
+        color: #fff;
+        font-weight: 500 !important;
+        font-size: 24px !important;
+        margin: 0 15px;
+    }
+
+    .footerContainer {
+        background-color: #bc0505 !important;
+        padding: 10px;
+        text-align: center;
+        /*background-image: linear-gradient(#e01c1c,#921313) !important;*/
+        background-image: linear-gradient(#1db9d2,#146b79) !important;
+    }
+
+    .navbar-fixed-bottom {
+        bottom: 0;
+        margin-bottom: 0;
+        border-width: 1px 0 0;
+    }
+
+    .navbar-fixed-top, .navbar-fixed-bottom {
+        position: fixed;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    .ftbottomContactIcons {
+        color: #fff;
+        font-weight: 500 !important;
+        font-size: 19px !important;
+        margin: 0 15px;
+    }
+
+    .section {
+        /*height: 100%;*/
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 1.25rem;
+        /*line-height: 150%;*/
+        text-align: center;
+    }
+
+
+    .divcontainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 1.75rem;
+        margin: 0 0 0.75rem 0;
+        text-transform: none;
+    }
+
+    /* Pattern styles */
+    .container_1 {
+        display: normal;
+    }
+
+    .left-half {
+        background-color: #12dcc1b8;
+        flex: 1;
+        padding: 1rem;
+    }
+
+    .right-half {
+        background-color: #12dcc1b8;
+        flex: 1;
+        padding: 1rem;
+    }
+}
+
+@media(min-width:1326px) and (max-width: 2768px) {
+    ._LogoFrnt {
+        margin-left: -40% !important;
+    }
+}
+
+@media(min-width:768px) and (max-width: 2768px) {
+
+    ._MdsearchtR {
+        display: none;
+    }
+
+    ._fttqotcs {
+        display: none;
+    }
+
+    .fixMdQtRightBtn {
+        position: fixed;
+        color: #ebebeb;
+        right: 0;
+        top: 40%;
+        z-index: 400000;
+        font-size: 25px;
+        /*transform: rotate(-90deg);*/
+        margin-right: -3px;
+        /*margin-right: -86px;*/
+        /*border: 1px solid #fe3d3d;*/
+        padding: 10px;
+        /*border-radius: 20px 20px 0 0;*/
+        /*background-color: #bc0505 !important;
+        background-image: linear-gradient(#ce1313,#e81818) !important;*/
+    }
+    .fixMdQtRightBtnquick {
+        position: fixed;
+        color: #ebebeb;
+        right: 0;
+        top: 11%;
+        z-index: 400000;
+        font-size: 25px;
+        margin-right: -7px;
+        padding: 10px;
+    }
+    .section {
+        height: 100%;
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 1.25rem;
+        line-height: 150%;
+        text-align: center;
+    }
+
+
+    .divcontainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 1.75rem;
+        margin: 0 0 0.75rem 0;
+        text-transform: none;
+    }
+
+    /* Pattern styles */
+    .container_1 {
+        display: flex;
+    }
+
+    .left-half {
+        background-color: #12dcc1b8;
+        flex: 1;
+        padding: 1rem;
+    }
+
+    .right-half {
+        background-color: #12dcc1b8;
+        flex: 1;
+        padding: 1rem;
+    }
+}

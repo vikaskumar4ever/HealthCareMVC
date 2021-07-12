@@ -1,0 +1,258 @@
+﻿@model SI.Meditourism.WebForntEnd_Mvcnew.Models.ChatingServices.AdminCustomerChat
+@{
+    ViewData["Title"] = "Messaging";
+    Layout = "~/Views/Shared/_UserDashboardLayoutPage.cshtml";
+}
+<link href="/Assets/ChatStyle/style.css" rel="stylesheet" />
+<div class="container">
+    <h3 class="text-center">Messaging</h3>
+    <button id="showdoctoggle" class="button01" style="padding: 3px 7px 3px 7px;
+    border: 0px;
+    background: #2b99f7;
+    border-radius: 4px;display:block">
+        Show Doc List
+    </button>
+    <button id="hidedoctoggle"  class="button01" style="padding: 3px 7px 3px 7px;
+    border: 0px;
+    background: #2b99f7;
+    border-radius: 4px; display:none" >
+        Hide Doc List
+    </button>
+    <div class="messaging">
+        <div class="inbox_msg">
+            <div id="docpanel" class="inbox_people" >
+                <div class="headind_srch">
+                    <div class="recent_heading">
+                        <h4>Document</h4>
+                    </div>
+                    @using (Html.BeginForm("UploadDoc", "MessagingPanel", FormMethod.Post, new { enctype = "multipart/form-data", role = "form" }))
+                    {           //<form asp-action="UploadDoc" asp-controller="MessagingPanel" enctype="multipart/form-data">
+                        @Html.AntiForgeryToken();
+                        <div class="form-group">
+                            <div class="col-md-4" style="margin-left:-37px">
+                                <input type="file" name="files" />
+                            </div>
+                        </div> <div class="form-group">
+                            <div class="col-md-1"><input type="submit" value="Upload" style="
+    padding: 4px 15px 4px 12px;
+    border: 1px solid blueviolet;
+    color: #fff;
+    background: #2549fb;
+    margin-left: 58px; margin-top: -2px;"/></div>
+                        </div>
+                        //</form>
+                    }
+                </div>
+                <div class="inbox_chat">
+
+                    <div class="chat_list active_chat">
+                        <a href="#">
+                            <div class="chat_people" id="documenthistory">
+                                <div class="chat_img">
+                                    <img src="/Assets/images/user9-128x128.png" alt="sunil">
+
+                                </div>
+                                <div class="chat_ib">
+                                    <h5> <span class="chat_date"></span></h5>
+                                    <p>
+                                        No Document Found
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="Chatbox" class="mesgs">
+                <div class="msg_history" id="chathistory">
+
+                </div>
+                @using (Html.BeginForm("SendMsg", "MessagingPanel", FormMethod.Post))
+                {
+                    @Html.AntiForgeryToken();
+                    <div class="type_msg" style="width: 101%; margin-top: 20px;">
+                        <div class="input_msg_write">
+                            <input type="text" id="textmessage" class="write_msg" name="message" placeholder="Type a message" />
+                            <button class="msg_send_btn" type="submit"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+@{
+    if (@ViewData["FileExtensionMessage"] != null)
+    {
+
+
+        <div id="id06" class="modal" style="display:block">
+            <form class="modal-content animate login">
+                <div class="imgcontainer">
+                    <a onclick="document.getElementById('id06').style.display='none'" href="/MessagingPanel/Messaging" class="close" title="Close Modal" style="font-size:43px; margin-top:-27px">&times;</a>
+                    <p style="position:center;"><h3>Message</h3><hr /></p>
+                </div>
+                <div class="col-6 ab">
+                    <label><b style="color:red">@ViewData["FileExtensionMessage"]</b></label>
+                </div>
+            </form>
+        </div>
+    }
+}
+<script type="text/javascript">
+    this.addclasstoggle();
+    function addclasstoggle() {
+        var div = document.getElementById('body');
+        div.classList.add("sidebar-collapse");
+        var style = document.getElementById('wrapper');
+        style.setAttribute('style', 'background-color:#ffff');
+    }
+
+</script>
+<script src="/Assets/FrontEndScript/js/jquery-2.2.4.min.js"></script>
+
+<script async type="text/javascript">
+
+    this.GetallMessage();
+    setInterval(this.GetallMessage, 40000);
+    function GetallMessage() {
+        $.ajax({
+            url: "http://cp.mysamaritanz.com/adminapi/api/GetallUserMessages/@Session["CustomerId"].ToString()",
+          //  url: "http://meditourismadmin.morepower.com/adminapi/api/GetallUserMessages/@Session["CustomerId"].ToString()",
+           // url: "http://localhost:21632/api/GetallUserMessages/@Session["CustomerId"].ToString()",
+            type: "GET",
+            contentType: "application/json;charset=utf-8",
+
+            dataType: "json",
+            success: function (result) {
+                var html = '';
+                reresult = JSON.parse(result);
+                $.each(reresult, function (key, item) {
+                    if (item.IsAdmin == true) {
+                        html += '<div class="incoming_msg"><div class="incoming_msg_img"> <img src="/Assets/images/user9-128x128.png" alt="sunil"> </div><div class="received_msg"><div class="received_withd_msg">';
+                        html += '<p>' + item.Message + '</p>';
+                        html += '<span class="time_date">' + item.CreationDate + '</span>';
+                        html += '</div></div></div>';
+                    } else {
+                        html += '<div class="outgoing_msg"><div class="sent_msg">';
+                        html += '<p>' + item.Message + '</p>';
+                        html += '<span class="time_date">' + item.CreationDate + '</span></div></div>';
+                    }
+                });
+                $('#chathistory').html(html);
+            },
+
+            error: function (errormessage) {
+                alert(errormessage.responseText);
+
+            }
+
+        });
+
+    }
+
+</script>
+
+<script async type="text/javascript">
+
+    this.GetallDocument();
+    setInterval(this.GetallMessage, 600000);
+    function GetallDocument() {
+        $.ajax({
+
+              url: "http://cp.mysamaritanz.com/adminapi/api/GetallReportlist/@Session["CustomerId"].ToString()",
+            //url: "http://meditourismadmin.morepower.com/adminapi/api/GetallReportlist/@Session["CustomerId"].ToString()",
+           // url: "http://localhost:21632/api/GetallReportlist/@Session["CustomerId"].ToString()",
+            type: "GET",
+            contentType: "application/json;charset=utf-8",
+            crossDomain: true,
+            dataType: "json",
+            success: function (result) {
+                var html = '';
+                reresult = JSON.parse(result);
+                $.each(reresult, function (key, item) {
+                    html += '<a target="_blank" href="/Assets/ReportFile/' + item.FileName + '">';
+                    html += '<div class="chat_list active_chat"><div class="chat_people"><div class="chat_img">';
+                    html += '<img src="/Assets/images/downloadldoc.png" alt="Document not Found, Please Reload your page, or try again later"> </div>';
+                    html += '<div class="chat_ib"><h5>' + item.Name + '<span class="chat_date">' + item.CreationDate + '</span></h5>';
+                    html += '</div></div></div>';
+
+                });
+                $('#documenthistory').html(html);
+            },
+
+            error: function (errormessage) {
+            }
+
+        });
+
+    }
+
+</script>
+<script type="text/javascript">
+    $('#showdoctoggle').click(function () {
+        $('#docpanel').toggle();
+        $('#Chatbox').toggle();
+        $('#hidedoctoggle').toggle();
+        $('#showdoctoggle').toggle();
+        
+    });
+</script>
+<script type="text/javascript">
+    $('#hidedoctoggle').click(function () {
+        $('#docpanel').toggle();
+        $('#Chatbox').toggle();
+        $('#hidedoctoggle').toggle();
+        $('#showdoctoggle').toggle();
+
+    });
+</script>
+
+@*<script type="text/javascript">
+    document.getElementById("textmessage").addEventListener("keydown",
+        function (e) {
+            if (!e) { var e = window.event; }
+            e.preventDefault(); // sometimes useful
+            // Enter is pressed
+            if (e.keyCode == 13) { submitMessage(); GetallMessage(); }
+        }, false);
+
+    function submitMessage() {
+        var collection = {};
+        collection.Message = $("#textmessage").val();
+
+        $.ajax({
+            url: "/MessagingPanel/SendMsg",
+            type: "POST",
+            data: {
+                Message: collection.Message,
+                Id: 0,
+                AdminCustomerChatId: null,
+                AdminId: null,
+                CustomerId: null,
+                IsAdmin: null,
+                HostIp: null,
+                CreatedBy: null,
+                CreationDate: null,
+                UpdatedBy: null,
+                UpdatedDate: null,
+                IsActive: true,
+                IsDeleted: false;
+            },
+            contentType: "application/json;charset=utf-8",
+            dataType: "json",
+            success: function (result) {
+            },
+            error: function (errormessage) {
+                debugger;
+                alert(errormessage.responseText);
+            }
+        });
+
+    }
+
+
+</script>*@
+
+
+

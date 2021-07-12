@@ -1,0 +1,306 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningLevel>3</WarningLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\FrontEndScript\coming-soon\css\style.css" />
+    <Content Remove="wwwroot\FrontEndScript\coming-soon\js\coundown-timer.js" />
+    <Content Remove="wwwroot\FrontEndScript\coming-soon\js\scripts.js" />
+    <Content Remove="wwwroot\FrontEndScript\css\all-css.css" />
+    <Content Remove="wwwroot\FrontEndScript\css\banner.css" />
+    <Content Remove="wwwroot\FrontEndScript\css\bootstrap.min.css" />
+    <Content Remove="wwwroot\FrontEndScript\css\component.css" />
+    <Content Remove="wwwroot\FrontEndScript\css\full-slider.css" />
+    <Content Remove="wwwroot\FrontEndScript\css\hover.css" />
+    <Content Remove="wwwroot\FrontEndScript\css\imagehover.css" />
+    <Content Remove="wwwroot\FrontEndScript\css\layout-2.css" />
+    <Content Remove="wwwroot\FrontEndScript\css\layout.css" />
+    <Content Remove="wwwroot\FrontEndScript\css\responsive.css" />
+    <Content Remove="wwwroot\FrontEndScript\css\set1.css" />
+    <Content Remove="wwwroot\FrontEndScript\css\set2.css" />
+    <Content Remove="wwwroot\FrontEndScript\css\set3.css" />
+    <Content Remove="wwwroot\FrontEndScript\css\set4.css" />
+    <Content Remove="wwwroot\FrontEndScript\css\style.css" />
+    <Content Remove="wwwroot\FrontEndScript\css\style1.css" />
+    <Content Remove="wwwroot\FrontEndScript\css\style3.css" />
+    <Content Remove="wwwroot\FrontEndScript\css\style_common.css" />
+    <Content Remove="wwwroot\FrontEndScript\font-awesome\css\font-awesome.min.css" />
+    <Content Remove="wwwroot\FrontEndScript\font-awesome\fonts\fontawesome-webfont78ce.eot" />
+    <Content Remove="wwwroot\FrontEndScript\font-awesome\fonts\fontawesome-webfont78ce.svg" />
+    <Content Remove="wwwroot\FrontEndScript\font-awesome\fonts\fontawesome-webfont78ce.ttf" />
+    <Content Remove="wwwroot\FrontEndScript\font-awesome\fonts\fontawesome-webfont78ce.woff" />
+    <Content Remove="wwwroot\FrontEndScript\font-awesome\fonts\fontawesome-webfontd41d.eot" />
+    <Content Remove="wwwroot\FrontEndScript\fonts\feathericons\feathericons3869-2.html" />
+    <Content Remove="wwwroot\FrontEndScript\fonts\feathericons\feathericons3869-3.html" />
+    <Content Remove="wwwroot\FrontEndScript\fonts\feathericons\feathericons3869-4.html" />
+    <Content Remove="wwwroot\FrontEndScript\fonts\feathericons\feathericons3869.html" />
+    <Content Remove="wwwroot\FrontEndScript\fonts\feathericons\feathericonsd41d.html" />
+    <Content Remove="wwwroot\FrontEndScript\fonts\glyphicons-halflings-regular.eot" />
+    <Content Remove="wwwroot\FrontEndScript\fonts\glyphicons-halflings-regular.svg" />
+    <Content Remove="wwwroot\FrontEndScript\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Remove="wwwroot\FrontEndScript\fonts\glyphicons-halflings-regular.woff" />
+    <Content Remove="wwwroot\FrontEndScript\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Remove="wwwroot\FrontEndScript\fonts\glyphicons-halflings-regulard41d.eot" />
+    <Content Remove="wwwroot\FrontEndScript\fonts\revicons\revicons90c6.eot" />
+    <Content Remove="wwwroot\FrontEndScript\fonts\revicons\revicons90c6.svg" />
+    <Content Remove="wwwroot\FrontEndScript\fonts\revicons\revicons90c6.ttf" />
+    <Content Remove="wwwroot\FrontEndScript\fonts\revicons\revicons90c6.woff" />
+    <Content Remove="wwwroot\FrontEndScript\images\1.html" />
+    <Content Remove="wwwroot\FrontEndScript\images\1.jpg" />
+    <Content Remove="wwwroot\FrontEndScript\images\10.jpg" />
+    <Content Remove="wwwroot\FrontEndScript\images\11.jpg" />
+    <Content Remove="wwwroot\FrontEndScript\images\12.jpg" />
+    <Content Remove="wwwroot\FrontEndScript\images\13.jpg" />
+    <Content Remove="wwwroot\FrontEndScript\images\14.jpg" />
+    <Content Remove="wwwroot\FrontEndScript\images\2.jpg" />
+    <Content Remove="wwwroot\FrontEndScript\images\3.jpg" />
+    <Content Remove="wwwroot\FrontEndScript\images\4.jpg" />
+    <Content Remove="wwwroot\FrontEndScript\images\5.jpg" />
+    <Content Remove="wwwroot\FrontEndScript\images\6.jpg" />
+    <Content Remove="wwwroot\FrontEndScript\images\7.jpg" />
+    <Content Remove="wwwroot\FrontEndScript\images\8.jpg" />
+    <Content Remove="wwwroot\FrontEndScript\images\9.jpg" />
+    <Content Remove="wwwroot\FrontEndScript\images\home\1.html" />
+    <Content Remove="wwwroot\FrontEndScript\images\home\10.html" />
+    <Content Remove="wwwroot\FrontEndScript\images\home\16.html" />
+    <Content Remove="wwwroot\FrontEndScript\images\home\20.html" />
+    <Content Remove="wwwroot\FrontEndScript\images\home\footer2.html" />
+    <Content Remove="wwwroot\FrontEndScript\images\inner-page\2.html" />
+    <Content Remove="wwwroot\FrontEndScript\images\news\triangle.html" />
+    <Content Remove="wwwroot\FrontEndScript\img\arrow-bt.html" />
+    <Content Remove="wwwroot\FrontEndScript\img\banner1.jpg" />
+    <Content Remove="wwwroot\FrontEndScript\img\banner1_1.jpg" />
+    <Content Remove="wwwroot\FrontEndScript\img\banner1_2.jpg" />
+    <Content Remove="wwwroot\FrontEndScript\img\banner2.jpg" />
+    <Content Remove="wwwroot\FrontEndScript\img\banner2_1.jpg" />
+    <Content Remove="wwwroot\FrontEndScript\img\banner3.jpg" />
+    <Content Remove="wwwroot\FrontEndScript\img\banner3_1.jpg" />
+    <Content Remove="wwwroot\FrontEndScript\img\banner3_2.jpg" />
+    <Content Remove="wwwroot\FrontEndScript\img\banner4.jpg" />
+    <Content Remove="wwwroot\FrontEndScript\img\bg-1.jpg" />
+    <Content Remove="wwwroot\FrontEndScript\img\bg-3.jpg" />
+    <Content Remove="wwwroot\FrontEndScript\img\bg.jpg" />
+    <Content Remove="wwwroot\FrontEndScript\img\circles.svg" />
+    <Content Remove="wwwroot\FrontEndScript\img\header-bg2.html" />
+    <Content Remove="wwwroot\FrontEndScript\img\header-bg3.html" />
+    <Content Remove="wwwroot\FrontEndScript\img\icon.png" />
+    <Content Remove="wwwroot\FrontEndScript\img\logo.png" />
+    <Content Remove="wwwroot\FrontEndScript\img\process - Copy.jpg" />
+    <Content Remove="wwwroot\FrontEndScript\img\process.jpg" />
+    <Content Remove="wwwroot\FrontEndScript\img\process.png" />
+    <Content Remove="wwwroot\FrontEndScript\img\rel-pj-1.jpg" />
+    <Content Remove="wwwroot\FrontEndScript\img\rel-pj-2.jpg" />
+    <Content Remove="wwwroot\FrontEndScript\img\subheader-1.jpg" />
+    <Content Remove="wwwroot\FrontEndScript\img\subheader-6.jpg" />
+    <Content Remove="wwwroot\FrontEndScript\img\subheader-7.jpg" />
+    <Content Remove="wwwroot\FrontEndScript\img\triangle.html" />
+    <Content Remove="wwwroot\FrontEndScript\img\triangle2.html" />
+    <Content Remove="wwwroot\FrontEndScript\js\all.js" />
+    <Content Remove="wwwroot\FrontEndScript\js\all3.js" />
+    <Content Remove="wwwroot\FrontEndScript\js\AnimOnScroll.js" />
+    <Content Remove="wwwroot\FrontEndScript\js\bootstrap.min.js" />
+    <Content Remove="wwwroot\FrontEndScript\js\cbpAnimatedHeader.js" />
+    <Content Remove="wwwroot\FrontEndScript\js\classie.js" />
+    <Content Remove="wwwroot\FrontEndScript\js\imagesloaded.js" />
+    <Content Remove="wwwroot\FrontEndScript\js\jquery-2.2.4.min.js" />
+    <Content Remove="wwwroot\FrontEndScript\js\jquery.easing.min.js" />
+    <Content Remove="wwwroot\FrontEndScript\js\jquery.js" />
+    <Content Remove="wwwroot\FrontEndScript\js\jquery.mixitup.min.js" />
+    <Content Remove="wwwroot\FrontEndScript\js\masonry.pkgd.min.js" />
+    <Content Remove="wwwroot\FrontEndScript\js\modernizr.custom.js" />
+    <Content Remove="wwwroot\FrontEndScript\js\scroll.js" />
+    <Content Remove="wwwroot\FrontEndScript\js\scrolltopcontrol.js" />
+    <Content Remove="wwwroot\FrontEndScript\js\theme.js" />
+    <Content Remove="wwwroot\FrontEndScript\js\up.png" />
+    <Content Remove="wwwroot\FrontEndScript\js\wow.min.js" />
+    <Content Remove="wwwroot\FrontEndScript\vendor\assets\coloredbg.html" />
+    <Content Remove="wwwroot\FrontEndScript\vendor\assets\gridtile.html" />
+    <Content Remove="wwwroot\FrontEndScript\vendor\assets\gridtile_3x3.html" />
+    <Content Remove="wwwroot\FrontEndScript\vendor\assets\gridtile_3x3_white.html" />
+    <Content Remove="wwwroot\FrontEndScript\vendor\assets\gridtile_white.html" />
+    <Content Remove="wwwroot\FrontEndScript\vendor\assets\loader.html" />
+    <Content Remove="wwwroot\FrontEndScript\vendor\hover.css" />
+    <Content Remove="wwwroot\FrontEndScript\vendor\revolution\closedhand.html" />
+    <Content Remove="wwwroot\FrontEndScript\vendor\revolution\jquery_revolution.min.js" />
+    <Content Remove="wwwroot\FrontEndScript\vendor\revolution\jquery_tools.min.js" />
+    <Content Remove="wwwroot\FrontEndScript\vendor\revolution\navigation.css" />
+    <Content Remove="wwwroot\FrontEndScript\vendor\revolution\openhand.html" />
+    <Content Remove="wwwroot\FrontEndScript\vendor\revolution\revolution.extension.actions.min.js" />
+    <Content Remove="wwwroot\FrontEndScript\vendor\revolution\revolution.extension.kenburn.min.js" />
+    <Content Remove="wwwroot\FrontEndScript\vendor\revolution\revolution.extension.layeranimation.min.js" />
+    <Content Remove="wwwroot\FrontEndScript\vendor\revolution\revolution.extension.navigation.min.js" />
+    <Content Remove="wwwroot\FrontEndScript\vendor\revolution\revolution.extension.slideanims.min.js" />
+    <Content Remove="wwwroot\FrontEndScript\vendor\revolution\settings.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.8" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\FrontEndScript\coming-soon\css\style.css" />
+    <None Include="wwwroot\FrontEndScript\coming-soon\js\coundown-timer.js" />
+    <None Include="wwwroot\FrontEndScript\coming-soon\js\scripts.js" />
+    <None Include="wwwroot\FrontEndScript\css\all-css.css" />
+    <None Include="wwwroot\FrontEndScript\css\banner.css" />
+    <None Include="wwwroot\FrontEndScript\css\bootstrap.min.css" />
+    <None Include="wwwroot\FrontEndScript\css\component.css" />
+    <None Include="wwwroot\FrontEndScript\css\full-slider.css" />
+    <None Include="wwwroot\FrontEndScript\css\hover.css" />
+    <None Include="wwwroot\FrontEndScript\css\imagehover.css" />
+    <None Include="wwwroot\FrontEndScript\css\layout-2.css" />
+    <None Include="wwwroot\FrontEndScript\css\layout.css" />
+    <None Include="wwwroot\FrontEndScript\css\responsive.css" />
+    <None Include="wwwroot\FrontEndScript\css\set1.css" />
+    <None Include="wwwroot\FrontEndScript\css\set2.css" />
+    <None Include="wwwroot\FrontEndScript\css\set3.css" />
+    <None Include="wwwroot\FrontEndScript\css\set4.css" />
+    <None Include="wwwroot\FrontEndScript\css\style.css" />
+    <None Include="wwwroot\FrontEndScript\css\style1.css" />
+    <None Include="wwwroot\FrontEndScript\css\style3.css" />
+    <None Include="wwwroot\FrontEndScript\css\style_common.css" />
+    <None Include="wwwroot\FrontEndScript\font-awesome\css\font-awesome.min.css" />
+    <None Include="wwwroot\FrontEndScript\font-awesome\fonts\fontawesome-webfont78ce.eot" />
+    <None Include="wwwroot\FrontEndScript\font-awesome\fonts\fontawesome-webfont78ce.svg" />
+    <None Include="wwwroot\FrontEndScript\font-awesome\fonts\fontawesome-webfont78ce.ttf" />
+    <None Include="wwwroot\FrontEndScript\font-awesome\fonts\fontawesome-webfont78ce.woff" />
+    <None Include="wwwroot\FrontEndScript\font-awesome\fonts\fontawesome-webfontd41d.eot" />
+    <None Include="wwwroot\FrontEndScript\fonts\feathericons\feathericons3869-2.html" />
+    <None Include="wwwroot\FrontEndScript\fonts\feathericons\feathericons3869-3.html" />
+    <None Include="wwwroot\FrontEndScript\fonts\feathericons\feathericons3869-4.html" />
+    <None Include="wwwroot\FrontEndScript\fonts\feathericons\feathericons3869.html" />
+    <None Include="wwwroot\FrontEndScript\fonts\feathericons\feathericonsd41d.html" />
+    <None Include="wwwroot\FrontEndScript\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="wwwroot\FrontEndScript\fonts\glyphicons-halflings-regular.svg" />
+    <None Include="wwwroot\FrontEndScript\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="wwwroot\FrontEndScript\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="wwwroot\FrontEndScript\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="wwwroot\FrontEndScript\fonts\glyphicons-halflings-regulard41d.eot" />
+    <None Include="wwwroot\FrontEndScript\fonts\revicons\revicons90c6.eot" />
+    <None Include="wwwroot\FrontEndScript\fonts\revicons\revicons90c6.svg" />
+    <None Include="wwwroot\FrontEndScript\fonts\revicons\revicons90c6.ttf" />
+    <None Include="wwwroot\FrontEndScript\fonts\revicons\revicons90c6.woff" />
+    <None Include="wwwroot\FrontEndScript\images\1.html" />
+    <None Include="wwwroot\FrontEndScript\images\1.jpg" />
+    <None Include="wwwroot\FrontEndScript\images\10.jpg" />
+    <None Include="wwwroot\FrontEndScript\images\11.jpg" />
+    <None Include="wwwroot\FrontEndScript\images\12.jpg" />
+    <None Include="wwwroot\FrontEndScript\images\13.jpg" />
+    <None Include="wwwroot\FrontEndScript\images\14.jpg" />
+    <None Include="wwwroot\FrontEndScript\images\2.jpg" />
+    <None Include="wwwroot\FrontEndScript\images\3.jpg" />
+    <None Include="wwwroot\FrontEndScript\images\4.jpg" />
+    <None Include="wwwroot\FrontEndScript\images\5.jpg" />
+    <None Include="wwwroot\FrontEndScript\images\6.jpg" />
+    <None Include="wwwroot\FrontEndScript\images\7.jpg" />
+    <None Include="wwwroot\FrontEndScript\images\8.jpg" />
+    <None Include="wwwroot\FrontEndScript\images\9.jpg" />
+    <None Include="wwwroot\FrontEndScript\images\home\1.html" />
+    <None Include="wwwroot\FrontEndScript\images\home\10.html" />
+    <None Include="wwwroot\FrontEndScript\images\home\16.html" />
+    <None Include="wwwroot\FrontEndScript\images\home\20.html" />
+    <None Include="wwwroot\FrontEndScript\images\home\footer2.html" />
+    <None Include="wwwroot\FrontEndScript\images\inner-page\2.html" />
+    <None Include="wwwroot\FrontEndScript\images\news\triangle.html" />
+    <None Include="wwwroot\FrontEndScript\img\arrow-bt.html" />
+    <None Include="wwwroot\FrontEndScript\img\banner1.jpg" />
+    <None Include="wwwroot\FrontEndScript\img\banner1_1.jpg" />
+    <None Include="wwwroot\FrontEndScript\img\banner1_2.jpg" />
+    <None Include="wwwroot\FrontEndScript\img\banner2.jpg" />
+    <None Include="wwwroot\FrontEndScript\img\banner2_1.jpg" />
+    <None Include="wwwroot\FrontEndScript\img\banner3.jpg" />
+    <None Include="wwwroot\FrontEndScript\img\banner3_1.jpg" />
+    <None Include="wwwroot\FrontEndScript\img\banner3_2.jpg" />
+    <None Include="wwwroot\FrontEndScript\img\banner4.jpg" />
+    <None Include="wwwroot\FrontEndScript\img\bg-1.jpg" />
+    <None Include="wwwroot\FrontEndScript\img\bg-3.jpg" />
+    <None Include="wwwroot\FrontEndScript\img\bg.jpg" />
+    <None Include="wwwroot\FrontEndScript\img\circles.svg" />
+    <None Include="wwwroot\FrontEndScript\img\header-bg2.html" />
+    <None Include="wwwroot\FrontEndScript\img\header-bg3.html" />
+    <None Include="wwwroot\FrontEndScript\img\icon.png" />
+    <None Include="wwwroot\FrontEndScript\img\logo.png" />
+    <None Include="wwwroot\FrontEndScript\img\process - Copy.jpg" />
+    <None Include="wwwroot\FrontEndScript\img\process.jpg" />
+    <None Include="wwwroot\FrontEndScript\img\process.png" />
+    <None Include="wwwroot\FrontEndScript\img\rel-pj-1.jpg" />
+    <None Include="wwwroot\FrontEndScript\img\rel-pj-2.jpg" />
+    <None Include="wwwroot\FrontEndScript\img\subheader-1.jpg" />
+    <None Include="wwwroot\FrontEndScript\img\subheader-6.jpg" />
+    <None Include="wwwroot\FrontEndScript\img\subheader-7.jpg" />
+    <None Include="wwwroot\FrontEndScript\img\triangle.html" />
+    <None Include="wwwroot\FrontEndScript\img\triangle2.html" />
+    <None Include="wwwroot\FrontEndScript\js\all.js" />
+    <None Include="wwwroot\FrontEndScript\js\all3.js" />
+    <None Include="wwwroot\FrontEndScript\js\AnimOnScroll.js" />
+    <None Include="wwwroot\FrontEndScript\js\bootstrap.min.js" />
+    <None Include="wwwroot\FrontEndScript\js\cbpAnimatedHeader.js" />
+    <None Include="wwwroot\FrontEndScript\js\classie.js" />
+    <None Include="wwwroot\FrontEndScript\js\imagesloaded.js" />
+    <None Include="wwwroot\FrontEndScript\js\jquery-2.2.4.min.js" />
+    <None Include="wwwroot\FrontEndScript\js\jquery.easing.min.js" />
+    <None Include="wwwroot\FrontEndScript\js\jquery.js" />
+    <None Include="wwwroot\FrontEndScript\js\jquery.mixitup.min.js" />
+    <None Include="wwwroot\FrontEndScript\js\masonry.pkgd.min.js" />
+    <None Include="wwwroot\FrontEndScript\js\modernizr.custom.js" />
+    <None Include="wwwroot\FrontEndScript\js\scroll.js" />
+    <None Include="wwwroot\FrontEndScript\js\scrolltopcontrol.js" />
+    <None Include="wwwroot\FrontEndScript\js\theme.js" />
+    <None Include="wwwroot\FrontEndScript\js\up.png" />
+    <None Include="wwwroot\FrontEndScript\js\wow.min.js" />
+    <None Include="wwwroot\FrontEndScript\vendor\assets\coloredbg.html" />
+    <None Include="wwwroot\FrontEndScript\vendor\assets\gridtile.html" />
+    <None Include="wwwroot\FrontEndScript\vendor\assets\gridtile_3x3.html" />
+    <None Include="wwwroot\FrontEndScript\vendor\assets\gridtile_3x3_white.html" />
+    <None Include="wwwroot\FrontEndScript\vendor\assets\gridtile_white.html" />
+    <None Include="wwwroot\FrontEndScript\vendor\assets\loader.html" />
+    <None Include="wwwroot\FrontEndScript\vendor\hover.css" />
+    <None Include="wwwroot\FrontEndScript\vendor\revolution\closedhand.html" />
+    <None Include="wwwroot\FrontEndScript\vendor\revolution\jquery_revolution.min.js" />
+    <None Include="wwwroot\FrontEndScript\vendor\revolution\jquery_tools.min.js" />
+    <None Include="wwwroot\FrontEndScript\vendor\revolution\navigation.css" />
+    <None Include="wwwroot\FrontEndScript\vendor\revolution\openhand.html" />
+    <None Include="wwwroot\FrontEndScript\vendor\revolution\revolution.extension.actions.min.js" />
+    <None Include="wwwroot\FrontEndScript\vendor\revolution\revolution.extension.kenburn.min.js" />
+    <None Include="wwwroot\FrontEndScript\vendor\revolution\revolution.extension.layeranimation.min.js" />
+    <None Include="wwwroot\FrontEndScript\vendor\revolution\revolution.extension.navigation.min.js" />
+    <None Include="wwwroot\FrontEndScript\vendor\revolution\revolution.extension.slideanims.min.js" />
+    <None Include="wwwroot\FrontEndScript\vendor\revolution\settings.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SI.Meditourism.AdminInfo\SI.Meditourism.AdminInfo.csproj" />
+    <ProjectReference Include="..\SI.Meditourism.ChatingService\SI.Meditourism.ChatingService.csproj" />
+    <ProjectReference Include="..\SI.Meditourism.Common\SI.Meditourism.Common.csproj" />
+    <ProjectReference Include="..\SI.Meditourism.Connection\SI.Meditourism.Connection.csproj" />
+    <ProjectReference Include="..\SI.Meditourism.CustomerInfo\SI.Meditourism.CustomerInfo.csproj" />
+    <ProjectReference Include="..\SI.Meditourism.Encryption256AES\SI.Meditourism.Encryption256AES.csproj" />
+    <ProjectReference Include="..\SI.Meditourism.FAQInfo\SI.Meditourism.FAQInfo.csproj" />
+    <ProjectReference Include="..\SI.Meditourism.Master\SI.Meditourism.Master.csproj" />
+    <ProjectReference Include="..\SI.Meditourism.Reports\SI.Meditourism.Reports.csproj" />
+    <ProjectReference Include="..\SI.Meditourism.Services\SI.Meditourism.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\ReportFile\" />
+  </ItemGroup>
+
+</Project>

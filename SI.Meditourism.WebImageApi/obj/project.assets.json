@@ -1,0 +1,124 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "SI.Meditourism.Common/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/SI.Meditourism.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SI.Meditourism.Common.dll": {}
+        }
+      },
+      "SI.Meditourism.Master/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/SI.Meditourism.Master.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SI.Meditourism.Master.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SI.Meditourism.Common/1.0.0": {
+      "type": "project",
+      "path": "../SI.Meditourism.Common/SI.Meditourism.Common.csproj",
+      "msbuildProject": "../SI.Meditourism.Common/SI.Meditourism.Common.csproj"
+    },
+    "SI.Meditourism.Master/1.0.0": {
+      "type": "project",
+      "path": "../SI.Meditourism.Master/SI.Meditourism.Master.csproj",
+      "msbuildProject": "../SI.Meditourism.Master/SI.Meditourism.Master.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v2.0": [
+      "SI.Meditourism.Common >= 1.0.0",
+      "SI.Meditourism.Master >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\vikas\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\.Net Project\\SI.Meditourism\\SI.Meditourism.WebImageApi\\SI.Meditourism.WebImageApi.csproj",
+      "projectName": "SI.Meditourism.WebImageApi",
+      "projectPath": "D:\\.Net Project\\SI.Meditourism\\SI.Meditourism.WebImageApi\\SI.Meditourism.WebImageApi.csproj",
+      "packagesPath": "C:\\Users\\vikas\\.nuget\\packages\\",
+      "outputPath": "D:\\.Net Project\\SI.Meditourism\\SI.Meditourism.WebImageApi\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\vikas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp2.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "targetAlias": "netcoreapp2.0",
+          "projectReferences": {
+            "D:\\.Net Project\\SI.Meditourism\\SI.Meditourism.Common\\SI.Meditourism.Common.csproj": {
+              "projectPath": "D:\\.Net Project\\SI.Meditourism\\SI.Meditourism.Common\\SI.Meditourism.Common.csproj"
+            },
+            "D:\\.Net Project\\SI.Meditourism\\SI.Meditourism.Master\\SI.Meditourism.Master.csproj": {
+              "projectPath": "D:\\.Net Project\\SI.Meditourism\\SI.Meditourism.Master\\SI.Meditourism.Master.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp2.0": {
+        "targetAlias": "netcoreapp2.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project SI.Meditourism.Common is not compatible with netcoreapp2.0 (.NETCoreApp,Version=v2.0). Project SI.Meditourism.Common supports: netcoreapp2.2 (.NETCoreApp,Version=v2.2)",
+      "libraryId": "SI.Meditourism.Common",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.0"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project SI.Meditourism.Master is not compatible with netcoreapp2.0 (.NETCoreApp,Version=v2.0). Project SI.Meditourism.Master supports: netcoreapp2.2 (.NETCoreApp,Version=v2.2)",
+      "libraryId": "SI.Meditourism.Master",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.0"
+      ]
+    }
+  ]
+}

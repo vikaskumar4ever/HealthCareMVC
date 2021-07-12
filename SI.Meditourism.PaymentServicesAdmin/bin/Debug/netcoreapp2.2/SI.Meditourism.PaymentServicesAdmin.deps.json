@@ -1,0 +1,142 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "SI.Meditourism.PaymentServicesAdmin/1.0.0": {
+        "dependencies": {
+          "Dapper": "1.60.6",
+          "SI.Meditourism.Connection": "1.0.0",
+          "log4net": "2.0.8"
+        },
+        "runtime": {
+          "SI.Meditourism.PaymentServicesAdmin.dll": {}
+        }
+      },
+      "Dapper/1.60.6": {
+        "dependencies": {
+          "System.Reflection.TypeExtensions": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dapper.dll": {
+            "assemblyVersion": "1.60.0.0",
+            "fileVersion": "1.60.6.27094"
+          }
+        }
+      },
+      "log4net/2.0.8": {
+        "dependencies": {
+          "System.Diagnostics.TraceSource": "4.0.0",
+          "System.IO.FileSystem.Watcher": "4.0.0",
+          "System.Net.Requests": "4.0.11",
+          "System.Reflection.TypeExtensions": "4.4.0",
+          "System.Runtime.Serialization.Formatters": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/log4net.dll": {
+            "assemblyVersion": "2.0.8.0",
+            "fileVersion": "2.0.8.0"
+          }
+        }
+      },
+      "System.Diagnostics.TraceSource/4.0.0": {},
+      "System.IO.FileSystem.Watcher/4.0.0": {
+        "dependencies": {
+          "System.Threading.Overlapped": "4.0.1"
+        }
+      },
+      "System.Net.Requests/4.0.11": {
+        "dependencies": {
+          "System.Net.WebHeaderCollection": "4.0.1"
+        }
+      },
+      "System.Net.WebHeaderCollection/4.0.1": {},
+      "System.Reflection.TypeExtensions/4.4.0": {},
+      "System.Runtime.Serialization.Formatters/4.3.0": {},
+      "System.Threading.Overlapped/4.0.1": {},
+      "SI.Meditourism.Connection/1.0.0": {
+        "runtime": {
+          "SI.Meditourism.Connection.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SI.Meditourism.PaymentServicesAdmin/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Dapper/1.60.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mmnJNhKMeF2KhvVXDoVQlFxre8aJAo71YBJrKqFlvuqzYC2QiXUq94/GCDBJzU7paq4GqpkV2glw3308TcGibw==",
+      "path": "dapper/1.60.6",
+      "hashPath": "dapper.1.60.6.nupkg.sha512"
+    },
+    "log4net/2.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-N41MQGHZImiCfn0cUuSBjZxrcNfIQCuCgQP0rpgB3J/NWponEh3lc1LxJEuIsPAR9Oc1jVvfkNNFCY1C5hf9LA==",
+      "path": "log4net/2.0.8",
+      "hashPath": "log4net.2.0.8.nupkg.sha512"
+    },
+    "System.Diagnostics.TraceSource/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6WVCczFZKXwpWpzd/iJkYnsmWTSFFiU24Xx/YdHXBcu+nFI/ehTgeqdJQFbtRPzbrO3KtRNjvkhtj4t5/WwWsA==",
+      "path": "system.diagnostics.tracesource/4.0.0",
+      "hashPath": "system.diagnostics.tracesource.4.0.0.nupkg.sha512"
+    },
+    "System.IO.FileSystem.Watcher/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qM4Wr3La+RYb/03B0mZZjbA7tHsGzDffnuXP8Sl48HW2JwCjn3kfD5qdw0sqyNNowUipcJMi9/q6sMUrOIJ6UQ==",
+      "path": "system.io.filesystem.watcher/4.0.0",
+      "hashPath": "system.io.filesystem.watcher.4.0.0.nupkg.sha512"
+    },
+    "System.Net.Requests/4.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vxGt7C0cZixN+VqoSW4Yakc1Y9WknmxauDqzxgpw/FnBdz4kQNN51l4wxdXX5VY1xjqy//+G+4CvJWp1+f+y6Q==",
+      "path": "system.net.requests/4.0.11",
+      "hashPath": "system.net.requests.4.0.11.nupkg.sha512"
+    },
+    "System.Net.WebHeaderCollection/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XX2TIAN+wBSAIV51BU2FvvXMdstUa8b0FBSZmDWjZdwUMmggQSifpTOZ5fNH20z9ZCg2fkV1L5SsZnpO2RQDRQ==",
+      "path": "system.net.webheadercollection/4.0.1",
+      "hashPath": "system.net.webheadercollection.4.0.1.nupkg.sha512"
+    },
+    "System.Reflection.TypeExtensions/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dkmh/ySlwnXJp/1qYP9uyKkCK1CXR/REFzl7abHcArxBcV91mY2CgrrzSRA5Z/X4MevJWwXsklGRdR3A7K9zbg==",
+      "path": "system.reflection.typeextensions/4.4.0",
+      "hashPath": "system.reflection.typeextensions.4.4.0.nupkg.sha512"
+    },
+    "System.Runtime.Serialization.Formatters/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KT591AkTNFOTbhZlaeMVvfax3RqhH1EJlcwF50Wm7sfnBLuHiOeZRRKrr1ns3NESkM20KPZ5Ol/ueMq5vg4QoQ==",
+      "path": "system.runtime.serialization.formatters/4.3.0",
+      "hashPath": "system.runtime.serialization.formatters.4.3.0.nupkg.sha512"
+    },
+    "System.Threading.Overlapped/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f7aLuLkBoCQM2kng7zqLFBXz9Gk48gDK8lk1ih9rH/1arJJzZK9gJwNvPDhL6Ps/l6rwOr8jw+4FCHL0KKWiEg==",
+      "path": "system.threading.overlapped/4.0.1",
+      "hashPath": "system.threading.overlapped.4.0.1.nupkg.sha512"
+    },
+    "SI.Meditourism.Connection/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

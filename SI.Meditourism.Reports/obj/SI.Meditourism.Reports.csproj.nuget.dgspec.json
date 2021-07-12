@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\.Net Project\\SI.Meditourism\\SI.Meditourism.Reports\\SI.Meditourism.Reports.csproj": {}
+  },
+  "projects": {
+    "D:\\.Net Project\\SI.Meditourism\\SI.Meditourism.Connection\\SI.Meditourism.Connection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\.Net Project\\SI.Meditourism\\SI.Meditourism.Connection\\SI.Meditourism.Connection.csproj",
+        "projectName": "SI.Meditourism.Connection",
+        "projectPath": "D:\\.Net Project\\SI.Meditourism\\SI.Meditourism.Connection\\SI.Meditourism.Connection.csproj",
+        "packagesPath": "C:\\Users\\vikas\\.nuget\\packages\\",
+        "outputPath": "D:\\.Net Project\\SI.Meditourism\\SI.Meditourism.Connection\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vikas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\.Net Project\\SI.Meditourism\\SI.Meditourism.Reports\\SI.Meditourism.Reports.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\.Net Project\\SI.Meditourism\\SI.Meditourism.Reports\\SI.Meditourism.Reports.csproj",
+        "projectName": "SI.Meditourism.Reports",
+        "projectPath": "D:\\.Net Project\\SI.Meditourism\\SI.Meditourism.Reports\\SI.Meditourism.Reports.csproj",
+        "packagesPath": "C:\\Users\\vikas\\.nuget\\packages\\",
+        "outputPath": "D:\\.Net Project\\SI.Meditourism\\SI.Meditourism.Reports\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vikas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "D:\\.Net Project\\SI.Meditourism\\SI.Meditourism.Connection\\SI.Meditourism.Connection.csproj": {
+                "projectPath": "D:\\.Net Project\\SI.Meditourism\\SI.Meditourism.Connection\\SI.Meditourism.Connection.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[1.60.6, )"
+            },
+            "Microsoft.AspNetCore.All": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

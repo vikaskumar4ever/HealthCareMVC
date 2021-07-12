@@ -1,0 +1,12 @@
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Services\bin\Debug\netcoreapp2.0\SI.Meditourism.Services.deps.json
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Services\bin\Debug\netcoreapp2.0\SI.Meditourism.Services.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Services\bin\Debug\netcoreapp2.0\SI.Meditourism.Services.pdb
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Services\bin\Debug\netcoreapp2.0\SI.Meditourism.Connection.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Services\bin\Debug\netcoreapp2.0\SI.Meditourism.Connection.pdb
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Services\obj\Debug\netcoreapp2.0\SI.Meditourism.Services.csprojAssemblyReference.cache
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Services\obj\Debug\netcoreapp2.0\SI.Meditourism.Services.csproj.CoreCompileInputs.cache
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Services\obj\Debug\netcoreapp2.0\SI.Meditourism.Services.AssemblyInfoInputs.cache
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Services\obj\Debug\netcoreapp2.0\SI.Meditourism.Services.AssemblyInfo.cs
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Services\obj\Debug\netcoreapp2.0\SI.Meditourism.Services.csproj.CopyComplete
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Services\obj\Debug\netcoreapp2.0\SI.Meditourism.Services.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Services\obj\Debug\netcoreapp2.0\SI.Meditourism.Services.pdb

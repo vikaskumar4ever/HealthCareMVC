@@ -1,0 +1,128 @@
+﻿@model SI.Meditourism.FAQInfo.Model.FAQlistFrntEnd;
+@{
+    ViewData["Title"] = "FAQ";
+    Layout = "~/Views/Shared/_FrontEndLayout.cshtml";
+
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+
+    <link type="text/css" rel="stylesheet" href="/FAQStyle/reset.css" />
+    <link type="text/css" rel="stylesheet" href="/FAQStyle/faq.css" />
+    <script src="/FAQStyle/modernizr.js" type="text/javascript"></script>
+    <title>FAQ</title>
+</head>
+<body>
+
+   
+
+    <section class="cd-faq">
+        <ul class="cd-faq-categories">
+            <li>
+                <a style="font-size: 14px" class="selected" href="#basics">@ViewBag.Heading1</a>
+            </li>
+            <li>
+                <a style="font-size: 14px" href="#topqueries">@ViewBag.Heading2</a>
+            </li>
+            <li>
+                <a style="font-size: 14px" href="#account">@ViewBag.Heading3</a>
+            </li>
+            <li>
+                <a style="font-size: 14px" href="#payments">@ViewBag.Heading4</a>
+            </li>
+        </ul>
+        <!-- cd-faq-categories -->
+
+        <div class="cd-faq-items">
+            <div>
+                <ul id="basics" class="cd-faq-group">
+                    <li class=" cd-faq-title">
+                        <h2 style="font-size: 14px">@ViewBag.Heading1</h2>
+                    </li>
+                        @foreach (var item in Model.GetFAQLists)
+                        {
+                            @if (item.FaqCategoryId == "924d1fa5-19ee-43e8-975a-1462bd635b83")
+                            {
+                                    <li>
+                                        <a class="cd-faq-trigger" href="#0">@item.Question</a>
+                                        <div class="cd-faq-content">
+                                            <p>@item.Answer</p>
+                                        </div>
+                                    </li>
+                            }
+                        }
+
+                    </ul>
+            </div>
+            <!-- cd-faq-group -->
+
+            <ul id="topqueries" class="cd-faq-group">
+                <li class="cd-faq-title">
+                    <h2 style="font-size: 14px !important;">@ViewBag.Heading2</h2>
+                </li>
+                    @foreach (var item in Model.GetFAQLists)
+                    {
+                        @if (item.FaqCategoryId == "2b4a0848-de19-4281-891e-f4e4699ebb4b")
+                        {
+                                <li>
+                                    <a class="cd-faq-trigger" href="#0">@item.Question</a>
+                                    <div class="cd-faq-content">
+                                        <p>@item.Answer</p>
+                                    </div>
+                                </li>
+                        }
+                    }
+               
+            </ul>
+            <!-- cd-faq-group -->
+            <ul id="account" class="cd-faq-group">
+                <li class="cd-faq-title">
+                    <h2 style="font-size: 14px">@ViewBag.Heading3</h2>
+                </li>
+                    @foreach (var item in Model.GetFAQLists)
+                    {
+                        @if (item.FaqCategoryId == "653471e0-2d17-4fd9-a6c1-24ea4b8e7850")
+                        {
+                                <li>
+                                    <a class="cd-faq-trigger" href="#0">@item.Question</a>
+                                    <div class="cd-faq-content">
+                                        <p>@item.Answer</p>
+                                    </div>
+                                </li>
+                        }
+                    }
+            </ul>
+            <!-- cd-faq-group -->
+            <ul id="payments" class="cd-faq-group">
+                <li class="cd-faq-title">
+                    <h2 style="font-size: 14px !important;">@ViewBag.Heading4</h2>
+                </li>
+                    @foreach (var item in Model.GetFAQLists)
+                    {
+                        @if (item.FaqCategoryId == "ce2bfbfd-1127-48ed-88d6-dd0534c87456")
+                        {
+                            
+                                <li>
+                                    <a class="cd-faq-trigger" href="#0">@item.Question</a>
+                                    <div class="cd-faq-content">
+                                        <p>@item.Answer</p>
+                                    </div>
+                                </li>
+                            
+                        }
+                    }
+            </ul>
+            <!-- cd-faq-group -->
+        </div>
+        <!-- cd-faq-items -->
+        <a href="#0" class="cd-close-panel">Close</a>
+    </section>
+    <script src="/FrontEndScript/js/jquery-2.2.4.min.js"></script>
+    <script src="~/FAQStyle/jquery.mobile.custom.min.js"></script>
+    <script src="~/FAQStyle/main.js"></script>
+</body>
+</html>

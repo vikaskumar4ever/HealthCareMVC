@@ -1,0 +1,12 @@
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.CustomerInfo\bin\Debug\netcoreapp2.0\SI.Meditourism.CustomerInfo.deps.json
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.CustomerInfo\bin\Debug\netcoreapp2.0\SI.Meditourism.CustomerInfo.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.CustomerInfo\bin\Debug\netcoreapp2.0\SI.Meditourism.CustomerInfo.pdb
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.CustomerInfo\bin\Debug\netcoreapp2.0\SI.Meditourism.Connection.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.CustomerInfo\bin\Debug\netcoreapp2.0\SI.Meditourism.Connection.pdb
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.CustomerInfo\obj\Debug\netcoreapp2.0\SI.Meditourism.CustomerInfo.csprojAssemblyReference.cache
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.CustomerInfo\obj\Debug\netcoreapp2.0\SI.Meditourism.CustomerInfo.csproj.CoreCompileInputs.cache
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.CustomerInfo\obj\Debug\netcoreapp2.0\SI.Meditourism.CustomerInfo.AssemblyInfoInputs.cache
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.CustomerInfo\obj\Debug\netcoreapp2.0\SI.Meditourism.CustomerInfo.AssemblyInfo.cs
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.CustomerInfo\obj\Debug\netcoreapp2.0\SI.Meditourism.CustomerInfo.csproj.CopyComplete
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.CustomerInfo\obj\Debug\netcoreapp2.0\SI.Meditourism.CustomerInfo.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.CustomerInfo\obj\Debug\netcoreapp2.0\SI.Meditourism.CustomerInfo.pdb

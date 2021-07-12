@@ -1,0 +1,488 @@
+﻿.mr-table {
+    border-spacing: 0;
+    border-collapse: collapse
+}
+
+.mr-table__mobile-caption {
+    display: none
+}
+
+.mr-table_bg_column {
+    width: 30%
+}
+
+@media screen and (max-width:768px) {
+    .mr-table,
+    .mr-table__thead,
+    .mr-table__tbody,
+    .mr-table__tr {
+        display: block
+    }
+
+    .mr-table__th,
+    .mr-table__td {
+        display: -webkit-flex;
+        display: flex
+    }
+
+    .mr-table .mr-table__head {
+        display: none
+    }
+
+    .mr-table .mr-table_bg_column {
+        width: auto;
+        padding: 0px
+    }
+
+    .mr-table .mr-table__mobile-caption,
+    .mr-table .mr-table__value {
+        display: block
+    }
+
+    .mr-table .mr-table__mobile-caption {
+        margin-right: 2%
+    }
+}
+
+@media screen and (max-width:768px) {
+    .mr-table_evenly .mr-table__mobile-caption,
+    .mr-table_evenly .mr-table__value {
+        width: 48%
+    }
+}
+
+.mr-table_bg .mr-table__head {
+    background-color: #2196f3;
+    color: #fff
+}
+
+.mr-table_bg .mr-table__tr:hover {
+    background-color: #eee
+}
+
+@media screen and (max-width:768px) {
+    .mr-table_bg .mr-table__td:first-of-type {
+        background-color: #2196f3;
+        color: #fff
+    }
+
+    .mr-table_bg .mr-table__tr:hover {
+        background: inherit
+    }
+}
+
+@media only screen and (min-width:769px) {
+    .mr-table_bg_no .mr-table__head {
+        border-bottom: 1px solid #eee
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .mr-table_bg_no .mr-table__td {
+        display: block
+    }
+
+    .mr-table_bg_no .mr-table_mobile_caption {
+        font-weight: 700;
+        margin-bottom: 10px
+    }
+}
+
+.mr-table {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px
+}
+
+@media screen and (min-width:769px) {
+    .mr-table {
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24)
+    }
+}
+
+
+.mr-table__td {
+    padding: 0.5em 0.3em;
+    text-align: left
+}
+
+.mr-table__th {
+    padding: 0.5em 0.5em;
+    
+    text-align: left
+}
+
+.mr-table__th {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.mr-table__tr {
+    border-bottom: 1px solid #eee;
+    transition: background-color .2s ease-in
+}
+
+    .mr-table__tr:last-of-type {
+        border-bottom: none
+    }
+
+@media screen and (max-width:768px) {
+    .mr-table {
+        box-shadow: none
+    }
+
+    .mr-table__tr {
+        margin-bottom: 30px;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);
+        background-color: #fff
+    }
+
+        .mr-table__tr:hover {
+            background: none
+        }
+
+    .mr-table__td {
+        border-bottom: 1px solid #eee
+    }
+
+        .mr-table__td:last-of-type {
+            border-bottom: none
+        }
+}
+
+@media screen and (max-width:640px) {
+    .mr-table {
+        font-size: 12px
+    }
+
+    .mr-table__th {
+        font-size: 14px
+    }
+}
+
+.mr-tables {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between
+}
+
+.mr-table_2column {
+    width: 49%
+}
+
+.mr-table_3column {
+    width: 32%
+}
+
+.mr-table_4column {
+    width: 24%
+}
+
+@media only screen and (max-width:768px) {
+    .mr-tables {
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap
+    }
+}
+
+@media only screen and (min-width:481px) and (max-width:768px) {
+    .mr-table_3column,
+    .mr-table_4column {
+        width: 49%
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .mr-table_2column,
+    .mr-table_3column,
+    .mr-table_4column {
+        width: 100%
+    }
+}
+
+.mr-table_price .mr-table__th {
+    text-align: center
+}
+
+.mr-table__tariff,
+.mr-table__price-value {
+    display: block
+}
+
+.mr-table__price-value {
+    margin: 1em 0 .5em
+}
+
+.mr-table__decor-arrow {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    margin-right: 10px;
+    height: 20px;
+    width: 20px
+}
+
+    .mr-table__decor-arrow:after {
+        content: "";
+        display: block;
+        width: 70%;
+        height: 33.33%;
+        position: absolute;
+        top: 0;
+        left: 5px;
+        -webkit-transform: rotate(135deg) translateY(-25%);
+        transform: rotate(135deg) translateY(-25%)
+    }
+
+.mr-table__button {
+    display: block;
+    width: 50%;
+    cursor: pointer;
+    margin: 0 auto;
+    padding: .5em 1em;
+    text-align: center
+}
+
+@media screen and (max-width:768px) {
+    .mr-table_price .mr-table__price-head,
+    .mr-table_price .mr-table__th,
+    .mr-table_price .mr-table__price-tr,
+    .mr-table_price .mr-table__td {
+        display: block
+    }
+}
+
+.mr-table_price {
+    transition: box-shadow .2s ease-in
+}
+
+    .mr-table_price:hover {
+        box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 1px 10px 0 rgba(0, 0, 0, 0.24)
+    }
+
+    .mr-table_price .mr-table__th {
+        border-bottom: 1px solid #eee
+    }
+
+.mr-table__tariff {
+    font-weight: 400;
+    font-size: 28px;
+    color: #36bae2
+}
+
+.mr-table__price-value {
+    font-weight: 300;
+    font-size: 35px
+}
+
+.mr-table__price-tr {
+    border-bottom: 1px solid #eee
+}
+
+.mr-table__decor-arrow:after {
+    border-right: 2px solid #36bae2;
+    border-top: 2px solid #36bae2
+}
+
+.mr-table__button {
+    font-size: 14px;
+    font-weight: 400;
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #36bae2;
+    transition: color .2s ease-in
+}
+
+@media screen and (max-width:768px) {
+    .mr-table_price {
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24)
+    }
+
+    .mr-table__tariff {
+        font-size: 24px
+    }
+
+    .mr-table__price-value {
+        font-size: 28px
+    }
+}
+
+@media screen and (max-width:640px) {
+    .responsive_price_table {
+        font-size: 12px
+    }
+
+    .mr-table__tariff {
+        font-size: 16px
+    }
+
+    .mr-table__price-value {
+        font-size: 18px
+    }
+}
+
+.mr-table_price-head-bg .mr-table__th {
+    background-color: #7049ba
+}
+
+.mr-table_price-head-bg .mr-table__th,
+.mr-table_price-head-bg .mr-table__tariff {
+    color: #fff
+}
+
+.mr-table_price-head-bg .responsive_price_table_decor:after,
+.mr-table_price-head-bg .mr-table__button {
+    border-color: #7049ba
+}
+
+.mr-table_price-bg {
+    background-color: #36bae2
+}
+
+    .mr-table_price-bg,
+    .mr-table_price-bg .mr-table__tariff,
+    .mr-table_price-bg .mr-table__button {
+        color: #fff
+    }
+
+        .mr-table_price-bg .mr-table__decor-arrow:after,
+        .mr-table_price-bg .mr-table__button {
+            border-color: #fff
+        }
+
+.mr-table_versions .mr-table__head {
+    border-bottom: 1px solid #eee
+}
+
+.mr-table-active-column {
+    background-color: #303f9f;
+    border-bottom: 1px solid #283593;
+    font-weight: 700;
+    color: #fff
+}
+
+@media screen and (max-width:768px) {
+    .mr-table_versions .mr-table__td:first-of-type {
+        background-color: #eee
+    }
+
+    .mr-table-active-column {
+        background: none;
+        color: #303f9f
+    }
+}
+
+.mr-table__avatarbox,
+.mr-table__username,
+.mr-table__post {
+    width: 100%
+}
+
+.mr-table__social {
+    text-decoration: none
+}
+
+.mr-table__icon-label {
+    display: none
+}
+
+@media only screen and (max-width:768px) {
+    .mr-table_team .mr-table__th {
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-justify-content: center;
+        justify-content: center
+    }
+
+    .mr-table_team .mr-table__td {
+        display: block
+    }
+}
+
+.mr-table_team {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24)
+}
+
+    .mr-table_team:hover {
+        box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 1px 10px 0 rgba(0, 0, 0, 0.24)
+    }
+
+    .mr-table_team .mr-table__th {
+        text-align: center;
+        background-color: #18bd9b;
+        color: #fff
+    }
+
+    .mr-table_team .mr-table__td {
+        border-top: 1px solid #eee
+    }
+
+.mr-table__avatar {
+    border-radius: 50%;
+    border: 3px solid #fff;
+    width: 100px;
+    height: 100px
+}
+
+.mr-table__username {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 300
+}
+
+.mr-table__icon {
+    margin: 0 10px 20px 0
+}
+
+    .mr-table__icon:last-of-type {
+        margin-right: 0
+    }
+
+.mr-table__icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #18bd9b;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24)
+}
+
+    .mr-table__icon:before {
+        color: #fff;
+        font-size: 16px
+    }
+
+.mr-table__title {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 15px
+}
+
+@media screen and (max-width:480px) {
+    .mr-table {
+        margin-bottom: 5vw
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:768px) {
+    .mr-table {
+        margin-bottom: 2vw
+    }
+}
+
+/*Fixedbutton is for all the modules located in View section to navigate to Add page*/
+
+.fixedbutton {
+    position: fixed !important;
+    bottom: 30px;
+    right: 20px;
+    background-color: #5bc0de !important;
+}
+
+.paginator {
+    text-align: center;
+}

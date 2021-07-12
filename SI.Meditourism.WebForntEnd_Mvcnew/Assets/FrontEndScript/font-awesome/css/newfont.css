@@ -1,0 +1,12 @@
+﻿/*!
+ *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+
+@font-face {
+    font-family: 'PTSans';
+    src: url('../../../FrontEndScript/fonts/PT_Sans-Web-Regular.ttf');
+    /*src: url('../../../FrontEndScript/fonts/PT_Sans-Web-Bold.ttf') format('truetype'),url('../../../FrontEndScript/fonts/PT_Sans-Web-BoldItalic.ttf') format('truetype'),url('../../../FrontEndScript/fonts/PT_Sans-Web-Italic.ttf') format('truetype');*/
+
+}
+

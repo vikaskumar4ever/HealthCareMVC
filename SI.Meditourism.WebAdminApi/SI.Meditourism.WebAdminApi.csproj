@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningsAsErrors />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Controllers\GetServiceslistController.cs~RF75765213.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.2.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SI.Meditourism.AdminInfo\SI.Meditourism.AdminInfo.csproj" />
+    <ProjectReference Include="..\SI.Meditourism.ChatingService\SI.Meditourism.ChatingService.csproj" />
+    <ProjectReference Include="..\SI.Meditourism.Common\SI.Meditourism.Common.csproj" />
+    <ProjectReference Include="..\SI.Meditourism.Connection\SI.Meditourism.Connection.csproj" />
+    <ProjectReference Include="..\SI.Meditourism.CustomerInfo\SI.Meditourism.CustomerInfo.csproj" />
+    <ProjectReference Include="..\SI.Meditourism.Encryption256AES\SI.Meditourism.Encryption256AES.csproj" />
+    <ProjectReference Include="..\SI.Meditourism.FAQInfo\SI.Meditourism.FAQInfo.csproj" />
+    <ProjectReference Include="..\SI.Meditourism.Master\SI.Meditourism.Master.csproj" />
+    <ProjectReference Include="..\SI.Meditourism.PaymentServicesAdmin\SI.Meditourism.PaymentServicesAdmin.csproj" />
+    <ProjectReference Include="..\SI.Meditourism.Reports\SI.Meditourism.Reports.csproj" />
+    <ProjectReference Include="..\SI.Meditourism.Services\SI.Meditourism.Services.csproj" />
+  </ItemGroup>
+
+</Project>

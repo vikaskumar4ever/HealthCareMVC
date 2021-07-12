@@ -1,0 +1,63 @@
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.FrntMailer\bin\Debug\SI.Meditourism.FrntMailer.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.FrntMailer\bin\Debug\SI.Meditourism.FrntMailer.pdb
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.FrntMailer\bin\Debug\Dapper.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.FrntMailer\bin\Debug\log4net.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.FrntMailer\bin\Debug\SI.Meditourism.ConnectionFrnt.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.FrntMailer\bin\Debug\SI.Meditourism.ConnectionFrnt.pdb
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.FrntMailer\bin\Debug\Dapper.xml
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.FrntMailer\bin\Debug\log4net.xml
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.FrntMailer\obj\Debug\SI.Meditourism.FrntMailer.csproj.CoreCompileInputs.cache
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.FrntMailer\obj\Debug\SI.Meditourism.FrntMailer.csproj.CopyComplete
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.FrntMailer\obj\Debug\SI.Meditourism.FrntMailer.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.FrntMailer\obj\Debug\SI.Meditourism.FrntMailer.pdb
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.FrntMailer\obj\Debug\SI.Meditourism.FrntMailer.csprojAssemblyReference.cache
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.FrntMailer\bin\Debug\SI.Meditourism.FrntMailer.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.FrntMailer\bin\Debug\SI.Meditourism.FrntMailer.pdb
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.FrntMailer\bin\Debug\Dapper.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.FrntMailer\bin\Debug\log4net.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.FrntMailer\bin\Debug\SI.Meditourism.ConnectionFrnt.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.FrntMailer\bin\Debug\SI.Meditourism.ConnectionFrnt.pdb
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.FrntMailer\bin\Debug\Dapper.xml
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.FrntMailer\bin\Debug\log4net.xml
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.FrntMailer\obj\Debug\SI.Meditourism.FrntMailer.csprojAssemblyReference.cache
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.FrntMailer\obj\Debug\SI.Meditourism.FrntMailer.csproj.CopyComplete
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.FrntMailer\obj\Debug\SI.Meditourism.FrntMailer.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.FrntMailer\obj\Debug\SI.Meditourism.FrntMailer.pdb
+F:\.Net Project\SI.Meditourism\SI.Meditourism.FrntMailer\bin\Debug\SI.Meditourism.FrntMailer.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.FrntMailer\bin\Debug\SI.Meditourism.FrntMailer.pdb
+F:\.Net Project\SI.Meditourism\SI.Meditourism.FrntMailer\bin\Debug\Dapper.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.FrntMailer\bin\Debug\log4net.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.FrntMailer\bin\Debug\SI.Meditourism.ConnectionFrnt.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.FrntMailer\bin\Debug\SI.Meditourism.ConnectionFrnt.pdb
+F:\.Net Project\SI.Meditourism\SI.Meditourism.FrntMailer\bin\Debug\Dapper.xml
+F:\.Net Project\SI.Meditourism\SI.Meditourism.FrntMailer\bin\Debug\log4net.xml
+F:\.Net Project\SI.Meditourism\SI.Meditourism.FrntMailer\obj\Debug\SI.Meditourism.FrntMailer.csprojAssemblyReference.cache
+F:\.Net Project\SI.Meditourism\SI.Meditourism.FrntMailer\obj\Debug\SI.Meditourism.FrntMailer.csproj.CoreCompileInputs.cache
+F:\.Net Project\SI.Meditourism\SI.Meditourism.FrntMailer\obj\Debug\SI.Meditourism.FrntMailer.csproj.CopyComplete
+F:\.Net Project\SI.Meditourism\SI.Meditourism.FrntMailer\obj\Debug\SI.Meditourism.FrntMailer.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.FrntMailer\obj\Debug\SI.Meditourism.FrntMailer.pdb
+E:\.Net Project\SI.Meditourism\SI.Meditourism.FrntMailer\bin\Debug\SI.Meditourism.FrntMailer.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.FrntMailer\bin\Debug\SI.Meditourism.FrntMailer.pdb
+E:\.Net Project\SI.Meditourism\SI.Meditourism.FrntMailer\bin\Debug\Dapper.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.FrntMailer\bin\Debug\log4net.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.FrntMailer\bin\Debug\SI.Meditourism.ConnectionFrnt.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.FrntMailer\bin\Debug\SI.Meditourism.ConnectionFrnt.pdb
+E:\.Net Project\SI.Meditourism\SI.Meditourism.FrntMailer\bin\Debug\Dapper.xml
+E:\.Net Project\SI.Meditourism\SI.Meditourism.FrntMailer\bin\Debug\log4net.xml
+E:\.Net Project\SI.Meditourism\SI.Meditourism.FrntMailer\obj\Debug\SI.Meditourism.FrntMailer.csproj.CoreCompileInputs.cache
+E:\.Net Project\SI.Meditourism\SI.Meditourism.FrntMailer\obj\Debug\SI.Meditourism.FrntMailer.csproj.CopyComplete
+E:\.Net Project\SI.Meditourism\SI.Meditourism.FrntMailer\obj\Debug\SI.Meditourism.FrntMailer.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.FrntMailer\obj\Debug\SI.Meditourism.FrntMailer.pdb
+D:\.Net Project\SI.Meditourism\SI.Meditourism.FrntMailer\bin\Debug\SI.Meditourism.FrntMailer.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.FrntMailer\bin\Debug\SI.Meditourism.FrntMailer.pdb
+D:\.Net Project\SI.Meditourism\SI.Meditourism.FrntMailer\bin\Debug\Dapper.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.FrntMailer\bin\Debug\log4net.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.FrntMailer\bin\Debug\SI.Meditourism.ConnectionFrnt.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.FrntMailer\bin\Debug\SI.Meditourism.ConnectionFrnt.pdb
+D:\.Net Project\SI.Meditourism\SI.Meditourism.FrntMailer\bin\Debug\Dapper.xml
+D:\.Net Project\SI.Meditourism\SI.Meditourism.FrntMailer\bin\Debug\log4net.xml
+D:\.Net Project\SI.Meditourism\SI.Meditourism.FrntMailer\obj\Debug\SI.Meditourism.FrntMailer.csproj.AssemblyReference.cache
+D:\.Net Project\SI.Meditourism\SI.Meditourism.FrntMailer\obj\Debug\SI.Meditourism.FrntMailer.csproj.CoreCompileInputs.cache
+D:\.Net Project\SI.Meditourism\SI.Meditourism.FrntMailer\obj\Debug\SI.Meditourism.FrntMailer.csproj.CopyComplete
+D:\.Net Project\SI.Meditourism\SI.Meditourism.FrntMailer\obj\Debug\SI.Meditourism.FrntMailer.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.FrntMailer\obj\Debug\SI.Meditourism.FrntMailer.pdb

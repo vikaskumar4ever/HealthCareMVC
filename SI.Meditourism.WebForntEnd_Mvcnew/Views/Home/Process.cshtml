@@ -1,0 +1,462 @@
+﻿
+@{
+    ViewData["Title"] = "Process";
+    Layout = "~/Views/Shared/_FrontEndLayout.cshtml";
+}
+<!--main-->
+<style type="text/css">
+    .bdr {
+        border: 4px solid #4495d1;
+        border-radius: 6px;
+    }
+
+    #container {
+        z-index: 5;
+        margin-top: 27px;
+        height: auto;
+        background-image: linear-gradient(white,lightblue);
+    }
+
+    #Dskcontainer {
+        z-index: 5;
+        margin-top: 7px;
+        margin-left: -14%;
+        height: auto;
+        background-image: linear-gradient(white,lightblue);
+    }
+
+    .arrowtransform {
+        height: 125px;
+        width: 62%;
+        transform: skew(169deg);
+        align-items: center;
+        text-align: center;
+        transform: rotate(90deg);
+        margin-left: 15%;
+    }
+
+    p {
+        text-transform: none !important;
+        line-height: 22px !important;
+    }
+
+    /*h3 {
+        text-align: center;
+    }*/
+
+    h4 {
+        text-align: center;
+        text-align: -webkit-match-parent;
+    }
+
+    .ImgStyle {
+        width: 60%;
+    }
+
+    #dot {
+        //position:absolute;
+        padding: 4px;
+        height: 35px;
+        width: 35px;
+        display: inline-block;
+        border-radius: 50%;
+        background-color: #1e90ff;
+        padding-left: 12px;
+        font-size: 16px;
+        font-weight: 900;
+        color: white;
+    }
+</style>
+
+<!--------<main id="maindesktop">
+    <section id="section-about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div style="text-align:center; margin-bottom: 20px">
+                        <img style="width:15%; margin-top:10px" src="/assets/images/process-01.png">
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <img src="/assets/images/image 1-01.png" class="img-responsive ImgStyle bdr" />
+                        <div id="dot">1</div>
+                        <h4 style="font-size: 18px; margin: 0px 0 0px 3px;">Registration Process</h4>
+                        <div class="col-md-12 col-sm-12" id="Dskcontainer">
+                            <p style=" padding-top: 8px;margin: 0 0 0px 0;font-size: 12.5px!important; color: #242424;">
+                                We will initiate the registration process for you by collecting your
+                                basic formation including medical interventions required for you.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4">
+                        <img src="/assets/images/image 2-01.png" class="img-responsive ImgStyle bdr" />
+                        <div id="dot">2</div>
+                        <h4 style="font-size: 18px; margin: 0px 0 0px 3px;">Appropriate Service</h4>
+                        <div class="col-md-12 col-sm-12" id="Dskcontainer">
+                            <p style=" padding-top: 8px;margin: 0 0 0px 0;font-size: 12.5px!important; color: #242424;">
+                                Based on the information, we will quickly bracket you to the most
+                                appropriate service and the attention you deserve.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4">
+                        <img src="/assets/images/image 3-01.png" class="img-responsive ImgStyle bdr" />
+                        <div id="dot">3</div>
+                        <h5 style="font-size: 18px; margin: 0px 0 0px -50px;">Appropriate Doctor And Hospital</h5>
+                        <div class="col-md-12 col-sm-12" id="Dskcontainer" style="margin-top:10px">
+                            <p style=" padding-top: 8px;margin: 0 0 0px 0;font-size: 12.5px!important; color: #242424;">
+                                We will curate the most appropriate hospital and doctor listing for you.
+                                Cutting your risk of choosing an under par service/doctor. We would provide you an option of no more than 2-3 possible destinations for your case. Our panel of expert doctors would make this choice for you.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4">
+                        <img src="/assets/images/image 5-01.png" class="img-responsive ImgStyle bdr" />
+                        <div id="dot">4</div>
+                        <h4 style="font-size: 18px; margin: 0px 0 0px 3px;">Online Consultation</h4>
+                        <div class="col-md-12 col-sm-12" id="Dskcontainer">
+                            <p style=" padding-top: 8px;margin: 0 0 0px 0;font-size: 12.5px!important; color: #242424;">
+                                Once you choose the doctor/hospital of your choice, We will facilitate an online consultation with them for your assurance and confidence.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4">
+                        <img src="/assets/images/image 4-01.png" class="img-responsive ImgStyle bdr">
+                        <div id="dot">5</div>
+                        <h4 style="font-size: 18px; margin: 0px 0 0px -50px;">Offer Best Possible Dates, Rates and Pre/Post Treatment Facilities</h4>
+                        <div class="col-md-12 col-sm-12" id="Dskcontainer" style="margin-top:5px">
+                            <p style=" padding-top: 8px;margin: 0 0 0px 0;font-size: 12.5px!important; color: #242424;">
+                                On your finalisation, We will reach out to offer best possible dates, rates and pre/post treatment facilities/activities
+                                including guided local travel and stay that you might want to avail.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</main>
+-->
+@*reponsiveview container*@
+<!-------- <main id="mainmobile">
+    <section id="section-about">
+        <div class="container">
+            <div class="row">
+                <div style="text-align:center; margin-bottom: 20px">
+                    <img style="width:30%; margin-top:10px" src="/assets/images/process-01.png">
+                </div>
+                <div class="col-md-12 col-sm-12">
+
+                    <div class="col-md-6 col-sm-6">
+                        <img src="/assets/images/image 1-01.png" class="img-responsive">
+                        <h3 style="font-size: 18px; margin: 0px 0 0px 3px;">Registration Process</h3>
+                        <div class="col-md-5 col-sm-5" id="container">
+                            <p style=" padding-top: 8px;margin: 0 0 0px 0;font-size: 12.5px!important; color: #242424;">
+                                We will initiate the registration process for you by collecting your
+                                basic formation including medical interventions required for you.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-2">
+                        <img src="/assets/images/aro 1-01.png" class="arrowtransform">
+                    </div>
+
+                    <div class="col-md-6 col-sm-6">
+                        <img src="/assets/images/image 2-01.png" class="img-responsive">
+                        <h3 style="font-size: 18px; margin: 0px 0 0px 3px;">Appropriate Service</h3>
+                        <div class="col-md-5 col-sm-5" id="container">
+                            <p style=" padding-top: 8px;margin: 0 0 0px 0;font-size: 12.5px!important; color: #242424;">
+                                Based on the information, we will quickly bracket you to the most
+                                appropriate service and the attention you deserve.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-2">
+                        <img src="/assets/images/aro 2-01.png" class="arrowtransform">
+                    </div>
+
+                    <div class="col-md-6 col-sm-6">
+                        <img src="/assets/images/image 3-01.png" class="img-responsive">
+                        <h3 style="font-size: 18px; margin: 0px 0 0px 3px;">Appropriate Doctor And Hospital</h3>
+                        <div class="col-md-5 col-sm-5" id="container" style="margin-top:60px">
+                            <p style=" padding-top: 8px;margin: 0 0 0px 0;font-size: 12.5px!important; color: #242424;">
+                                We will curate the most appropriate hospital and doctor listing for you.
+                                Cutting your risk of choosing an under par service/doctor. We would provide you an option of no more than 2-3 possible destinations for your case. Our panel of expert doctors would make this choice for you.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-2">
+                        <img src="/assets/images/aro 1-01.png" class="arrowtransform">
+                    </div>
+
+                    <div class="col-md-6 col-sm-6">
+                        <img src="/assets/images/image 5-01.png" class="img-responsive">
+                        <h3 style="font-size: 18px; margin: 0px 0 0px 3px;">Online Consultation</h3>
+                        <div class="col-md-5 col-sm-5" id="container">
+                            <p style=" padding-top: 8px;margin: 0 0 0px 0;font-size: 12.5px!important; color: #242424;">
+                                Once you choose the doctor/hospital of your choice, we will facilitate an online consultation with them for your assurance and confidence.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-2">
+                        <img src="/assets/images/aro 1-01.png" class="arrowtransform">
+                    </div>
+
+                    <div class="col-md-6 col-sm-6">
+                        <img src="/assets/images/image 4-01.png" class="img-responsive">
+                        <h3 style="font-size: 18px; margin: 0px 0 0px 3px;">Offer Best Possible Dates, Rates and Pre/Post Treatment Facilities</h3>
+                        <div class="col-md-5 col-sm-5" id="container" style="margin-top:104px">
+                            <p style=" padding-top: 8px;margin: 0 0 0px 0;font-size: 12.5px!important; color: #242424;">
+                                On your finalisation, we will reach out to offer best possible dates, rates and pre/post treatment facilities/activities
+                                including guided local travel and stay that you might want to avail.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</main>
+-->
+<!------------Desktop View-------------->
+<main id="maindesktop">
+    <section id="section-about" style="padding-bottom: 35px; background-color: #c2d9f1; zoom: 104%">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-12">
+
+                    <div class="col-sm-12" style="margin-top: 50px; margin-left: 70px;">
+                        <div class="col-md-4 col-sm-4">
+                            <div class="col-md-8 col-sm-3" style="margin-left: 80px;">
+                                <center>
+                                    <h3 style="margin-left: -49px; font-weight: 700; font-size: 33px; text-transform: none;">Process</h3>
+                                </center>
+                            </div>
+                            <hr style=" width: 22%; margin-left: 86px; margin-right: 114px; padding-left: 48px; border: 1px solid #bf2424;" />
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <img src="~/assets/images/image1.jpg" class="img-responsive ImgStyle bdr" style="margin-left:-13px;" />
+                            @*<div id="dot">1</div>*@
+                            <div class="col-md-8 col-sm-3" style="margin-left: -23px;">
+                                <center>
+                                    <h6 style="font-weight: 700; padding-top: 5px; text-transform: none; font-size: 14px">Enquiry/Free Registration on mysamaritanz</h6>
+                                </center>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <img src="~/assets/images/image2.jpg" class="img-responsive ImgStyle bdr" style="margin-left:-111px;" />
+                            @*<div id="dot">2</div>*@
+                            <div class="col-md-9">
+                                <center>
+                                    <h6 style="margin-left: -120%; font-weight: 700; padding-top: 5px; text-transform: none; font-size: 16px">Consultation</h6>
+                                </center>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-sm-12" style="margin-top: 50px; margin-left: 70px;">
+                        <div class="col-md-4 col-sm-4">
+                            <img src="~/assets/images/image3.jpg" class="img-responsive ImgStyle bdr" style="margin-left:81px;" />
+                            @*<div id="dot">3</div>*@
+                            <div class="col-md-8 col-sm-3" style="margin-left: 66px;">
+                                <center>
+                                    <h6 style=" font-weight: 700; padding-top: 5px; text-transform: none; color:#002956; font-size: 16px">Detailed Itinerary and final quote</h6>
+                                </center>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4" style="margin-left: -15px">
+                            <img src="~/assets/images/image4.jpg" class="img-responsive ImgStyle bdr" />
+                            @*<div id="dot">4</div>*@
+                            <div class="col-md-8 col-sm-3">
+                                <center>
+                                    <h6 style="margin-left: -20px;font-weight: 700; padding-top: 5px; text-transform: none; color:#002956; font-size: 16px">Travel to India</h6>
+                                </center>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4" style="margin-left:-94px; font-size: 16px">
+                            <img src="~/assets/images/image5.jpg" class="img-responsive ImgStyle bdr" />
+                            @*<div id="dot">5</div>*@
+                            <div class="col-sm-9">
+                                <center>
+                                    <h6 style="margin-left: -31px; font-weight: 700; padding-top: 5px; text-transform: none; color:#002956; font-size: 16px">Post Treatment Tours (Optional)</h6>
+                                </center>
+                            </div>
+                            <hr style="margin-left: -166%; margin-right: 25%; margin-top: 65px; border: 1px solid #bf2424;" />
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-------Mobile View----------->
+<main id="mainmobile">
+    <section id="section-about">
+        <div class="container">
+            <div class="row">
+                <div style="text-align:center; margin-bottom: 20px">
+                   
+                <h3 style="margin-left: -90px;font-weight: 700;font-size: 28px;text-transform: none;">Process</h3>
+                <hr style="width: 22%;margin-left: 25px;margin-right: 115px;padding-left: 48px;border: 1px solid #bf2424;" />
+            </div>
+                <div class="col-md-12 col-sm-12" style="padding: 4px">
+                    <div class="col-md-6 col-sm-6" style="margin-bottom: 16px">
+                        <img src="/assets/images/image1.jpg" class="img-responsive bdr" />
+                        @*<div id="dot">1</div>*@
+                        <div class="col-md-8 col-sm-3">
+                            <center>
+                                <h6 style="font-weight: 700; padding-top: 5px; text-transform: none; font-size: 14px">Enquiry / Free Registration on mysamaritanz</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6" style="margin-bottom: 16px">
+                        <img src="/assets/images/image2.jpg" class="img-responsive bdr" />
+                        @*<div id="dot">2</div>*@
+                        <div class="col-md-8 col-sm-3">
+                            <center>
+                                <h6 style="font-weight: 700; padding-top: 5px; text-transform: none; font-size: 14px">Consultation</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6" style="margin-bottom: 16px">
+                        <img src="/assets/images/image3.jpg" class="img-responsive bdr" />
+                        @*<div id="dot">2</div>*@
+                        <div class="col-md-8 col-sm-3">
+                            <center>
+                                <h6 style="font-weight: 700; padding-top: 5px; text-transform: none; font-size: 14px">Detailed Itinerary and final quote</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6" style="margin-bottom: 16px">
+                        <img src="/assets/images/image4.jpg" class="img-responsive bdr" />
+                        @*<div id="dot">2</div>*@
+                        <div class="col-md-8 col-sm-3">
+                            <center>
+                                <h6 style="font-weight: 700; padding-top: 5px; text-transform: none; font-size: 14px">Travel to India</h6>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6" style="margin-bottom: 16px">
+                        <img src="/assets/images/image5.jpg" class="img-responsive bdr" />
+                        @*<div id="dot">2</div>*@
+                        <div class="col-md-8 col-sm-3">
+                            <center>
+                                <h6 style="font-weight: 700; padding-top: 5px; text-transform: none; font-size: 14px">Post Treatment Tours (Optional)</h6>
+                            </center>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</main>
+
+@*<main id="mainmobile">
+    <section id="section-about">
+        <div class="container">
+            <div class="row">
+                <div style="text-align:center; margin-bottom: 20px">
+                    <img style="width:30%; margin-top:10px" src="/assets/images/process-01.png">
+                </div>
+                <div class="col-md-12 col-sm-12">
+
+                    <div class="col-md-6 col-sm-6">
+                        <img src="/assets/images/image 1-01.png" class="img-responsive">
+                        <h3 style="font-size: 18px; margin: 0px 0 0px 3px;">Enquiry/Free Registration on mysamaritanz</h3>
+                        <div class="col-md-5 col-sm-5" id="container">
+                            <p style=" padding-top: 8px;margin: 0 0 0px 0;font-size: 12.5px!important; color: #242424;">
+                                We will initiate the registration process for you by collecting your
+                                basic formation including medical interventions required for you.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-2">
+                        <img src="/assets/images/aro 1-01.png" class="arrowtransform">
+                    </div>
+
+                    <div class="col-md-6 col-sm-6">
+                        <img src="/assets/images/image 2-01.png" class="img-responsive">
+                        <h3 style="font-size: 18px; margin: 0px 0 0px 3px;">Consultation</h3>
+                        <div class="col-md-5 col-sm-5" id="container">
+                            <p style=" padding-top: 8px;margin: 0 0 0px 0;font-size: 12.5px!important; color: #242424;">
+                                Based on the information, we will quickly bracket you to the most
+                                appropriate service and the attention you deserve.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-2">
+                        <img src="/assets/images/aro 2-01.png" class="arrowtransform">
+                    </div>
+
+                    <div class="col-md-6 col-sm-6">
+                        <img src="/assets/images/image 3-01.png" class="img-responsive">
+                        <h3 style="font-size: 18px; margin: 0px 0 0px 3px;">Detailed Itinerary and final quote</h3>
+                        <div class="col-md-5 col-sm-5" id="container">
+                            <p style=" padding-top: 8px;margin: 0 0 0px 0;font-size: 12.5px!important; color: #242424;">
+                                Based on the information, we will quickly bracket you to the most
+                                appropriate service and the attention you deserve.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-2">
+                        <img src="/assets/images/aro 1-01.png" class="arrowtransform">
+                    </div>
+
+                    <div class="col-md-6 col-sm-6">
+                        <img src="/assets/images/image 5-01.png" class="img-responsive">
+                        <h3 style="font-size: 18px; margin: 0px 0 0px 3px;">Travel to India</h3>
+                        <div class="col-md-5 col-sm-5" id="container">
+                            <p style=" padding-top: 8px;margin: 0 0 0px 0;font-size: 12.5px!important; color: #242424;">
+                                Once you choose the doctor/hospital of your choice, we will facilitate an online consultation with them for your assurance and confidence.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-2">
+                        <img src="/assets/images/aro 1-01.png" class="arrowtransform">
+                    </div>
+
+                    <div class="col-md-6 col-sm-6">
+                        <img src="/assets/images/image 4-01.png" class="img-responsive">
+                        <h3 style="font-size: 18px; margin: 0px 0 0px 3px;">Post Treatment Tours (Optional)</h3>
+                        <div class="col-md-5 col-sm-5" id="container" style="margin-top:104px">
+                            <p style=" padding-top: 8px;margin: 0 0 0px 0;font-size: 12.5px!important; color: #242424;">
+                                On your finalisation, we will reach out to offer best possible dates, rates and pre/post treatment facilities/activities
+                                including guided local travel and stay that you might want to avail.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</main>*@
+
+
+
+

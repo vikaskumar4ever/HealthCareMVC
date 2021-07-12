@@ -1,0 +1,77 @@
+
+
+.aa {
+    left: 31px !important;
+    padding: 0px !important;
+}
+.bb {
+    left: -1px !important;
+    padding: 0px !important;
+}
+.cc{
+	left: -64% !important;
+	top: -11px !important;
+}
+.dd {
+    left: 66.5% !important;
+    top: -185px !important;
+    padding: 0px !important;
+}
+.ee {
+    left: 0px !important;
+    top: -131px !important;
+    padding: 0px !important;
+}
+.ff {
+    left: -34% !important;
+    top: -12px !important;
+    margin-left: -165px !important;
+    padding: 0px !important;
+}
+.gg {
+    left: 50% !important;
+    top: -151px !important;
+    margin-top: -60px !important;
+    padding: 0px !important;
+}
+@media only screen and (max-width: 768px) {
+    .mcondent {
+        margin-left: 0px
+    }
+}
+@media only screen and (min-width: 768px) {
+    .mcondent {
+        margin-left: 55px
+    }
+}
+@media only screen and (max-width: 768px) {
+    .mhide {
+        display: none;
+    }
+}
+
+
+
+main {
+    display: block;
+}
+
+.main-posts {
+    position: relative;
+    z-index: 6;
+}
+
+.post-masonry {
+    /*margin-bottom: 30px !important;*/
+}
+
+.post-masonry .post-thumb {
+    border: 1px solid white;
+    overflow: hidden;
+    position: relative;
+}
+
+.post-masonry .post-thumb img {
+    width: 100%;
+    display: block;
+}

@@ -1,0 +1,18 @@
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Connection\bin\Debug\netcoreapp2.2\SI.Meditourism.Connection.deps.json
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Connection\bin\Debug\netcoreapp2.2\SI.Meditourism.Connection.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Connection\bin\Debug\netcoreapp2.2\SI.Meditourism.Connection.pdb
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Connection\obj\Debug\netcoreapp2.2\SI.Meditourism.Connection.csprojAssemblyReference.cache
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Connection\obj\Debug\netcoreapp2.2\SI.Meditourism.Connection.csproj.CoreCompileInputs.cache
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Connection\obj\Debug\netcoreapp2.2\SI.Meditourism.Connection.AssemblyInfoInputs.cache
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Connection\obj\Debug\netcoreapp2.2\SI.Meditourism.Connection.AssemblyInfo.cs
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Connection\obj\Debug\netcoreapp2.2\SI.Meditourism.Connection.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.Connection\obj\Debug\netcoreapp2.2\SI.Meditourism.Connection.pdb
+E:\.Net Project\SI.Meditourism\SI.Meditourism.Connection\bin\Debug\netcoreapp2.2\SI.Meditourism.Connection.deps.json
+E:\.Net Project\SI.Meditourism\SI.Meditourism.Connection\bin\Debug\netcoreapp2.2\SI.Meditourism.Connection.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.Connection\bin\Debug\netcoreapp2.2\SI.Meditourism.Connection.pdb
+E:\.Net Project\SI.Meditourism\SI.Meditourism.Connection\obj\Debug\netcoreapp2.2\SI.Meditourism.Connection.csprojAssemblyReference.cache
+E:\.Net Project\SI.Meditourism\SI.Meditourism.Connection\obj\Debug\netcoreapp2.2\SI.Meditourism.Connection.AssemblyInfoInputs.cache
+E:\.Net Project\SI.Meditourism\SI.Meditourism.Connection\obj\Debug\netcoreapp2.2\SI.Meditourism.Connection.AssemblyInfo.cs
+E:\.Net Project\SI.Meditourism\SI.Meditourism.Connection\obj\Debug\netcoreapp2.2\SI.Meditourism.Connection.csproj.CoreCompileInputs.cache
+E:\.Net Project\SI.Meditourism\SI.Meditourism.Connection\obj\Debug\netcoreapp2.2\SI.Meditourism.Connection.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.Connection\obj\Debug\netcoreapp2.2\SI.Meditourism.Connection.pdb

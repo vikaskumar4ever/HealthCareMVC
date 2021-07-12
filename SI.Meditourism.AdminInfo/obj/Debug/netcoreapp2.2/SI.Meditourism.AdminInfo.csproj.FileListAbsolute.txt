@@ -1,0 +1,37 @@
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.AdminInfo\bin\Debug\netcoreapp2.2\SI.Meditourism.AdminInfo.deps.json
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.AdminInfo\bin\Debug\netcoreapp2.2\SI.Meditourism.AdminInfo.runtimeconfig.json
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.AdminInfo\bin\Debug\netcoreapp2.2\SI.Meditourism.AdminInfo.runtimeconfig.dev.json
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.AdminInfo\bin\Debug\netcoreapp2.2\SI.Meditourism.AdminInfo.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.AdminInfo\bin\Debug\netcoreapp2.2\SI.Meditourism.AdminInfo.pdb
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.AdminInfo\bin\Debug\netcoreapp2.2\SI.Meditourism.ChatingService.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.AdminInfo\bin\Debug\netcoreapp2.2\SI.Meditourism.Common.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.AdminInfo\bin\Debug\netcoreapp2.2\SI.Meditourism.Connection.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.AdminInfo\bin\Debug\netcoreapp2.2\SI.Meditourism.ChatingService.pdb
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.AdminInfo\bin\Debug\netcoreapp2.2\SI.Meditourism.Connection.pdb
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.AdminInfo\bin\Debug\netcoreapp2.2\SI.Meditourism.Common.pdb
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.AdminInfo\obj\Debug\netcoreapp2.2\SI.Meditourism.AdminInfo.csprojAssemblyReference.cache
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.AdminInfo\obj\Debug\netcoreapp2.2\SI.Meditourism.AdminInfo.csproj.CoreCompileInputs.cache
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.AdminInfo\obj\Debug\netcoreapp2.2\SI.Meditourism.AdminInfo.AssemblyInfoInputs.cache
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.AdminInfo\obj\Debug\netcoreapp2.2\SI.Meditourism.AdminInfo.AssemblyInfo.cs
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.AdminInfo\obj\Debug\netcoreapp2.2\SI.Meditourism.AdminInfo.csproj.CopyComplete
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.AdminInfo\obj\Debug\netcoreapp2.2\SI.Meditourism.AdminInfo.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.AdminInfo\obj\Debug\netcoreapp2.2\SI.Meditourism.AdminInfo.pdb
+E:\.Net Project\SI.Meditourism\SI.Meditourism.AdminInfo\bin\Debug\netcoreapp2.2\SI.Meditourism.AdminInfo.deps.json
+E:\.Net Project\SI.Meditourism\SI.Meditourism.AdminInfo\bin\Debug\netcoreapp2.2\SI.Meditourism.AdminInfo.runtimeconfig.json
+E:\.Net Project\SI.Meditourism\SI.Meditourism.AdminInfo\bin\Debug\netcoreapp2.2\SI.Meditourism.AdminInfo.runtimeconfig.dev.json
+E:\.Net Project\SI.Meditourism\SI.Meditourism.AdminInfo\bin\Debug\netcoreapp2.2\SI.Meditourism.AdminInfo.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.AdminInfo\bin\Debug\netcoreapp2.2\SI.Meditourism.AdminInfo.pdb
+E:\.Net Project\SI.Meditourism\SI.Meditourism.AdminInfo\bin\Debug\netcoreapp2.2\SI.Meditourism.ChatingService.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.AdminInfo\bin\Debug\netcoreapp2.2\SI.Meditourism.Common.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.AdminInfo\bin\Debug\netcoreapp2.2\SI.Meditourism.Connection.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.AdminInfo\bin\Debug\netcoreapp2.2\SI.Meditourism.ChatingService.pdb
+E:\.Net Project\SI.Meditourism\SI.Meditourism.AdminInfo\bin\Debug\netcoreapp2.2\SI.Meditourism.Connection.pdb
+E:\.Net Project\SI.Meditourism\SI.Meditourism.AdminInfo\bin\Debug\netcoreapp2.2\SI.Meditourism.Common.pdb
+E:\.Net Project\SI.Meditourism\SI.Meditourism.AdminInfo\obj\Debug\netcoreapp2.2\SI.Meditourism.AdminInfo.csprojAssemblyReference.cache
+E:\.Net Project\SI.Meditourism\SI.Meditourism.AdminInfo\obj\Debug\netcoreapp2.2\SI.Meditourism.AdminInfo.AssemblyInfoInputs.cache
+E:\.Net Project\SI.Meditourism\SI.Meditourism.AdminInfo\obj\Debug\netcoreapp2.2\SI.Meditourism.AdminInfo.AssemblyInfo.cs
+E:\.Net Project\SI.Meditourism\SI.Meditourism.AdminInfo\obj\Debug\netcoreapp2.2\SI.Meditourism.AdminInfo.csproj.CoreCompileInputs.cache
+E:\.Net Project\SI.Meditourism\SI.Meditourism.AdminInfo\obj\Debug\netcoreapp2.2\SI.Meditourism.AdminInfo.csproj.CopyComplete
+E:\.Net Project\SI.Meditourism\SI.Meditourism.AdminInfo\obj\Debug\netcoreapp2.2\SI.Meditourism.AdminInfo.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.AdminInfo\obj\Debug\netcoreapp2.2\SI.Meditourism.AdminInfo.pdb
+E:\.Net Project\SI.Meditourism\SI.Meditourism.AdminInfo\obj\Debug\netcoreapp2.2\SI.Meditourism.AdminInfo.genruntimeconfig.cache

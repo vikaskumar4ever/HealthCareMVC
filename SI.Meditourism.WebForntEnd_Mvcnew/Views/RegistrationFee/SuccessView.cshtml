@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "SuccessView";
+    Layout = "~/Views/Shared/_FrontEndLayout.cshtml";
+}
+
+<link href="~/Assets/FrontEndScript/css/search.css" type="text/css" />
+<section class="container_1 section">
+    <div class="left-half divcontainer" style="height: 100%">
+        <article>
+            @if (Session["PAYId"] != null)
+            {
+                <h1>Payment Sucessfully Completed. Id : @Session["PAYId"].ToString()</h1>
+            }
+            </article>
+    </div>
+
+</section>
+
+

@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/*-----------------
+[Master Stylesheet]
+Project:	Interior & Furniture
+-----------------*/	
+
+/*-----------------
+[Table of contents]
+
+1. Body
+2. Click Top / #topcontrol
+4. Header / .header
+5. navbar / .navbar
+6. Theme Banner / #banner
+7. section-about / #section-about
+8. Our Service / #Our Service
+9. section-testimonial / #section-testimonial
+10. section-portfolio / #portfoliolist
+11. bg-image / #bg-image 
+12. event / .event
+13. footer / .footer
+-------------------------------------------------------------------
+[Color codes]
+Body-Font:  	#ffffff {white}
+Background:		#ffffff (white)
+Content:		#111111 (dark grey)
+Default:		#95b217 (grey)
+Primary:		#2bb9c3	(Turquoise)
+Info:			#fd7397	(Pink)
+Success:		#128807	(Green)
+Warning:		#f0ad4e	(Yellow)
+Danger:			#f33923	(Red)
+
+a (standard):	#212121 (dark grey)
+a (visited):	#95b217 (Yellow )
+a (active):	 	#95b217 (Yellow )
+ 
+-------------------------------------------------------------------
+
+Body defaults:14px 'Ubuntu', sans-serif;;
+Input, textarea:14px 'Ubuntu', sans-serif;;
+Notes:	decreasing heading by 0.4em with every subsequent heading level
+
+-------------------------------------------------------------------*/
+/* Page css */
+@import "bootstrap.min.css";
+@import "style.css";
+@import "hover.css";
+@import "banner.css";
+@import "layout.css";
+/* Page css */
+
+/*responsive css*/
+@import "responsive.css";
+/*responsive css*/
+
+/*coming-soon*/
+@import "../coming-soon/css/style.css";
+/*coming-soon*/
+
+/*font-awesome*/
+@import "../font-awesome/css/font-awesome.min.css";
+/*font-awesome*/

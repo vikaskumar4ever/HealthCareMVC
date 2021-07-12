@@ -1,0 +1,919 @@
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.WebForntEnd_Mvcnew.dll.config
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.WebForntEnd_Mvcnew.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.WebForntEnd_Mvcnew.pdb
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\csc.exe
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\csc.exe.config
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\csc.rsp
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\csi.exe
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\csi.exe.config
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\csi.rsp
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.AppContext.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Collections.Immutable.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Console.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.IO.Compression.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.IO.FileSystem.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.IO.Pipes.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Reflection.Metadata.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Security.AccessControl.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Security.Claims.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.ValueTuple.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Xml.XPath.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\vbc.exe
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\vbc.exe.config
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\vbc.rsp
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\VBCSCompiler.exe
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\VBCSCompiler.exe.config
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Microsoft.Win32.Primitives.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\netstandard.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.AppContext.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Collections.Concurrent.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Collections.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Collections.NonGeneric.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Collections.Specialized.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.ComponentModel.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.ComponentModel.EventBasedAsync.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.ComponentModel.Primitives.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.ComponentModel.TypeConverter.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Console.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Data.Common.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.Contracts.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.Debug.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.FileVersionInfo.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.Process.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.StackTrace.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.TextWriterTraceListener.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.Tools.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.TraceSource.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.Tracing.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Drawing.Primitives.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Dynamic.Runtime.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Globalization.Calendars.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Globalization.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Globalization.Extensions.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.Compression.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.Compression.ZipFile.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.FileSystem.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.FileSystem.DriveInfo.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.FileSystem.Primitives.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.FileSystem.Watcher.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.IsolatedStorage.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.MemoryMappedFiles.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.Pipes.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.UnmanagedMemoryStream.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Linq.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Linq.Expressions.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Linq.Parallel.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Linq.Queryable.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.Http.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.NameResolution.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.NetworkInformation.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.Ping.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.Primitives.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.Requests.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.Security.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.Sockets.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.WebHeaderCollection.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.WebSockets.Client.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.WebSockets.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.ObjectModel.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Reflection.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Reflection.Extensions.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Reflection.Primitives.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Resources.Reader.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Resources.ResourceManager.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Resources.Writer.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.CompilerServices.VisualC.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.Extensions.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.Handles.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.InteropServices.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.Numerics.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.Serialization.Formatters.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.Serialization.Json.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.Serialization.Primitives.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.Serialization.Xml.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Security.Claims.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Security.Cryptography.Algorithms.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Security.Cryptography.Csp.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Security.Cryptography.Encoding.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Security.Cryptography.Primitives.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Security.Cryptography.X509Certificates.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Security.Principal.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Security.SecureString.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Text.Encoding.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Text.Encoding.Extensions.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Text.RegularExpressions.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Threading.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Threading.Overlapped.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Threading.Tasks.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Threading.Tasks.Parallel.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Threading.Thread.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Threading.ThreadPool.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Threading.Timer.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.ValueTuple.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Xml.ReaderWriter.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Xml.XDocument.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Xml.XmlDocument.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Xml.XmlSerializer.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Xml.XPath.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Xml.XPath.XDocument.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Microsoft.Web.Infrastructure.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Newtonsoft.Json.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\PayPal.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.BaseUrl.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.FrntMailer.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.PaymentServices.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.Http.Formatting.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.Helpers.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.Mvc.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.Razor.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.WebPages.Deployment.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.WebPages.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.WebPages.Razor.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\log4net.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Dapper.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.ConnectionFrnt.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.BaseUrl.pdb
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.FrntMailer.pdb
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.PaymentServices.pdb
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Newtonsoft.Json.pdb
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Newtonsoft.Json.xml
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\PayPal.xml
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.Http.Formatting.xml
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.Helpers.xml
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.Mvc.xml
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.Razor.xml
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.WebPages.xml
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.WebPages.Deployment.xml
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.WebPages.Razor.xml
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\log4net.xml
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Dapper.xml
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.ConnectionFrnt.pdb
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\obj\Debug\SI.Meditourism.WebForntEnd_Mvcnew.csprojAssemblyReference.cache
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\obj\Debug\SI.Meditourism.WebForntEnd_Mvcnew.csproj.CoreCompileInputs.cache
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\obj\Debug\SI.Meditourism.WebForntEnd_Mvcnew.csproj.CopyComplete
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\obj\Debug\SI.Meditourism.WebForntEnd_Mvcnew.dll
+E:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\obj\Debug\SI.Meditourism.WebForntEnd_Mvcnew.pdb
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.WebForntEnd_Mvcnew.dll.config
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.WebForntEnd_Mvcnew.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.WebForntEnd_Mvcnew.pdb
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\csc.exe
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\csc.exe.config
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\csc.rsp
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\csi.exe
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\csi.exe.config
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\csi.rsp
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.Managed.Core.targets
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.AppContext.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Collections.Immutable.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Console.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Diagnostics.StackTrace.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.IO.Compression.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.IO.FileSystem.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.IO.FileSystem.Primitives.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.IO.Pipes.AccessControl.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.IO.Pipes.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Reflection.Metadata.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Security.AccessControl.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Security.Claims.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Security.Cryptography.Encoding.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Security.Cryptography.Primitives.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Security.Principal.Windows.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Text.Encoding.CodePages.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.ValueTuple.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Xml.ReaderWriter.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Xml.XmlDocument.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Xml.XPath.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Xml.XPath.XDocument.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\vbc.exe
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\vbc.exe.config
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\vbc.rsp
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\VBCSCompiler.exe
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\VBCSCompiler.exe.config
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Microsoft.Win32.Primitives.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\netstandard.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.AppContext.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Collections.Concurrent.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Collections.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Collections.NonGeneric.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Collections.Specialized.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.ComponentModel.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.ComponentModel.EventBasedAsync.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.ComponentModel.Primitives.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.ComponentModel.TypeConverter.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Console.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Data.Common.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.Contracts.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.Debug.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.FileVersionInfo.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.Process.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.StackTrace.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.TextWriterTraceListener.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.Tools.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.TraceSource.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.Tracing.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Drawing.Primitives.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Dynamic.Runtime.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Globalization.Calendars.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Globalization.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Globalization.Extensions.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.Compression.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.Compression.ZipFile.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.FileSystem.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.FileSystem.DriveInfo.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.FileSystem.Primitives.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.FileSystem.Watcher.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.IsolatedStorage.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.MemoryMappedFiles.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.Pipes.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.UnmanagedMemoryStream.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Linq.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Linq.Expressions.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Linq.Parallel.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Linq.Queryable.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.Http.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.NameResolution.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.NetworkInformation.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.Ping.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.Primitives.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.Requests.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.Security.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.Sockets.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.WebHeaderCollection.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.WebSockets.Client.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.WebSockets.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.ObjectModel.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Reflection.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Reflection.Extensions.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Reflection.Primitives.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Resources.Reader.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Resources.ResourceManager.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Resources.Writer.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.CompilerServices.VisualC.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.Extensions.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.Handles.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.InteropServices.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.Numerics.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.Serialization.Formatters.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.Serialization.Json.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.Serialization.Primitives.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.Serialization.Xml.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Security.Claims.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Security.Cryptography.Algorithms.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Security.Cryptography.Csp.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Security.Cryptography.Encoding.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Security.Cryptography.Primitives.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Security.Cryptography.X509Certificates.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Security.Principal.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Security.SecureString.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Text.Encoding.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Text.Encoding.Extensions.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Text.RegularExpressions.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Threading.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Threading.Overlapped.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Threading.Tasks.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Threading.Tasks.Parallel.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Threading.Thread.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Threading.ThreadPool.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Threading.Timer.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.ValueTuple.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Xml.ReaderWriter.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Xml.XDocument.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Xml.XmlDocument.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Xml.XmlSerializer.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Xml.XPath.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Xml.XPath.XDocument.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Microsoft.Web.Infrastructure.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Newtonsoft.Json.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\PayPal.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.BaseUrl.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.FrntMailer.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.PaymentServices.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.Http.Formatting.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.Helpers.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.Mvc.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.Razor.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.WebPages.Deployment.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.WebPages.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.WebPages.Razor.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\log4net.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Dapper.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.ConnectionFrnt.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.BaseUrl.pdb
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.FrntMailer.pdb
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.PaymentServices.pdb
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Newtonsoft.Json.pdb
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Newtonsoft.Json.xml
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\PayPal.xml
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.Http.Formatting.xml
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.Helpers.xml
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.Mvc.xml
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.Razor.xml
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.WebPages.xml
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.WebPages.Deployment.xml
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.WebPages.Razor.xml
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\log4net.xml
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Dapper.xml
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.ConnectionFrnt.pdb
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\obj\Debug\SI.Meditourism.WebForntEnd_Mvcnew.csprojAssemblyReference.cache
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\obj\Debug\SI.Meditourism.WebForntEnd_Mvcnew.csproj.CopyComplete
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\obj\Debug\SI.Meditourism.WebForntEnd_Mvcnew.dll
+H:\Vikas\Projects\Meditourism\Dynamic\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\obj\Debug\SI.Meditourism.WebForntEnd_Mvcnew.pdb
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.WebForntEnd_Mvcnew.dll.config
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.WebForntEnd_Mvcnew.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.WebForntEnd_Mvcnew.pdb
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\csc.exe
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\csc.exe.config
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\csc.rsp
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\csi.exe
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\csi.exe.config
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\csi.rsp
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.Managed.Core.targets
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.AppContext.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Collections.Immutable.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Console.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.IO.Compression.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.IO.FileSystem.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.IO.Pipes.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Reflection.Metadata.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Security.AccessControl.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Security.Claims.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Security.Principal.Windows.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.ValueTuple.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Xml.XmlDocument.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Xml.XPath.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\vbc.exe
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\vbc.exe.config
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\vbc.rsp
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\VBCSCompiler.exe
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\VBCSCompiler.exe.config
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Microsoft.Win32.Primitives.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\netstandard.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.AppContext.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Collections.Concurrent.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Collections.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Collections.NonGeneric.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Collections.Specialized.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.ComponentModel.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.ComponentModel.EventBasedAsync.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.ComponentModel.Primitives.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.ComponentModel.TypeConverter.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Console.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Data.Common.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.Contracts.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.Debug.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.FileVersionInfo.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.Process.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.StackTrace.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.TextWriterTraceListener.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.Tools.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.TraceSource.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.Tracing.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Drawing.Primitives.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Dynamic.Runtime.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Globalization.Calendars.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Globalization.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Globalization.Extensions.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.Compression.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.Compression.ZipFile.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.FileSystem.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.FileSystem.DriveInfo.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.FileSystem.Primitives.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.FileSystem.Watcher.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.IsolatedStorage.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.MemoryMappedFiles.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.Pipes.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.UnmanagedMemoryStream.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Linq.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Linq.Expressions.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Linq.Parallel.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Linq.Queryable.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.Http.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.NameResolution.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.NetworkInformation.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.Ping.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.Primitives.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.Requests.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.Security.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.Sockets.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.WebHeaderCollection.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.WebSockets.Client.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.WebSockets.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.ObjectModel.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Reflection.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Reflection.Extensions.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Reflection.Primitives.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Resources.Reader.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Resources.ResourceManager.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Resources.Writer.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.CompilerServices.VisualC.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.Extensions.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.Handles.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.InteropServices.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.Numerics.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.Serialization.Formatters.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.Serialization.Json.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.Serialization.Primitives.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.Serialization.Xml.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Security.Claims.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Security.Cryptography.Algorithms.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Security.Cryptography.Csp.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Security.Cryptography.Encoding.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Security.Cryptography.Primitives.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Security.Cryptography.X509Certificates.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Security.Principal.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Security.SecureString.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Text.Encoding.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Text.Encoding.Extensions.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Text.RegularExpressions.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Threading.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Threading.Overlapped.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Threading.Tasks.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Threading.Tasks.Parallel.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Threading.Thread.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Threading.ThreadPool.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Threading.Timer.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.ValueTuple.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Xml.ReaderWriter.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Xml.XDocument.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Xml.XmlDocument.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Xml.XmlSerializer.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Xml.XPath.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Xml.XPath.XDocument.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Microsoft.Web.Infrastructure.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Newtonsoft.Json.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\PayPal.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.BaseUrl.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.FrntMailer.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.PaymentServices.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.Http.Formatting.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.Helpers.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.Mvc.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.Razor.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.WebPages.Deployment.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.WebPages.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.WebPages.Razor.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\log4net.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Dapper.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.ConnectionFrnt.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.BaseUrl.pdb
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.FrntMailer.pdb
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.PaymentServices.pdb
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Newtonsoft.Json.pdb
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Newtonsoft.Json.xml
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\PayPal.xml
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.Http.Formatting.xml
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.Helpers.xml
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.Mvc.xml
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.Razor.xml
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.WebPages.xml
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.WebPages.Deployment.xml
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.WebPages.Razor.xml
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\log4net.xml
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Dapper.xml
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.ConnectionFrnt.pdb
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\obj\Debug\SI.Meditourism.WebForntEnd_Mvcnew.csprojAssemblyReference.cache
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\obj\Debug\SI.Meditourism.WebForntEnd_Mvcnew.csproj.CoreCompileInputs.cache
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\obj\Debug\SI.Meditourism.WebForntEnd_Mvcnew.csproj.CopyComplete
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\obj\Debug\SI.Meditourism.WebForntEnd_Mvcnew.dll
+F:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\obj\Debug\SI.Meditourism.WebForntEnd_Mvcnew.pdb
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.WebForntEnd_Mvcnew.dll.config
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.WebForntEnd_Mvcnew.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.WebForntEnd_Mvcnew.pdb
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\csc.exe
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\csc.exe.config
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\csc.rsp
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\csi.exe
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\csi.exe.config
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\csi.rsp
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.Managed.Core.targets
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.AppContext.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Collections.Immutable.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Console.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.IO.Compression.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.IO.FileSystem.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.IO.Pipes.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Reflection.Metadata.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Security.AccessControl.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Security.Claims.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Security.Principal.Windows.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.ValueTuple.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Xml.XmlDocument.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Xml.XPath.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\vbc.exe
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\vbc.exe.config
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\vbc.rsp
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\VBCSCompiler.exe
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\VBCSCompiler.exe.config
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Microsoft.Win32.Primitives.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\netstandard.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.AppContext.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Collections.Concurrent.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Collections.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Collections.NonGeneric.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Collections.Specialized.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.ComponentModel.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.ComponentModel.EventBasedAsync.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.ComponentModel.Primitives.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.ComponentModel.TypeConverter.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Console.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Data.Common.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.Contracts.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.Debug.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.FileVersionInfo.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.Process.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.StackTrace.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.TextWriterTraceListener.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.Tools.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.TraceSource.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.Tracing.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Drawing.Primitives.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Dynamic.Runtime.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Globalization.Calendars.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Globalization.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Globalization.Extensions.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.Compression.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.Compression.ZipFile.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.FileSystem.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.FileSystem.DriveInfo.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.FileSystem.Primitives.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.FileSystem.Watcher.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.IsolatedStorage.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.MemoryMappedFiles.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.Pipes.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.UnmanagedMemoryStream.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Linq.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Linq.Expressions.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Linq.Parallel.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Linq.Queryable.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.Http.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.NameResolution.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.NetworkInformation.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.Ping.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.Primitives.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.Requests.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.Security.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.Sockets.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.WebHeaderCollection.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.WebSockets.Client.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.WebSockets.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.ObjectModel.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Reflection.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Reflection.Extensions.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Reflection.Primitives.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Resources.Reader.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Resources.ResourceManager.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Resources.Writer.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.CompilerServices.VisualC.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.Extensions.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.Handles.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.InteropServices.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.Numerics.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.Serialization.Formatters.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.Serialization.Json.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.Serialization.Primitives.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.Serialization.Xml.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Security.Claims.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Security.Cryptography.Algorithms.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Security.Cryptography.Csp.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Security.Cryptography.Encoding.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Security.Cryptography.Primitives.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Security.Cryptography.X509Certificates.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Security.Principal.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Security.SecureString.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Text.Encoding.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Text.Encoding.Extensions.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Text.RegularExpressions.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Threading.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Threading.Overlapped.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Threading.Tasks.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Threading.Tasks.Parallel.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Threading.Thread.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Threading.ThreadPool.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Threading.Timer.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.ValueTuple.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Xml.ReaderWriter.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Xml.XDocument.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Xml.XmlDocument.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Xml.XmlSerializer.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Xml.XPath.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Xml.XPath.XDocument.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Microsoft.Web.Infrastructure.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Newtonsoft.Json.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\PayPal.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.BaseUrl.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.FrntMailer.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.PaymentServices.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.Http.Formatting.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.Helpers.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.Mvc.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.Razor.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.WebPages.Deployment.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.WebPages.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.WebPages.Razor.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\log4net.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Dapper.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.ConnectionFrnt.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.BaseUrl.pdb
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.FrntMailer.pdb
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.PaymentServices.pdb
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Newtonsoft.Json.pdb
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Newtonsoft.Json.xml
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\PayPal.xml
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.Http.Formatting.xml
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.Helpers.xml
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.Mvc.xml
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.Razor.xml
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.WebPages.xml
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.WebPages.Deployment.xml
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.WebPages.Razor.xml
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\log4net.xml
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Dapper.xml
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.ConnectionFrnt.pdb
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\obj\Debug\SI.Meditourism.WebForntEnd_Mvcnew.csprojAssemblyReference.cache
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\obj\Debug\SI.Meditourism.WebForntEnd_Mvcnew.csproj.CoreCompileInputs.cache
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\obj\Debug\SI.Meditourism.WebForntEnd_Mvcnew.csproj.CopyComplete
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\obj\Debug\SI.Meditourism.WebForntEnd_Mvcnew.dll
+E:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\obj\Debug\SI.Meditourism.WebForntEnd_Mvcnew.pdb
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.WebForntEnd_Mvcnew.dll.config
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.WebForntEnd_Mvcnew.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.WebForntEnd_Mvcnew.pdb
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\csc.exe
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\csc.exe.config
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\csc.rsp
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\csi.exe
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\csi.exe.config
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\csi.rsp
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.Managed.Core.targets
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.AppContext.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Collections.Immutable.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Console.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.IO.Compression.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.IO.FileSystem.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.IO.Pipes.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Reflection.Metadata.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Security.AccessControl.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Security.Claims.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Security.Principal.Windows.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.ValueTuple.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Xml.XmlDocument.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Xml.XPath.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\vbc.exe
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\vbc.exe.config
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\vbc.rsp
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\VBCSCompiler.exe
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\roslyn\VBCSCompiler.exe.config
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Microsoft.Win32.Primitives.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\netstandard.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.AppContext.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Collections.Concurrent.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Collections.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Collections.NonGeneric.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Collections.Specialized.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.ComponentModel.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.ComponentModel.EventBasedAsync.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.ComponentModel.Primitives.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.ComponentModel.TypeConverter.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Console.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Data.Common.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.Contracts.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.Debug.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.FileVersionInfo.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.Process.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.StackTrace.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.TextWriterTraceListener.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.Tools.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.TraceSource.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Diagnostics.Tracing.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Drawing.Primitives.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Dynamic.Runtime.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Globalization.Calendars.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Globalization.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Globalization.Extensions.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.Compression.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.Compression.ZipFile.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.FileSystem.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.FileSystem.DriveInfo.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.FileSystem.Primitives.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.FileSystem.Watcher.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.IsolatedStorage.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.MemoryMappedFiles.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.Pipes.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.IO.UnmanagedMemoryStream.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Linq.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Linq.Expressions.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Linq.Parallel.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Linq.Queryable.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.Http.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.NameResolution.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.NetworkInformation.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.Ping.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.Primitives.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.Requests.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.Security.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.Sockets.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.WebHeaderCollection.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.WebSockets.Client.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.WebSockets.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.ObjectModel.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Reflection.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Reflection.Extensions.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Reflection.Primitives.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Resources.Reader.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Resources.ResourceManager.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Resources.Writer.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.CompilerServices.VisualC.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.Extensions.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.Handles.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.InteropServices.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.Numerics.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.Serialization.Formatters.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.Serialization.Json.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.Serialization.Primitives.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Runtime.Serialization.Xml.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Security.Claims.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Security.Cryptography.Algorithms.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Security.Cryptography.Csp.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Security.Cryptography.Encoding.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Security.Cryptography.Primitives.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Security.Cryptography.X509Certificates.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Security.Principal.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Security.SecureString.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Text.Encoding.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Text.Encoding.Extensions.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Text.RegularExpressions.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Threading.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Threading.Overlapped.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Threading.Tasks.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Threading.Tasks.Parallel.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Threading.Thread.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Threading.ThreadPool.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Threading.Timer.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.ValueTuple.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Xml.ReaderWriter.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Xml.XDocument.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Xml.XmlDocument.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Xml.XmlSerializer.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Xml.XPath.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Xml.XPath.XDocument.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Microsoft.Web.Infrastructure.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Newtonsoft.Json.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\PayPal.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.BaseUrl.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.FrntMailer.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.PaymentServices.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.Http.Formatting.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.Helpers.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.Mvc.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.Razor.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.WebPages.Deployment.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.WebPages.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.WebPages.Razor.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\log4net.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Dapper.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.ConnectionFrnt.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.BaseUrl.pdb
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.FrntMailer.pdb
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.PaymentServices.pdb
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Newtonsoft.Json.pdb
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Newtonsoft.Json.xml
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\PayPal.xml
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Net.Http.Formatting.xml
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.Helpers.xml
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.Mvc.xml
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.Razor.xml
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.WebPages.xml
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.WebPages.Deployment.xml
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\System.Web.WebPages.Razor.xml
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\log4net.xml
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\Dapper.xml
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\bin\SI.Meditourism.ConnectionFrnt.pdb
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\obj\Debug\SI.Meditourism.WebForntEnd_Mvcnew.csproj.AssemblyReference.cache
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\obj\Debug\SI.Meditourism.WebForntEnd_Mvcnew.csproj.CoreCompileInputs.cache
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\obj\Debug\SI.Meditourism.WebForntEnd_Mvcnew.csproj.CopyComplete
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\obj\Debug\SI.Meditourism.WebForntEnd_Mvcnew.dll
+D:\.Net Project\SI.Meditourism\SI.Meditourism.WebForntEnd_Mvcnew\obj\Debug\SI.Meditourism.WebForntEnd_Mvcnew.pdb

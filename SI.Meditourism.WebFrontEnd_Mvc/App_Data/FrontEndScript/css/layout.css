@@ -1,0 +1,140 @@
+#filters1 {
+	margin:0 auto 30px auto;
+	padding:0;
+	list-style:none;
+}
+#filters1 li {
+	display:inline-block;
+}
+#filters1 li span {
+	display: block;
+	padding:38px 30px;
+	text-decoration:none;
+	color:#000;
+	font-size:15px;
+	cursor: pointer;
+	/*background:#000;*/
+	border: #000 solid 1px;
+	margin:0 0 4px;
+	letter-spacing:1px;
+	/*border-radius: 3px;*/
+}
+#filters1 li span:hover {
+	background: #e41f26;
+	color:#fff;
+}
+
+#filters {
+	margin:0 auto 30px auto;
+	padding:0;
+	list-style:none;
+}
+#filters li {
+	display:inline-block;
+}
+#filters li span {
+	display: block;
+	padding:8px 20px;
+	text-decoration:none;
+	color:#fff;
+	font-size:15px;
+	cursor: pointer;
+	background:#000;
+	margin:0 0 4px;
+	letter-spacing:1px;
+}
+#filters li span.active {
+	background: #e41f26;
+	color:#111;
+}
+#portfoliolist .portfolio {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	width: 25%;
+	margin:0;
+	display:none;
+	float:left;
+}
+#portfoliolist .portfolio {
+	position:relative;
+	height:auto;
+}
+#portfoliolist2 .portfolio {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	width: 31%;
+	margin:1% 1% 5% 1%;
+	float:left;
+}
+#portfoliolist2 .portfolio {
+	position:relative;
+	height:auto;
+}
+
+
+
+
+
+/*  #Mobile (Portrait) - Note: Design for a width of 320px */
+@media only screen and (max-width: 800px) {
+#portfoliolist .portfolio {
+width:48%;
+margin:1%;
+}
+ #banner h1 {
+font-size:40px;
+font-weight: 300;
+line-height:normal;
+margin:0;
+padding:0;
+}
+ #banner h5 {
+font-size:15px;
+font-weight: 300;
+line-height:normal;
+margin:0;
+padding:0;
+}
+ .navbar-brand > img {
+width:160px;
+}
+.navbar-brand {
+margin: 10px 0 0;
+}
+}
+
+@media (max-width:639px) {
+#portfoliolist .portfolio {
+width:100%;
+padding:0;
+margin:0 0 15px 0
+}
+.projects2 {
+padding:0 15px
+}
+}
+
+
+
+@media only screen and (max-width: 480px) {
+ .page_top_wrap .page_title {
+font-size:25px;
+margin-bottom:20px
+}
+ #banner h1 {
+font-size:25px;
+font-weight: 300;
+line-height:normal;
+margin:0;
+padding:0;
+}
+ #banner h5 {
+font-size:15px;
+font-weight: 300;
+line-height:normal;
+margin:0;
+padding:0;
+}
+}

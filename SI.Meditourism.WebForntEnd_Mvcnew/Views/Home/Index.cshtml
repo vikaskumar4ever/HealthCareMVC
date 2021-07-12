@@ -1,0 +1,557 @@
+﻿
+@{
+    ViewData["Title"] = "Home";
+    Layout = "~/Views/Shared/_FrontEndLayout.cshtml";
+
+}
+
+<!--main-->
+<style type="text/css">
+    p {
+        text-transform: none !important;
+    }
+
+    .wrapper {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .search-box {
+        /*width: 450px;*/
+        /*height: 100px;*/
+        position: relative;
+    }
+
+    .inputsearch {
+        position: absolute;
+        top: 0px;
+        right: 68px;
+        box-sizing: border-box;
+        width: 0px;
+        height: 34px;
+        width: 49.8% !important;
+        padding: 0 10px !important;
+        outline: none;
+        font-size: 15px;
+        /*border-radius: 18px;*/
+        color: #29313a;
+        border: 3px solid #62d474;
+        transition: all 0.8s ease;
+    }
+
+    ::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        color: #29313a;
+    }
+
+    ::-moz-placeholder {
+        /* Firefox 19+ */
+        color: #29313a;
+    }
+
+    :-ms-input-placeholder {
+        /* IE 10+ */
+        color: #29313a;
+    }
+
+    :-moz-placeholder {
+        /* Firefox 18- */
+        color: #29313a;
+    }
+
+    .btn1 {
+        position: absolute;
+        width: 34px;
+        height: 34px;
+        background: red;
+        border-radius: 0%;
+        right: 39px;
+        top: 0px;
+        cursor: pointer;
+        text-align: center;
+        font-size: 15px;
+        color: #fff;
+        transition: all 0.8s ease;
+    }
+
+    .inputsearch.active {
+        width: 350px;
+        /*right: 100px;*/
+    }
+
+    .btn1.animate {
+        transform: rotate(-360deg);
+        transition: all 0.8s ease;
+        /*right: 100px;*/
+    }
+</style>
+<script src="~/Assets/FrontEndScript/js/jquery-2.2.4.min.js"></script>
+<script src="~/Assets/FrontEndScript/js/jquery-ui.min.js"></script>
+<link href="~/Assets/FrontEndScript/js/jquery-ui.min.css" rel="stylesheet" />
+<link href="~/Assets/FrontEndScript/js/jquery-ui.structure.min.css" rel="stylesheet" />
+<link href="~/Assets/FrontEndScript/js/jquery-ui.theme.min.css" rel="stylesheet" />
+<style type="text/css">
+    h2 {
+        overflow: hidden;
+        text-align: center;
+    }
+
+        h2:before,
+        h2:after {
+            background-color: #000;
+            content: "";
+            display: inline-block;
+            height: 1px;
+            position: relative;
+            vertical-align: middle;
+            width: 50%;
+        }
+
+        h2:before {
+            right: 0.5em;
+            margin-left: -50%;
+            background-color: red;
+        }
+
+        h2:after {
+            left: 0.5em;
+            margin-right: -50%;
+            background-color: red;
+        }
+
+    @@media(min-width:768px) and (max-width:2700px) {
+        .abous {
+            width: 950px !important;
+        }
+    }
+</style>
+<script type="text/javascript">
+    $(function () {
+        $('#txtSearch').autocomplete({
+            /**/
+            // source: 'http://localhost:21632/api/AutoCompleteTreatmentlist',
+            // source: 'http://meditourismadmin.morepower.com/adminapi/api/AutoCompleteTreatmentlist',
+            source: 'http://cp.mysamaritanz.com/adminapi/api/AutoCompleteTreatmentlist',
+            minLength: 1,
+            delay: 0,
+            autoFocus: true
+            /**/
+        })
+    });
+</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var url = window.location.pathname;
+        var substr = url.split('/');
+        var urlaspx = substr[substr.length - 1];
+        if (urlaspx != "") {
+            $('.nav').find('.active').removeClass('active');
+            $('.nav li a').each(function () {
+                if (this.href.indexOf(urlaspx) >= 0) {
+                    $(this).parent().addClass('active');
+                }
+            });
+        }
+    });
+</script>
+<main>
+
+    <div id="_MdgdqtId" class="modal">
+        <div class="modal-content animate">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('_MdgdqtId').style.display='none'" class="close" title="Close Modal">&times;</span>
+                @* <img src="img_avatar2.png" alt="Avatar" class="avatar"> -*@
+                @*<p style="position:center;">
+                        <h3 style="color:red">Spine</h3>
+                    </p>*@
+            </div>
+
+            <section class="pt-70" style="height: 550px; overflow-x: scroll;">
+                <!-- CONTAIN START -->
+                <div class="container">
+                    <div class="row">
+                        <!----Product Description----->
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="row">
+                                        <div class="col-12" style="margin-left:6px;">
+                                            <div class="product-detail-main">
+                                                <div class="product-item-details" id="treatmentdetails">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!----Verticle Line---->
+                        <div class="vl"></div>
+                        <!----Enquery Form---->
+                        <div class="col-xl-6 enquryform">
+                            @using (Html.BeginForm("GetQuotation", "Home", FormMethod.Post))
+                            {
+                                <div class="row">
+                                    <div class="col-12 mb-20">
+                                        <div class="heading-part heading-bg">
+                                            <h2 class="heading" style="text-transform:none">Get Quotation </h2>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="input-box">
+                                            <label for="f-name">Your Name<span style="color:red">*</span></label>
+                                            <input type="text" id="Name" placeholder="Enter Username" name="Name" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="input-box">
+                                            <label for="login-email">MobileNo</label>
+                                            <input id="txtPhoneno1" type="text" placeholder="Enter MobileNo" pattern="[0-9 -()+]+$" maxlength="14" name="MobileNo">
+                                        </div>
+                                    </div>
+                                    <label for="uname"><b>EmailId</b> <span style="color:red">*</span></label>
+                                    <input type="email" id="Email" placeholder="Enter EmailId" name="EmailId" required>
+                                    <div class="col-12">
+                                        <div class="input-box">
+                                            <label for="login-pass">Country <span style="color:red">*</span></label>
+                                            <input id="txtCountry" type="text" placeholder="Enter Country" name="Country" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="select2-results__options" style="width:100%">
+                                            <label for="login-pass">Select Service <span style="color:red">*</span></label>
+                                            <select id="selectservices1" style="width:100%" name="ServiceId"></select>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="input-box">
+                                            <label for="re-enter-pass">Message</label>
+                                            <textarea type="text" id="txtMessage" placeholder="Enter What type Of Disease" name="Message" style="width:100%;"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="button02">Get Quotation</button>
+                                    </div>
+                                </div>
+
+
+                            }
+                        </div>
+                        <!----Enquery Form Close---->
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </div>
+    <!--Main HomeSLIDER-->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="filters01">
+                <!--<div class="col-md-8">
+                    <ul id="filters1" class="clearfix">
+                        <li><span class="filter">ALL</span></li>
+                        <li><span class="filter">SPINE</span></li>
+                        <li><span class="filter">HEART</span></li>
+                        <li><span class="filter">CANCER</span></li>
+                    </ul>
+                </div>-->
+                <div class="col-md-7"></div>
+                <div class="col-md-4" style="text-align:right; zoom: 111%">
+                    @using (Html.BeginForm())
+                    {
+                        <div class="search-box ui-widget">
+                            @*<input id="txtSearch" />*@
+                            @Html.TextBox("searhTerm", null, new { id = "txtSearch", @class = "inputsearch", placeholder = "Search.." })
+                            <div class="btn1" onclick="GetTreatmeantdetails()">
+                                <i class="fa fa-search" aria-hidden="true" style="margin-top:10px">
+                                    <button style="display:none" type="button"></button>
+                                </i>
+                            </div>
+                        </div>
+                    }
+
+                </div>
+                <div class="col-md-0"></div>
+            </div>
+            <div class="item active">
+                <img src="/Assets/FrontEndScript/img/WEB-PAGE-1.jpg" alt="banner1" style="width:100%; height: 585px;" class="bannerhg" />
+            </div>
+            <div class="item">
+                <img src="/Assets/FrontEndScript/img/WEB-PAGE-2.jpg" alt="banner2" style="width:100%; height: 585px;" class="bannerhg" />
+            </div>
+            <div class="item">
+                <img src="/Assets/FrontEndScript/img/WEB-PAGE-3.jpg" alt="banner3" style="width:100%; height: 585px;" class="bannerhg" />
+            </div>
+
+        </div>
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-- About Us-->
+    <center>
+        <section id="section-about" style="padding-top: 35px; padding-bottom: 35px;">
+            <div class="container abous">
+                <div class="row">
+                    <div class="col-md-12" id="aboutus">
+                        <h2><span style="color: red;font-size: 30px">About Us </span></h2>
+                        <p>
+                            We assure the spirit of compassion, trust and integrity in every step you are under our care. Experience the true Samaritan touch.
+                        </p>
+                    </div>
+                    <div class="col-md-12 col-sm-12">
+                        <h3 style="color: dodgerblue;" id="mission">Mission</h3>
+                        <p>
+                            To provide the best treatment facilities available in our country to the world citizens with zero compromise on the quality and cost-effectiveness.
+                        </p>
+                        <h3 style="color: dodgerblue;" id="vision">Vision</h3>
+                        <p>
+                            To become the brand name of credibility and quality in the field of medical tourism facilitor service with the mind of Christ.
+                        </p>
+                        <h3 style="color: dodgerblue;" id="philosophy">Our Philosophy</h3>
+                        <p>
+                            "Not to be ministered unto but to minister."
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </center>
+</main>
+
+@if (ViewBag.Message != null)
+{
+    <div id="id014" class="modal" style="display: block">
+        @using (Html.BeginForm("Login", "Home", FormMethod.Post))
+        {
+            @Html.AntiForgeryToken();
+            <div asp-action="Login" asp-controller="Home" method="post" class="modal-content animate login">
+                <div class="imgcontainer">
+                    <span onclick="document.getElementById('id014').style.display='none'" class="close" title="Close Modal">&times;</span>
+                    <p style="position:center;"><h3>SignIn</h3><hr /></p>
+                </div>
+                <div class="col-6 ab">
+                    <label for="uname"><b>UserId</b></label>
+                    <input type="text" placeholder="Enter Username" name="email" required />
+
+                    <label for="uname"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" maxlength="8" name="password" required />
+                    <label style="color:red">@ViewBag.Message</label>
+                    <button type="submit" class="button02">SignIn</button>
+                </div>
+            </div>
+        }
+    </div>
+}
+
+
+@if (ViewData["IsEmailIdExists"] != null)
+{
+    <div id="id015" class="modal" style="display: block">
+        @using (Html.BeginForm("Signup", "Home", FormMethod.Post, new { @class = "modal-content animate reg", style = "height: 518px" }))
+        {@Html.AntiForgeryToken()
+        <div class="imgcontainer">
+            <span onclick="document.getElementById('id015').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <p style="position:center;"><h3>Registration</h3><hr /></p>
+        </div>
+        <div class="col-6 aab">
+            <label for="uname"><b>Name</b><span style="color:red">*</span></label>
+            <input type="text" placeholder="Enter Username" name="name" required>
+
+            <label for="uname"><b>MobileNo</b><span style="color:red">*</span></label>
+            <input id="txtPhoneno" type="text" placeholder="Enter MobileNo" pattern="[0-9 -()+]+$" maxlength="14" name="phoneNo" required>
+            <label id="phoneno"></label>
+            <label for="uname"><b>EmailId</b><span style="color:red">*</span></label>
+            <input type="email" placeholder="Enter EmailId" name="email" required>
+
+            <label for="uname"><b>Country</b><span style="color:red">*</span></label>
+            <input type="text" placeholder="Enter Country" name="country" required>
+
+            <label style="color:red">@ViewData["IsEmailIdExists"]</label>
+
+            <button type="submit" class="button02">Register</button>
+        </div>
+    }
+
+
+    </div>
+}
+<script>
+    var modal = document.getElementById('id014');
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+    var modal1 = document.getElementById('id015');
+    window.onclick = function (event) {
+        if (event.target == modal1) {
+            modal5.style.display = "none";
+        }
+    }
+</script>
+<script type="text/javascript">
+    $(".btn1").click(function () {
+        $(".inputsearch").toggleClass("active").focus;
+        $(this).toggleClass("animate");
+        //$(".inputsearch").val("");
+    });
+</script>
+<script type="text/javascript">
+
+
+    function GetTreatmeantdetails() {
+        //Load Data function
+        var ServiceId;
+        $.ajax({
+            //url: "http://localhost:21632/api/GetTreatmentDetailsByName/" + $(".inputsearch").val(),
+            // url: "http://meditourismadmin.morepower.com/adminapi/api/GetTreatmentDetailsByName/" + $(".inputsearch").val(),
+            url: "http://cp.mysamaritanz.com/adminapi/api/GetTreatmentDetailsByName/" + $(".inputsearch").val(),
+            type: "GET",
+            contentType: "application/json;charset=utf-8",
+            dataType: "json",
+            success: function (result) {
+                ServiceId = result.id;
+                loadData(ServiceId);
+            }
+        })
+
+
+        function loadData(Id) {
+            let dropdown = $('#selectservices1');
+            dropdown.empty();
+
+            $.ajax({
+
+                //url: "/Home/List/" + Id,
+                url: "http://cp.mysamaritanz.com/adminapi/api/GetTreatMentDetails/" + Id,
+                // url: "http://meditourismadmin.morepower.com/adminapi/api/GetTreatMentDetails/" + Id,
+                // url: "http://localhost:21632/api/GetTreatMentDetails/" + Id,
+
+                type: "GET",
+
+                contentType: "application/json;charset=utf-8",
+
+                dataType: "json",
+                success: function (result) {
+                    var i = 0;
+                    var html = '';
+                    reresult = JSON.parse(result);
+                    $.each(reresult, function (key, item) {
+                        if (key == "GetService") {
+                            html += '<h1 class="product-item-name" style="text-transform:none;">' + item.Name + '</h1>';
+                            html += '<hr style="margin-bottom:2px; margin-top:-2px; border-top:1px solid black;"/>';
+                            html += '<p style="text-transform:none"p>' + item.Description + '</p>';
+                            dropdown.append($('<option></option>').attr('value', item.ServiceId).text(item.Name));
+                        } else {
+                            if (item.length != 0) {
+                                if (i == 0) {
+                                    dropdown.empty();
+                                }
+                                if (i > 0) {
+                                    html += '<h4 class="product-item-name" style="text-transform:none">' + item[i].ServiceName + '</h4>';
+                                    html += '<p style="text-transform:none"p>' + item[i].Description + '</p>';
+                                }
+                                dropdown.append($('<option></option>').attr('value', item[i].ServiceId).text(item[i].ServiceName));
+                                i = i + 1;
+                            }
+                        }
+                    });
+
+                    $('#treatmentdetails').html(html);
+                    document.getElementById('_MdgdqtId').style.display = 'block';
+                },
+
+                error: function (errormessage) {
+                    alert(result);
+                    alert(errormessage.responseText);
+
+                }
+
+            });
+
+        }
+    }
+    function submitMessage() {
+        var collection = {
+            Name: $("#Name").val(),
+            MobileNo: $("#txtPhoneno1").val(),
+            EmailId: $("#Email").val(),
+            ServiceId: $("#selectservices").val(),
+            Country: $("#txtCountry").val(),
+            Message: $("#txtMessage").val(),
+            HostIp: null,
+            CreatedBy: null,
+            CreationDate: null,
+            UpdatedBy: null,
+            UpdatedDate: null,
+            IsActive: true,
+            IsDeleted: false,
+            Id: 0
+        };
+        $.ajax({
+            url: "http://cp.mysamaritanz.com/adminapi/api/GetQuotation",
+            //url: "http://meditourismadmin.morepower.com/adminapi/api/GetQuotation",
+            type: "POST",
+            data: collection,
+            contentType: "application/json;charset=utf-8",
+            dataType: "json",
+            success: function (result) {
+                alert(result);
+            },
+            error: function (errormessage) {
+                alert(errormessage.responseText);
+            }
+        });
+
+    }
+</script>
+
+<script type="text/javascript">
+
+
+</script>
+<script>
+    // Get the modal
+    var modal = document.getElementById('id02');
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+    $('#txtPhoneno1').on('input', function (e) {
+        this.setCustomValidity('')
+        if ($(this).val() > 99999999999999) {
+            this.setCustomValidity('ex:- +9188982323');
+        }
+        this.reportValidity();
+    });
+    $('#txtPhoneno').on('input', function (e) {
+        this.setCustomValidity('')
+        if ($(this).val() > 99999999999999) {
+            this.setCustomValidity('ex:- +9188982323');
+        }
+        this.reportValidity();
+    });
+</script>
